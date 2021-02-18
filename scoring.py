@@ -8,6 +8,8 @@ class ScoreGraph(nx.DiGraph):
         super().__init__()
         self.query_gene = query_gene
         self.query_pheno = query_pheno
+        self.add_node(self.query_gene,source='input gene')
+        self.add_node(self.query_pheno,source='input pheno')
         self.color_dict={
             "homology" : 'green',
             "qtl" : 'blue',
@@ -29,6 +31,7 @@ class ScoreGraph(nx.DiGraph):
             if v == 'input pheno':
                 k = k + " query"
             self.add_node(k,source=v)
+        
     
     #this is envisioned to be called in a loop through a dataframe
     #edges MUST be added in the correct order: n1 --> n2
@@ -36,11 +39,16 @@ class ScoreGraph(nx.DiGraph):
         types = (self.nodes[n1]['source'],
                  self.nodes[n2]['source'])
         if types not in self.conn_dict:
-            types = types[::-1]
+            try:
+                types = types[::-1]
+                assert types in self.conn_dict
+            except AssertionError:
+                print("Error: connection type is invalid.")
         conn = self.conn_dict[types]
-        self.add_edge(n1,n2,connection=conn,weight=weight)
+        ecolor = self.color_dict[conn]
+        self.add_edge(n1,n2,connection=conn,weight=weight,ecolor=ecolor,lweight=weight*5)
         
-    #this one should be called when all adges are added only
+    #this one should only be called when all adges are added
     def candidate_score(self):
         gpaths = sorted(list(nx.all_simple_paths(self,self.query_gene,
                                                  self.query_pheno + " query")))

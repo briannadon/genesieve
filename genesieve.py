@@ -54,7 +54,7 @@ if __name__=="__main__":
     while not a.poll():
         time.sleep(5)
     
-    aa_file = annotate.get_proteins(timestamp,perl_script)
+    aa_file = annotate.get_proteins(timestamp,bash_script="get-fasta.sh")
  
     #Get the BLAST running in the background as "b"
     blast_output = timestamp + ".blast"
@@ -64,8 +64,8 @@ if __name__=="__main__":
                                      ))
     
     #if the BLAST is still running, wait till it finishes
-    #while not b.poll():
-    #    time.sleep(5)
+    while not b.poll():
+        time.sleep(5)
 
     blast_table = blast.process_blast(blast_output)    
     blast_hits = blast_table.subject.tolist()

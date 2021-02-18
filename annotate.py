@@ -13,8 +13,8 @@ def run_augustus(query,output):
     subprocess.run(query,stdout=output)
 
 
-def get_proteins(basename,perl_script):
-    args = ['perl',perl_script,basename + ".gff"]
+def get_proteins(basename,get_fasta_script='./get-fasta.sh'):
+    args = ['bash',get_fasta_script,'-p',basename + ".gff"]
     protfile = basename + ".aa"
     subprocess.run(args)
     return protfile
