@@ -1,0 +1,9 @@
+﻿item1,type1,item2,type2,weight
+nitrogen use efficiency,db pheno,plant height,input pheno,0.3
+protein1,input gene,plant height,input pheno,1
+protein1,input gene,gene1,db gene,0.9
+gene2,db gene,gene_coexp,db gene,0.8
+nitrogen use efficiency,db pheno,gene1,db gene,0.9
+height of plant at maturity,db pheno,gene_coexp,db gene,0.9
+height of plant at maturity,db pheno,plant height,input pheno,0.9
+plant height,input pheno,nitrogen use efficiency,db pheno,0.2

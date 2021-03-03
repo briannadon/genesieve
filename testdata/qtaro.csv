@@ -1,0 +1,1052 @@
+qtl_gene_name,character_major,character_minor,chromosome,start,end,lod,crossed_a,crossed_b,marker,marker_physical,marker_fine_1,marker_fine_2,marker_fine_3,marker_interval_1,marker_interval_2,marker_interval_3,marker_single,trait_name,contribution_rate,synergy_effect
+Ph5-1,"Morphological trait",Dwarf,5,2069338,2760413,,IR64,Azucena,RFLP,,,,,RG313,RZ556,,,"plant height",,
+hr6,"Physiological trait","Eating quality",6,1764586,5425602,11.9,Caiapo,"Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,RM190,RM253,,,"Head rice",54.1,-2.41
+rb2,"Physiological trait","Eating quality",2,2105542,2882252,55.6,Caiapo,"Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,RM236,RM279,,,"Rice bran",32.7,-18.25
+alk6-1,"Physiological trait","Eating quality",6,1764586,5425602,32.5,Caiapo,"Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,RM190,RM253,,,Alkali-spread.score,50.1,0.87
+,"Physiological trait","Eating quality",6,5425408,24913615,13.4,Caiapo,"Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,RM253,RM162,,,"Grain l/w ratio",14,-0.74
+Ehd1,"Physiological trait",Flowering,10,17481862,17627660,,Nipponbare,T65,CAPS,AC027038,C234,C1369,,,,,,"Early heading date",,
+,"Resistance or Tolerance","Drought tolerance",3,31490136,35089139,5.22,Azucena,Bala,RFLP,,,,,R1618,G164,,,"panicle length",,
+,"Resistance or Tolerance","Drought tolerance",5,22309016,24371958,5.55,Azucena,Bala,RFLP,,,,,C43,RZ70,,,"panicle or tiller no.per m2",,
+,"Resistance or Tolerance","Drought tolerance",5,22309016,24371958,5.8,Azucena,Bala,RFLP,,,,,C43,RZ70,,,"fraction sterile panicles",,
+,"Resistance or Tolerance","Drought tolerance",3,27494415,31496678,4.92,Azucena,Bala,RFLP,,,,,C136,R1618,,,"grains per panicle",,
+,"Resistance or Tolerance","Drought tolerance",2,5263536,18269395,5.32,Azucena,Bala,RFLP,,,,,RG83,RG171,,,"spikelet fertility",,
+ki3.1,"Morphological trait",Seed,3,16620034,16619778,22.2,V20A,"Oryza glaberrima (accession IRGC No. 103544)",RFLP,,,,,,,RZ251,,"Kernel length",25,0.23
+kw1.1,"Morphological trait",Seed,1,43337688,43337260,28.5,V20A,"Oryza glaberrima (accession IRGC No. 103544)",RFLP,,,,,,,RG331,,"kernel width",31,0.91
+gc7.1,"Physiological trait","Eating quality",7,2112213,2115536,52.2,V20A,"Oryza glaberrima (accession IRGC No. 103544)",RFLP,,,,,,,RZ387,,"Gel consistency",64,29.12
+qSNC-7,"Resistance or Tolerance","Salinity tolerance",7,2666587,4608381,7.66,Koshihikari,"Nona Bokra",RFLP,,,,,C1057,R2401,,,"Shoot Na+ concentration ",48.5,0.51
+Spl1,Others,Others,12,9414819,9536731,,"IR24 and CO39",IR36mutant,CAPS,"""OSJNBb0112E,OSJNBa005I1,OJ1111_C09,OSJNBb0077C18""",Al874a,Al951a,,,,,,"spotted leaf",,
+Rf5,"Physiological trait",Sterility,10,19255571,19690557,,Yuetai,Nov-93,SSR,,RM5373,RM1108,RM3150,,,,,fertility-restoring,,
+Rf6(t),"Physiological trait",Sterility,10,19255571,19255928,,"Congguang 41","Milyang 23",SSR,,RM6737,SDB07,RM5373,,,,,fertility-restoring,,
+,"Resistance or Tolerance","Other soil stress tolerance",1,42157734,42364623,,Azucena,IR1552,RFLP,,,,,RZ801,RG323,,,"stress root length (SRL)",15,0.7
+,"Resistance or Tolerance","Other soil stress tolerance",1,42157734,42364623,,Azucena,IR1552,RFLP,,,,,RZ801,RG323,,,"relative root length (RRL)",16,0.08
+Phyllochron,"Morphological trait",Culm/leaf,10,13111494,14711256,4.82,IR36,"Genjah Wangkal (IRGC 35652)",Mixture,,,,,R1629,R2447,,,Phyllochron,0.14,-0.12
+"Tiller number","Morphological trait",Culm/leaf,2,23021123,26356387,7.57,IR36,"Genjah Wangkal (IRGC 35652)",Mixture,,,,,R26,C424,,,"Tiller number",0.23,0.7
+T2-2tiller,"Morphological trait",Culm/leaf,2,26352595,27974295,8.9,IR36,"Genjah Wangkal (IRGC 35652)",Mixture,,,,,C424,C747,,,"tiller-bud dormancy",0.28,-19.55
+,"Resistance or Tolerance","Submergency tolerance",12,23749070,26368115,18.6,"Patnai 23",Goai,RFLP,,,,,R1709,RM235,,,"early elongation ability using the lowest elongated internode (LEI) concept",48,0.638
+Ctb1,"Resistance or Tolerance","Cold tolerance",4,31786937,31949802,,Kirara397,Norin-PL8,SSR,AL662970,OSR15,SCAB11,,,,,,"Spikelet fertility",,
+,"Resistance or Tolerance","Insect resistance",2,20728825,25430309,2.7,IR64,Azucena,RFLP,,,,,RG157,RZ318,,,"Honeydew weight (HDW)",12.8,-0.61
+,"Resistance or Tolerance","Insect resistance",7,4085041,21393981,3.1,IR64,Azucena,RFLP,,,,,RG773,CDO59,,,"Days to wilt (DW4)",17.6,1.1
+,"Morphological trait",Dwarf,1,41923730,41923950,,Teqing,"common wild rice (Oryza rufipogon Griff.)",SSR,,,,,,,,RM104,"plant height",27,26.24
+,"Physiological trait",Flowering,8,4377457,4377597,,Teqing,"common wild rice (Oryza rufipogon Griff.)",SSR,,,,,,,,RM25,"days to heading",13,4.6
+qUVR-10,"Resistance or Tolerance","Other stress resistance",10,4320288,4324891,,Nipponbare,Kasalath,Mixture,AF053365,C60755S,C1757S,C913A,,,,,"ultraviolet-B (UVB) resistance",,
+Eui,"Morphological trait",Dwarf,5,23655231,23802397,,"307T (eui/eui)","Zhenshan 97",CAPS,OSJNBa0095J22,M01,M0387,,,,,,"""eui (for elongated uppermost internode),""",,
+,"Morphological trait",Panicle/flower,4,29158445,33234173,5.8,Akihikari,IRAT109,SSR,,,,,RM303,RM348,,,"number of primary branches per panicle (BPP)",18,0.95
+,"Morphological trait",Panicle/flower,11,383711,2827670,4.27,Akihikari,IRAT109,SSR,,,,,RM286,RM332,,,"number of florets per branch (FPB)",14,0.92
+,"Morphological trait",Panicle/flower,10,19577439,22899293,8.49,Akihikari,IRAT109,SSR,,,,,RM171,RM333,,,"frequency of pre-flowering floret abortion (%FA)",22,3.24
+yld2.1,"Morphological trait",Seed,2,32389877,32389986,,V20A,"""O. rufipogon accession,""",SSR,,,,,,,,RM240,Grainyield:,18.26,1.76
+Rf-1,"Physiological trait",Sterility,10,19343755,19470171,,MTC-10A,MTC-10R,CAPS,OSJNBa0017E08,68923-6,68923-9,,,,,,"cytoplasmic male sterility restorer gene",,
+,Others,Others,8,5108226,5115915,,N15,N16,SSR,,RM544,RM310,,,,,,"""commonly in spikelets per panicle (SPP), grains per panicle (GPP), heading date (HD) and plant height (PH)""",,
+tgw2,"Morphological trait",Seed,2,10835902,12493559,,Hwaseongbyeo,HG101,SSR,,,,,RM290,RM550,,,"""1,000-grain weight""",13.4,1.1
+tms5,"Physiological trait",Sterility,2,6387908,6469287,,Y58S,Q611,Indel,AP004039,,,,Jan-39,Feb-39,,,"thermo-sensitive genic male-sterile",,
+qGL-3a,"Morphological trait",Seed,3,17142206,17260389,27.79,Asominori,IR24,SSR,OSJNBb0074M06,RMw357,RMw353,,C80,C1677,,,"grain length",32.2,-0.26
+qPN1,"Morphological trait",Panicle/flower,1,4424186,4424560,,"Guichao 2","Chinese common wild rice (Oryza rufipogon Griff.)",SSR,,,,,,,,RM220,"Panicle per plant",14,1.9
+qGW5,"Morphological trait",Seed,5,10787462,10787755,,"Guichao 2","Chinese common wild rice (Oryza rufipogon Griff.)",SSR,,,,,,,,RM249,"""1,000-grain weight """,11,-1.2
+qSv1,Others,Others,1,15849886,15856220,16,Koshihikari,Kasalath,RFLP,,,,,,,C178,,"tissue culture",33.2,0.099
+S18,"Physiological trait",Sterility,11,9035057,9035344,,IR36,Dular,SSR,,,,,,,,RM536,wide-compatibility,,
+be1,Others,Others,3,32233979,32347378,,PA64Sm,Nov-93,SSR,AC084282,RM416,RM3867,,,,,,Bentazon-sensitivities,,
+Pi35(t),"Resistance or Tolerance","Blast resistance",1,33864124,35233045,30.5,Danghang-Shali,"Hokkai 188",SSR,,,,,RM1216,RM1003,,,"partial resistance to leaf blast",69.4,-1.87
+qSBN-3b,"Morphological trait",Panicle/flower,3,36693668,37199035,14.27,Lemont,Teqing,SSR,,,,,RM148,RM85,,,"secondary branch number",13.81,-5.19
+qPBN-10,"Morphological trait",Panicle/flower,10,5016823,10014985,2.72,Lemont,Teqing,SSR,,,,,RM216,RM311,,,"primary branch number",7.92,-0.52
+qSNP-4a,"Morphological trait",Panicle/flower,4,679929,13211273,16.68,Lemont,Teqing,SSR,,,,,RM401,RM335,,,"spikelet number per panicle",16.07,-27.56
+PS,"Morphological trait",Panicle/flower,1,1622417,1642432,,Luhui-17,"PS mutant",SSR,,RM6470,RM1141,,,,,,"pistilloid stamen",,
+qSH1,"Morphological trait",Panicle/flower,1,38110750,38249213,45.5,Nipponbare,Kasalath,RFLP,AP004127,C283,R3265,C434,,,,,shattering,68.6,
+"ext-MlB (t)","Morphological trait",Culm/leaf,6,3085639,3085922,,2480B,ext-MlB,SSR,,,,,,,,RM197,"excessive tiller number",,
+Bph18(t),"Resistance or Tolerance","Insect resistance",12,22456650,23301307,,Jinbubyeo,IR65482-7-216-1-2,Mixture,AL935072,R10289S,"RM6869 ",7312.T4A,"RM463 ",S15552,,,"Brown planthopper",,
+,"Morphological trait",Culm/leaf,4,24646179,25619040,4.3,Otomemochi,Yumenohatamochi,SSR,,,,,RM3785,RM1388,,,"Plant age in leaf number F-C",16.5,0.14
+,"Morphological trait",Culm/leaf,4,24646179,25619040,4.5,Otomemochi,Yumenohatamochi,SSR,,,,,RM3785,RM1388,,,"Plant age in leaf number F-RP",16.9,0.19
+,"Morphological trait",Culm/leaf,4,24646179,25619040,4.9,Otomemochi,Yumenohatamochi,SSR,,,,,RM3785,RM1388,,,"Plant age in leaf number NF-C",20.9,0.19
+,"Morphological trait",Culm/leaf,4,21926953,24646318,3.2,Otomemochi,Yumenohatamochi,SSR,,,,,RM3337,RM3785,,,"Plant age in leaf number NF-RP",15.4,0.18
+,"Morphological trait",Root,6,30762933,31849183,5.2,Otomemochi,Yumenohatamochi,SSR,,,,,RM5814,RM3509,,,"DRW F-C",22.4,-0.04
+,"Morphological trait",Root,6,30762933,31849183,2.8,Otomemochi,Yumenohatamochi,SSR,,,,,RM5814,RM3509,,,"DRW Average",10.6,-0.01
+,"Morphological trait",Root,4,33424905,33430563,6.5,Otomemochi,Yumenohatamochi,SSR,,,,,RM3335,RM1153,,,"No. of new roots F-C",20,0.95
+,"Morphological trait",Root,4,33424905,33430563,6.9,Otomemochi,Yumenohatamochi,SSR,,,,,RM3335,RM1153,,,"No. of new roots F-RP",21.4,1.33
+,"Morphological trait",Root,4,33424905,33430563,7.3,Otomemochi,Yumenohatamochi,SSR,,,,,RM3335,RM1153,,,"No. of new roots NF-C",26.9,0.98
+,"Morphological trait",Root,4,33424905,33430563,5.4,Otomemochi,Yumenohatamochi,SSR,,,,,RM3335,RM1153,,,"No. of new roots NF-RP",18.3,0.92
+,"Morphological trait",Root,4,31080146,33425145,11.4,Otomemochi,Yumenohatamochi,SSR,,,,,RM3276,RM3335,,,"No. of new roots Average",31.2,1.1
+,"Morphological trait",Root,1,41963580,44719439,2.7,Otomemochi,Yumenohatamochi,SSR,,,,,RM1387,RM1067,,,"Maximum new root length F-RP",12.4,0.44
+,"Morphological trait",Root,9,22021233,23552932,2.7,Otomemochi,Yumenohatamochi,SSR,,,,,RM215,RM205,,,"Maximum new root length NF-C",13.4,0.76
+,"Morphological trait",Root,6,30762933,31849183,2.7,Otomemochi,Yumenohatamochi,SSR,,,,,RM5814,RM3509,,,"Maximum new root length NF-RP",13.8,-0.52
+,"Morphological trait",Root,4,27941367,30762314,4.4,Otomemochi,Yumenohatamochi,SSR,,,,,RM3288,RM5503,,,"Maximum new root length Average",16.1,-0.39
+,"Morphological trait",Root,6,23557477,28706469,3.3,Otomemochi,Yumenohatamochi,SSR,,,,,RM4447,RM5509,,,"Root-to-shoot ratio F-RP",15.2,-0.04
+,"Morphological trait",Root,1,27797914,30720282,4.8,Otomemochi,Yumenohatamochi,SSR,,,,,RM3475,RM3494,,,"Root-to-shoot ratio Average",17.5,0.13
+Ps-4,Others,Others,6,5096744,5425602,,rdh,Shuhui527,SSR,,RM253,RM111,,,,,,"purple stigma",,
+Grh5,"Resistance or Tolerance","Insect resistance",8,26582935,27651023,35.1,"Taichung 65","Oryza rufipogon Griff. (W1962)",SSR,,RM502,RM6845,"""RM3754,RM3761""",,,,,"green rice leafhopper",95.2,-92.4
+GS3,"Morphological trait",Seed,3,17343910,17472917,,"Minghui 63","Chuan 7",CAPS,OSJNBa0030J19,GS63,GS65,,MRG5881,"""GS09,""",,,"""small grain,""",,
+Pi-d2,"Resistance or Tolerance","Blast resistance",6,18094296,18246420,,Digu,Lijiangxintuanheigu,SSR,"""AP003577,AP006048, AP005967""",,,,RM3,RM527,,,"blast resistance",,
+bph19(t),"Resistance or Tolerance","Insect resistance",3,7252976,7328472,,AS20-1,Lijiangxintuanheigu,SSR,"""OSJNBa0049C20,OJ1081D05""",RM3134,RM6308,RM1022,,,,,"brown planthopper ",,
+qCTS12,"Resistance or Tolerance","Cold tolerance",12,5645531,5804408,,M-202,IR50,SSR,AL954853,,,,"RM5746 ",RM3103,RM7003,,"tolerance to low temperature stress",,
+ph1,"Morphological trait",Dwarf,1,36697294,42364623,,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"plant height",,19.8
+ta9,"Morphological trait",Culm/leaf,9,19168716,20079157,,IR64,Azucena,RFLP,,,,,RZ228,RZ12,,,"tiller angle",,9.24
+fll1,"Morphological trait",Culm/leaf,1,36697294,42364623,,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"flag leaf length",,2.92
+fla1,"Morphological trait",Culm/leaf,1,42496228,43337260,,IR64,Azucena,RFLP,,,,,RG810,RG331,,,"flag leaf angle",,13.78
+qCCFJ-4,"Physiological trait","Source activity",4,6571336,24646318,3.65,IR36,Nekken2,SSR,,,,,RM261,RM3785,,,"leaf chlorophyll content at flowering (SPAD)",11,
+qCCAI-9,"Physiological trait","Source activity",9,18374393,20828859,3.17,IR36,Nekken2,SSR,,,,,RM257,RM201,,,"leaf chlorophyll content 25 days after flowering",13.7,
+qRCRJ-6,"Physiological trait","Source activity",6,4234080,6399814,3.14,IR36,Nekken2,SSR,,,,,RM217,RM402,,,"Çíeduction in chlorophyll content",9.5,
+"""qLDLJ-6-1,2,3""","Physiological trait","Source activity",6,4234080,28130383,3.26,IR36,Nekken2,SSR,,,,,RM217,RM3,,,"number of late-discoloring leaves per panicle at 25 DAF",10,
+qHUS-1-2,Others,Others,1,29092066,31822450,10.1,"Zhenshan 97B","Milyang 46",Mixture,,,,,RM246,RG101,,,"""FLS, mg Si per 100 mg dryweight in the flag leaf""",7.7,0.534
+qSTS-1,Others,Others,1,5558578,5759851,11.4,"Zhenshan 97B","Milyang 46",Mixture,,,,,RM151,RG532,,,"""STS, mg Si per 100 mg dry weight in the stem""",6.3,0.295
+ac6,"Physiological trait","Eating quality",6,1764586,2292076,65.8,"Zhenshan 97",H94,SSR,,,,,RM190,RM587,,,"Amylose content",54.87,5.83
+qGP4,"Morphological trait",Panicle/flower,4,25273817,25274481,5.7,Asominori,IR24,RFLP,,,,,,,,C335,"grain number",28.2,
+qSD7-1,"Physiological trait",Germination/dormancy,7,6413144,6413348,,EM93-1,Plant#14(CO39xSS18-2_F2),SSR,,,,,,,,RM5672,"percentage germinationÅ@after1-45 days of incubationafter at25 C for 11days ripening",10.2,
+ÇëCR-3,"Physiological trait","Source activity",3,3939279,4098191,3.05,Kinmaze,DV85,RFLP,,,,,C25,R518,,,"chlorophyll a/b ratioat the 7th day after heading",13.8,0.09
+,"Resistance or Tolerance","Other soil stress tolerance",8,1584134,5333855,,Koshihikari,Kasalath,RFLP,,,,,C390,C1121,,,"Cd concentration in brown rice",,
+Pi-hy,"Resistance or Tolerance","Blast resistance",2,36292667,36292865,,Hwayeong,Nagdong,,,,,RM2265,,,,,"blast resistance (resistance/susceptible)",,
+brt1d,"Resistance or Tolerance","Drought tolerance",1,14045859,42715593,5.77,IRAT109,Yuefu,RFLP,,,,,C742,C904,,,"basal root thickness",6.4,0.126
+idr2,"Resistance or Tolerance","Drought tolerance",2,36028513,36318752,2.87,IRAT109,Yuefu,SSR,,,,,RM208,RM48,,,"index of drought resistance",2,0.087
+rdw9,"Resistance or Tolerance","Drought tolerance",9,12410287,18491736,3.77,IRAT109,Yuefu,Mixture,,,,,R79,R2638,,,"root dry weight",18.5,0.102
+rrsd6b,"Resistance or Tolerance","Drought tolerance",6,4844259,5425602,4.44,IRAT109,Yuefu,SSR,,,,,RM253,RM314,,,"root dry weight/root fresh weight",3,0.019
+rfw1b,"Resistance or Tolerance","Drought tolerance",1,7476658,35715948,5.59,IRAT109,Yuefu,RFLP,,,,,C813,C955,,,"root fresh weight",11,0.583
+rn7a,"Resistance or Tolerance","Drought tolerance",7,11391449,13444846,14.18,IRAT109,Yuefu,Isozyme,,,,,C39,RM214,,,"root number",11.7,3.14
+n-p3,"Resistance or Tolerance","Other soil stress tolerance",3,23850041,25360678,15.23,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ403,R19,,,"Plant weight low N condition ",5.95,0.19
+n+p1a,"Resistance or Tolerance","Other soil stress tolerance",1,196647,1891262,8.07,"Zhenshan 97","Minghui 63",RFLP,,,,,C161,R753,,,"Plant weight normal N condition ",3.32,0.28
+rrw1b,"Resistance or Tolerance","Other soil stress tolerance",1,39466088,43764612,15.37,"Zhenshan 97","Minghui 63",RFLP,,,,,C86,RG236,,,"Relative root weight ",9.82,0.04
+rsw1c,"Resistance or Tolerance","Other soil stress tolerance",1,43765087,44751487,11,"Zhenshan 97","Minghui 63",RFLP,,,,,RG236,C112,,,"Relative shoot weight ",6.05,0.02
+n-s4,"Resistance or Tolerance","Other soil stress tolerance",4,35277669,35283358,10.56,"Zhenshan 97","Minghui 63",RFLP,,,,,C107,RG620,,,"Shoot weight low N condition",3.69,0.1
+n+s1a,"Resistance or Tolerance","Other soil stress tolerance",1,196647,1891262,9.87,"Zhenshan 97","Minghui 63",RFLP,,,,,C161,R753,,,"Shoot weight normal N condition",4.49,0.27
+pal1,"Morphological trait",Panicle/flower,6,4032516,4212697,,pal,Sheng47,CAPS,P0548D03,C498,RZ450,,,,,,"palealess mutant (pal)",,
+gn2.1,"Morphological trait",Panicle/flower,2,33667096,36028798,3.32,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM250,RM208,,,"Grain number per planicle",16.65,72.52
+gnp5.1,"Morphological trait",Panicle/flower,5,5311917,10787755,5.73,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM194,RM249,,,"Grain number per plant",12,-285.18
+gw2.1,"Morphological trait",Seed,2,33667096,36028798,3.25,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM250,RM208,,,"Test (1000) grain weight",10.4,-5.21
+np2.2,"Morphological trait",Culm/leaf,2,11418741,21658842,3.23,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM324,RM262,,,"Number of panicles per plant",10.81,-1.28
+nt5.1,"Morphological trait",Culm/leaf,5,7509091,10787755,2.53,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM169,RM249,,,"Number of tillers per plant",5.9,-1.06
+pl2.1,"Morphological trait",Panicle/flower,2,33667096,36028798,10.9,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM250,RM208,,,"Panicle length",19.28,-9.53
+ph1.1,"Morphological trait",Dwarf,1,4424186,5941561,5.32,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM220,RM272,,,"Plant height",17.48,-17.33
+yld2.1,"Morphological trait",Seed,2,21658702,26758298,31.92,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM262,RM263,,,"Plot yield",38.46,-216.04
+sf1.1,"Physiological trait",Sterility,1,34810383,38491404,3.26,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM212,RM315,,,"Spikelet fertility",5.2,2.45
+sn2.1,"Morphological trait",Panicle/flower,2,33667096,36028798,4.2,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM250,RM208,,,"Spikelet number per ppanicle",19.13,103.53
+snp5.1,"Morphological trait",Panicle/flower,5,5311917,10787755,3.98,"IR 58025A","O. rufipogon (IC 22015)",SSR,,,,,RM194,RM249,,,"Spikelet number per  plant",11.79,-413.25
+yldp9.1,"Morphological trait",Seed,9,19464779,23552932,4.18,"IR 58025A","O. rufipogon (IC 22015)",RFLP,,,,,RM242,RM205,,,"Yield per plant",23.2,-13.84
+QFlw3,"Morphological trait",Culm/leaf,3,25891087,27899169,2.63,Lemont,Teqing,RFLP,,,,,RZ474,C746,,,flag-leafwidth,7,0.6
+,"Physiological trait",Flowering,6,8054255,11750090,16.25,Nipponbare,Kasalath,RFLP,,,,,R2171,R2123,,,"heading date",0.42,9.45
+,"Resistance or Tolerance","Insect resistance",3,16196565,16199182,3.31,"Taichung 65",ARC10313,RFLP,,,,,XNpb182,R19,C1677,,GLH-resistance,12.9,19.04
+,"Morphological trait",Root,1,40287847,41923950,2.98,IR64,Azucena,Mixture,,,,,RG109,RM104,,,"adventitious root number(flooding)",13.3,-0.52
+,"Morphological trait",Root,3,13274763,16024796,3.12,IR64,Azucena,Mixture,,,,,RM338,RZ284,,,"root dry weight(flooding)",13.9,0.52
+,"Morphological trait",Root,5,2069338,2760413,3.65,IR64,Azucena,RFLP,,,,,RZ556,RG313,,,"seminal root length(upland)",16.1,-1.97
+,"Morphological trait",Root,1,32494603,32627034,2.59,IR64,Azucena,Mixture,,,,,RZ19,RM128,,,"adventitious root number(upland)",11.7,-0.34
+qRGV-8,"Physiological trait",Germination/dormancy,8,26582935,28166213,3.2,"Zhenshan 97",IRAT109,SSR,,,,,RM502,RM477,,,"Relative germination vigor(RGV)",8.55,-3.3
+qRGR-5,"Physiological trait",Germination/dormancy,5,24086072,27457701,4.2,"Zhenshan 97",IRAT109,SSR,,,,,RM421,RM480,,,"Relative germination rate(RGR)",13.25,6.83
+qLRS-2,"Resistance or Tolerance","Drought tolerance",2,7462419,11418936,3.1,"Zhenshan 97",IRAT109,SSR,,,,,RM322,RM324,,,"leaf rolling of  spraying (LRS)",11.56,0.31
+qLRC-1,"Resistance or Tolerance","Drought tolerance",1,28571547,34744337,4.8,"Zhenshan 97",IRAT109,SSR,,,,,RM237,RM302,,,"leaf rolling of  culturing (LRC)",10.87,-0.22
+Zmt1,"Resistance or Tolerance","Other soil stress tolerance",1,40038301,40288357,4.2,IR74,Jalmagna,RFLP,,,,,RG220,RG109,,,"Plant mortality  (Sep-Dec)",16.5,15.4
+f5-Du,"Physiological trait",Sterility,5,1243631,1376781,,ZS(f5-Du/f5-ZS),Balilla,SSR,AC079021,WFPM3,WFPR1,WFPM5,,,,,"pollen sterility (Wide-compatibility)",,
+2-3SY,"Physiological trait","Source activity",2,18269869,20729299,,IR64,Azucena,RFLP,,,,,RG171,RG157,,,"biomass yield ",,1.38
+,"Physiological trait","Source activity",4,25273817,25274481,4.97,IR72,IR69093-41-3-2,RFLP,,,,,,,C335,,"delta13 (2001 grain)",15.9,0.261
+,"Physiological trait","Source activity",9,6491728,6492209,2.95,IR72,IR69093-41-3-2,RFLP,,,,,,,RM444,,"delta13 (2002 grain)",10.9,-0.229
+,"Physiological trait","Source activity",9,6491728,6492209,5.1,IR72,IR69093-41-3-2,SSR,,,,,,,RM444,,"delta13 C(2003)",19,-0.393
+,"Physiological trait","Source activity",9,6491728,6492209,2.53,IR72,IR69093-41-3-2,SSR,,,,,,,RM444,,"delta13 C(2004)",8.9,-0.188
+,"Physiological trait","Source activity",7,25961839,25965832,3.55,IR72,IR69093-41-3-2,RFLP,,,,,,,C847,,SPAD,1.25,9.8
+qSD12,"Physiological trait",Germination/dormancy,12,23698130,26368115,,EM93-1,SS18-2,SSR,,,,,RM3331,RM235,,,"Seed dormancy",,
+OsGNA1,"Morphological trait",Root,9,19479227,19479974,,,,,AK063214,,,,,,,,"short-root ",,
+dgl1,"Morphological trait",Dwarf,1,29747390,29878594,,,,,"""P0445E10,P0019E03""",,,,,,,,"dwarf phenotype and leaves with abnormally rounded tip regions",,
+,Others,Others,6,31821199,31825208,4.03,Rexmont,PI312777,RFLP,,,,,,,R1167,,"allelopathic effect (inhibition of root enlongation of lettuce",16.1,-2.72
+qLTG-4-1,"Physiological trait",Germination/dormancy,4,4433646,4435752,2.79,Nipponbare,Kasalath,RFLP,,,,,,,C946,,"low temperature germinablity",14.9,10.7
+qBFR-4-1,"Resistance or Tolerance","Blast resistance",4,31923161,31926406,37,Koshihikari,Kahei,RFLP,,,,,,,G264,,"blast field resistance",61.6,1.13
+qDTH-6,"Physiological trait",Flowering,6,8054255,8066362,,Koshihikari,Kasalath,RFLP,,,,,,,R2171,,days-to-heading,34.6,-7.9
+qCL-12,"Morphological trait",Dwarf,12,12388491,12390602,,Koshihikari,Kasalath,RFLP,,,,,,,C443,,"culm length",17.7,6.6
+qPL-6,"Morphological trait",Panicle/flower,6,28536072,28538177,,Koshihikari,Kasalath,RFLP,,,,,,,C556,,"panicle length",13.2,1
+qIN1-3,"Morphological trait",Dwarf,3,36297173,36303203,,Koshihikari,Kasalath,RFLP,,,,,,,R1925,,"1st internode length",11.2,-1.8
+qIN2-1,"Morphological trait",Dwarf,1,39466088,39470731,,Koshihikari,Kasalath,RFLP,,,,,,,C86,,"2nd internode length",10.2,1.4
+qIN3-6,"Morphological trait",Dwarf,6,25794136,25797291,,Koshihikari,Kasalath,RFLP,,,,,,,R2549,,"3rd internode length",9.5,1.1
+qIN4-12,"Morphological trait",Dwarf,12,12388491,12390602,,Koshihikari,Kasalath,RFLP,,,,,,,C443,,"4th internode length",12.7,1.9
+qIN5-12,"Morphological trait",Dwarf,12,12388491,12390602,,Koshihikari,Kasalath,RFLP,,,,,,,C443,,"5th internode length",10.1,1.8
+qIN6-6,"Morphological trait",Dwarf,6,8054255,8066362,,Koshihikari,Kasalath,RFLP,,,,,,,R2171,,"6th internode length",9,-0.8
+qCT-1,"Resistance or Tolerance","Cold tolerance",1,41703909,41707366,2.4,Koshihikari,Akihikari,RFLP,,,,,R494,R503,R1545,,ëœó‚ê´åüíËïﬁèÍÇ…Ç®ÇØÇÈñ´é¿ó¶,5.1,-4.6
+Hd9,"Physiological trait",Flowering,3,975995,1427051,,Nipponbare,Kasalath,RFLP,,R1468B,C721,S12021,,,,,"days to heading",,
+,"Morphological trait",Seed,11,2827521,20702000,5.31,Reiho,Yamadanishiki,SSR,,,,,RM332,RM229,,,"grain length",23.4,-0.07
+,"Morphological trait",Seed,5,19258755,28755091,6.31,Reiho,Yamadanishiki,SSR,,,,,RM163,RM31,,,"grain width",27.1,-0.03
+,"Morphological trait",Seed,5,19258755,28755091,4.36,Reiho,Yamadanishiki,SSR,,,,,RM163,RM31,,,"grain thickness",19.6,-0.02
+,"Physiological trait","Eating quality",12,970495,8828505,3.02,Reiho,Yamadanishiki,SSR,,,,,RM20,RM101,,,"white core",14.2,-0.16
+,"Physiological trait","Eating quality",5,19258755,28755091,4.64,Reiho,Yamadanishiki,SSR,,,,,RM163,RM31,,,"white belly",20.7,-0.22
+,"Physiological trait","Eating quality",11,24323354,24323830,3.09,Reiho,Yamadanishiki,SSR,,,,,RM21,Chr11_LT,RM206,,"protein content",15.1,0.12
+,"Resistance or Tolerance","Blast resistance",11,21898615,21903367,3.6,"Norin 29",Sensho,RFLP,,,,,G257,R2708,C1172,,"blast field resistance",8.3,0.6
+Rf1,"Physiological trait",Sterility,10,19577439,22770151,,"Dianyu 1A",WAB450-11-1-2-P61-HB,SSR,,RM171,RM228,,,,,,"Fertility restorer",,
+crl1,"Morphological trait",Root,3,2630287,2795703,,"Taichung 65 crl1",Kasalath,RFLP,,C725,R3131,,,,,,"crown root less",,
+d50,"Morphological trait",Dwarf,2,13202780,17226219,,"Fukei 71(d50)",Kasalath,CAPS,,E61832S,R1736,,,,,,dwarf,,
+nk2(t),"Physiological trait","Eating quality",5,27729674,27735241,,"Taichung 65","Oryza glumaepatula (IRGC 105668)introgression line",RFLP,,G1103,R521,R2953,,,,,"notched kernel",,
+sk1(t),"Morphological trait",Seed,2,32710995,33265069,,"Taichung 65","Oryza glumaepatula (IRGC 105668)introgression line",RFLP,,C679,C560,,,,,,"slender kernel",,
+glup3,"Physiological trait","Eating quality",4,27204061,27357420,,"EM856(Taichung 65 glup3 mutant)",Kasalath,RFLP,OSJNBa0091D06,L1091,R2783,,,,,,"high amount of glutelin precursor",,
+Sh3,"Morphological trait",Panicle/flower,4,34553977,35281498,,"Taichung 65","O. rufipogon Griff. (Acc.IRGC105715)introgression line",RFLP,,R1427,C107,,,,,,"seed shattering",,
+Sh3-gla,"Morphological trait",Panicle/flower,4,34553977,35281498,,"Taichung 65","O. glaberrima (ACC IRGC104038)",RFLP,,R1427,C107,,,,,,"seed shattering",,
+iSh3(t),"Morphological trait",Panicle/flower,4,34553977,35281498,,"Taichung 65","O. glaberrima (ACC IRGC104038)",RFLP,,R1427,C107,,,,,,"inhibition of seed shattering",,
+Sh6-mer,"Morphological trait",Panicle/flower,5,4085166,4087911,,"Taichung 65","O. meridionalis introgression line",RFLP,,C119,Y1060L,R2232,,,,,"seed shattering",,
+Sh5-glum,"Morphological trait",Panicle/flower,5,20217134,20220313,,"Taichung 65","O. meridionalis introgression line",RFLP,,R118,R1553,C1268,,,,,"seed shattering",,
+qGRH-2,"Resistance or Tolerance","Insect resistance",2,23191143,31166188,4.2,IR20965-26-1-2,T65,RFLP,,,,,C621,C601,,,"resistance to green rice leafhopper (GRH)",68.3,-23.6
+xa8,"Resistance or Tolerance","Bacterial blight resistance",7,13444285,13444846,,PR106,IRBB8,SSR,,,,,,,,RM214,"bacterial leaf blight resistance",,
+An9,"Morphological trait",Panicle/flower,1,6273283,9865716,,"Taichung 65","O. meridionalis (Acc. W1625)introgression line",SSR,,RM8111,RM8051,,,,,,Awned,,
+An10,"Morphological trait",Panicle/flower,1,28571547,36953571,,"Taichung 65","O. meridionalis (Acc. W1625)introgression line",SSR,,RM237,RM265,,,,,,Awned,,
+An6-mer,"Morphological trait",Panicle/flower,8,27930045,27930287,,"Taichung 65","O. meridionalis (Acc. W1625)introgression line",SSR,,,,,,,,RM3496,Awned,,
+An8-glum,"Morphological trait",Panicle/flower,4,6571336,20053733,,"Taichung 65","O. glumaepatula (IRGC Acc.No. 105668)introgression line",SSR,,RM261,RM1359,,,,,,Awned,,
+An7-glum,"Morphological trait",Panicle/flower,5,5266957,7818948,,"Taichung 65","O. glumaepatula (IRGC Acc.No. 105668)introgression line",SSR,,RM3419,RM289,,,,,,Awned,,
+,"Morphological trait",Panicle/flower,12,27662696,27664972,,Asominori,IR24,RFLP,,,,,,,C901,,"stigma exertion",7.8,-0.64
+yl(t),"Morphological trait",Shoot/Seedling,5,7509091,16531609,,"yl mutant",W002,SSR,,RM169,RM3838,,,,,,"yellowish-green leaf",,
+Glu6,"Physiological trait","Eating quality",3,18470802,18600010,,,,,OSJNBa0083F15,,,,,,,,"glutelin subunit polypeptides ",,
+qLTG-7,"Physiological trait",Germination/dormancy,7,17530626,22912990,3.62,Kinmaze,DV85,,,,,,R1440,R1357,,,"low temperature germinablity",8.7,9.3
+,"Resistance or Tolerance","Other soil stress tolerance",3,488942,979543,5.89,Kinmaze,DV85,,,,,,R1468A,R1468B,,,"tolerance to ferrous iron toxicity",23.18,3.64
+Xa21,"Resistance or Tolerance","Bacterial blight resistance",11,21483290,23651853,,O.sativa(BS125),O.longistaminata(WLO2),Mixture,,,,,CDO534,RZ537,,,"bacterial blight disease resistance",,
+Re,"Physiological trait","Eating quality",4,4433646,4435752,,Nipponbare,Kasalath,Mixture,,,,,G3006,C1156,C946,,"starch debranching enzyme",,
+chs,Others,Others,11,20614217,22645738,,Abhaya,Shyamala,RFLP,,RG2,RG103,,,,,,"Chalcone synthase",,
+OVP1,Others,Others,6,27039549,27287933,,Nipponbare,Kasalath,RFLP,,G12,C882,C554,,,,,"vacuolar H+-pyrophosphatase",,
+Fh1-2,"Morphological trait",Dwarf,1,36697294,42364623,,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"plant height",,-22.67
+,"Physiological trait",Sterility,3,13279321,13284073,,Nipponbare,Kasalath,RFLP,,,,,,,C582,,"gametophytic reproductive barrier",,
+,"Physiological trait","Source activity",8,27115743,27120160,2,Nipponbare,Kasalath,RFLP,,,,,C10122,R1963,R2662,,"soluble protein content at 5days after heading",,
+,"Physiological trait","Source activity",4,25273817,25274481,2.1,Nipponbare,Kasalath,RFLP,,,,,C513,R374,C335,,"soluble protein content at 25days after heading",,
+,"Physiological trait","Source activity",8,19395396,24277473,2,Nipponbare,Kasalath,RFLP,,,,,R727,R202,G2140,,"Rubisco protein content at 5days after heading",,
+,"Physiological trait","Source activity",2,534963,538203,3.3,Nipponbare,Kasalath,RFLP,,,,,R26838,G293,R2510,,"Rubisco protein content at 25days after heading",,
+CORN5,"Physiological trait","Source activity",5,238143,3285751,2.18,Nipponbare,Kasalath,RFLP,,,,,C597,R1838,R3166,,"the ratio of Rubisco to total leaf N content at 5days after heading",,
+,"Resistance or Tolerance","Salinity tolerance",1,4635793,27950354,,IR4630-,IR15324-,Mixture,,,,,RM1,R886,,,"Na+ uptake",8.9,-0.04
+,"Resistance or Tolerance","Salinity tolerance",1,4635793,25629404,,IR4630-,IR15324-,Mixture,,,,,RM1,RM5,,,"K+1 concentration",10.6,0.05
+,"Resistance or Tolerance","Salinity tolerance",1,4635793,27950354,,IR4630-,IR15324-,Mixture,,,,,RM1,R886,,,"Na+:K+1 ratio",9.1,-0.22
+,"Morphological trait",Panicle/flower,3,31082622,37254205,6.85,Lemont,Teqing,RFLP,,,,,G249,RG418,,,grains/plant,-13.8,0.63
+,"Morphological trait",Seed,1,25236559,29382447,3.18,Lemont,Teqing,RFLP,,,,,CDO118,CDO455,,,"1000-grain weight",-6.6,0.62
+xa5,"Resistance or Tolerance","Bacterial blight resistance",8,26646849,26650161,,IR24,IRBB4,RFLP,,,,,,,,S14003,"bacterial blight resistance",,
+sp1a,"Morphological trait",Panicle/flower,1,4795155,5759851,14.2,"Zhenshan 97","Minghui 63",Mixture,,,,,G359,RG532,,,"spikelets per panicle",5.79,7.04
+gp1,"Morphological trait",Panicle/flower,1,5759741,7445899,7.2,"Zhenshan 97","Minghui 63",Mixture,,,,,RG532,RM259,,,"grains per panicle",4.16,5.38
+ss2,"Physiological trait","Source activity",2,32389877,35545232,7.1,"Zhenshan 97","Minghui 63",Mixture,,,,,RM240,RM213,,,"seed setting",4.02,1.7
+pl9,"Morphological trait",Panicle/flower,9,20600863,21314308,8.9,"Zhenshan 97","Minghui 63",Mixture,,,,,RG570,RG667,,,"panicle length",6.17,-0.42
+dn1a,"Morphological trait",Panicle/flower,1,4795155,5759851,10.9,"Zhenshan 97","Minghui 63",Mixture,,,,,G359,RG532,,,density,5.8,0.26
+,"Physiological trait","Source activity",1,5759741,39646396,3.77,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG532,RM472,,,"number of filled grains per panicle",,17.8
+,"Morphological trait",Culm/leaf,6,27288493,29906021,2.04,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG653,RZ140,,,"number of panicle",,-0.75
+,"Morphological trait",Panicle/flower,6,3459492,6023472,6.05,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG138,RZ398,,,"total number of spikelets per panicle",,-23.3
+,"Physiological trait","Source activity",6,3459492,6023472,2.96,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG138,RZ398,,,"spikelet fertility",,5.12
+,"Morphological trait",Seed,6,3459492,6023472,5.13,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG138,RZ398,,,"Grain yield",,-4.62
+,"Morphological trait",Seed,10,19738642,22303661,7.98,"Zhenshan 97B","Milyang 46",RFLP,,,,,RZ811,RG561,,,"1000-grain weight",,-2.09
+OsAOX1a,"Resistance or Tolerance","Cold tolerance",4,29737978,33358474,,Hokkai241,Silewah,RFLP,,,,,R2737,R740,S2486,,"alternative oxidase",,
+,"Physiological trait",Sterility,10,10558704,10561460,,"Fl1087 ","Dao Ren Qiao",RFLP,,,,,,,C148,,"Gametophytic reproductive barriers",,
+yd1,"Morphological trait",Seed,1,36226902,39470731,4,"Zhenshan 97","Minghui 63",RFLP,,,,,C2340,C86,,,Yield(1998),4.9,0.3
+tp5b,"Morphological trait",Culm/leaf,5,27486247,28855659,5.7,"Zhenshan 97","Minghui 63",RFLP,,,,,RM26,C1447,,,Tillers/plant(1998),8.7,-1.4
+tp2b,"Morphological trait",Culm/leaf,2,36028513,36262401,3.8,"Zhenshan 97","Minghui 63",RFLP,,,,,RM208,RM207,,,Tillers/plant(1999),4.3,0.6
+gp6,"Morphological trait",Panicle/flower,6,6927624,20691040,6.7,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ667,RG424,,,Grains/panicle(1998),7.9,-4.7
+gp1a,"Morphological trait",Panicle/flower,1,4795155,5759851,8.2,"Zhenshan 97","Minghui 63",RFLP,,,,,G359,RG532,,,Grains/panicle(1999),9.7,11.2
+gw1a,"Morphological trait",Seed,1,4795155,5759851,9.4,"Zhenshan 97","Minghui 63",RFLP,,,,,G359,RG532,,,"Grain weight(1999)",9.3,-1
+,Others,Others,10,16326502,16330772,,"Milyang 23",Gihobyeo,RFLP,,,,,,,,RZ400,"plant regeneration ability in anther culture",,
+qALSRL-9,"Resistance or Tolerance","Other soil stress tolerance",9,20828464,21314308,6.28,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RM201,RG667,,,"stress root length",18.3,-1.09
+qALRR-8,"Resistance or Tolerance","Other soil stress tolerance",8,5326640,17528755,8.23,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RG978,C1121,,,"root length ratio",28.7,-13.37
+,"Resistance or Tolerance","Drought tolerance",3,27494415,31496678,3,Bala,Azucena,Mixture,,,,,C136,R1618,,,"carbon isotope discrimination(É¢ 13C) in IRRI 1996",,
+,"Resistance or Tolerance","Blast resistance",3,23887818,28859103,,CT9993-5-10-1-M,KDML105,Mixture,,,,,RM16,RM168,,,"disease severity index at URRC",6,
+,"Resistance or Tolerance","Blast resistance",6,8054255,9537572,,CT9993-5-10-1-M,KDML105,Mixture,,,,,R2171,RG64,,,"Neck blast incidence at Kampangsaen (1998)",15,
+,"Resistance or Tolerance","Blast resistance",6,8054255,9537572,,CT9993-5-10-1-M,KDML105,Mixture,,,,,R2171,RG64,,,"Neck blast incidence against the THL84",17,
+,"Resistance or Tolerance","Blast resistance",6,6822037,8066362,,CT9993-5-10-1-M,KDML105,Mixture,,,,,C1478,R2171,,,"Leaf blast incidence against the THL84",40,
+yd1b,"Morphological trait",Seed,1,36226902,41822222,6.8,"Zhenshan 97","Minghui 63",Mixture,,,,,C547,C2340,,,Yield(1998),10,1.72
+gn1,"Morphological trait",Panicle/flower,1,4795155,5759851,2.9,"Zhenshan 97","Minghui 63",Mixture,,,,,G359,RG532,,,"Grains per panicle(1998)",3.7,4.26
+QBphr1,"Resistance or Tolerance","Insect resistance",1,9701778,10543644,5.44,Lemont,Teqing,RFLP,,,,,R210,RZ382,,,"brown planthopper",13.2,3.41
+,"Physiological trait","Source activity",2,35125790,35128892,,Nipponbare,Kasalath,RFLP,,,,,,,,C1221,"NADH-GOGAT protein",,
+,"Physiological trait","Source activity",11,28353580,28355835,,Nipponbare,Kasalath,RFLP,,,,,,,,C950,"GS1 protein",,
+spl11,Others,Others,12,23610707,23758251,,IR64,Azucena,,,R1709,CDO459,,,,,,"spotted leaf",,
+qGYD-6-1,"Morphological trait",Seed,6,3168374,3459750,9.8,"Zhenshan 97B","Milyang 46",Mixture,,,,,RZ398,RM204,,,"grain yield per plant",2.4,-1.11
+qNP-6,"Morphological trait",Culm/leaf,6,4212289,4899565,11.1,"Zhenshan 97B","Milyang 46",Mixture,,,,,RZ450,RZ588,,,"number of panicles per plant",1.7,0.53
+qNFGP-7-1,"Physiological trait","Source activity",7,19502607,20434662,11.5,"Zhenshan 97B","Milyang 46",Mixture,,,,,RZ471,RZ753,,,"number of filled grains per panicle",6.2,6.39
+qTNSP-1-1,"Morphological trait",Panicle/flower,1,4635793,5759851,18.2,"Zhenshan 97B","Milyang 46",Mixture,,,,,RM1,RG532,,,"total number of spikelets per panicle",12.4,10.05
+qSF-1,"Physiological trait","Source activity",1,36697294,39534042,5.1,"Zhenshan 97B","Milyang 46",Mixture,,,,,RZ730,RZ538,,,"spikelet fertility",3.9,2.44
+qTGWT-10,"Morphological trait",Seed,10,22304140,22770151,19.6,"Zhenshan 97B","Milyang 46",Mixture,,,,,RG561,RM228,,,"1000-grain weight",13.4,-0.79
+qGB,"Physiological trait","Eating quality",6,3416533,3416728,,"Basmati 370",ASD16,Mixture,,,,,,,,RM225,"grain breadth",,
+qCGB,"Physiological trait","Eating quality",12,3185432,3185629,,"Basmati 370",ASD16,Mixture,,,,,,,,RM247,"cooked grain breadth",,
+,"Resistance or Tolerance","Other soil stress tolerance",1,5793810,7481804,3.17,Nipponbare,Kasalath,RFLP,,,,,C955,C885,,,"Leaf bronzing index",20.5,0.021
+,"Resistance or Tolerance","Other soil stress tolerance",1,5793810,7481804,7.03,Nipponbare,Kasalath,RFLP,,,,,C955,C885,,,"Stem dry weight",36.9,-0.0114
+,"Resistance or Tolerance","Other soil stress tolerance",1,5793810,7481804,6.89,Nipponbare,Kasalath,RFLP,,,,,C955,C885,,,"Tiller number",43.9,0.0679
+,"Resistance or Tolerance","Other soil stress tolerance",1,5793810,7481804,6.59,Nipponbare,Kasalath,RFLP,,,,,C955,C885,,,"Root dry weight",38.8,-0.0095
+qah7,"Physiological trait",Flowering,7,4606397,16264722,3.11,Nipponbare,Kasalath,RFLP,,,,,R2401,C1226,,,"length of the heading period",14,
+,"Morphological trait",Panicle/flower,2,34831427,35173313,3.11,Palawan,IR42,RFLP,,,,,RG256,RG151,,,"average panicle length per plant",6.2,0.66
+,"Morphological trait",Panicle/flower,4,32246485,34252531,3.05,Palawan,IR42,RFLP,,,,,RG143,RG214,,,"average primary branch number per panicle per plant",6.8,0.84
+,"Morphological trait",Seed,3,10000519,12208434,6.32,Domsephid,Gerdeh,SSR,,,,,RM251,RM554,,,"grain length",19.3,-0.18
+,"Morphological trait",Seed,3,9880148,10000636,15.02,Domsephid,Gerdeh,SSR,,,,,RM7,RM251,,,"grain breadth",34.1,0.15
+,"Morphological trait",Seed,3,10000519,12208434,11.29,Domsephid,Gerdeh,SSR,,,,,RM251,RM554,,,"grain shape",27.1,-0.27
+qCRE-8,"Resistance or Tolerance","Other soil stress tolerance",8,16626364,19399182,2.99,Nipponbare,Kasalath,RFLP,,,,,R727,C347,,,"control root elongation",9.3,0.24
+qRRE-10,"Resistance or Tolerance","Other soil stress tolerance",10,5167605,7599729,3.33,Nipponbare,Kasalath,RFLP,,,,,R2174,R2194,,,"relative root elongation",11.8,9.29
+qVB-1,"Morphological trait",Culm/leaf,1,22256683,24776333,2.75,Gui630,2428,RFLP,,,,,RZ776,RZ744,,,"number of vascular bundles",14.2,1.33
+,"Morphological trait",Root,9,21313734,23027968,3.4,IAC165,Co39,RFLP,,,,,RG667,RZ404,,,"Maximum root length",8.2,3.06
+,"Morphological trait",Root,4,30445455,31356186,5.4,IAC165,Co39,RFLP,,,,,RZ23,RM255,,,"Root thickness",24.4,0.0456
+,"Morphological trait",Root,4,6571336,11290874,2.7,IAC165,Co39,RFLP,,,,,RM261,RZ69,,,"Root weight in the 30-60 cm laye",10.9,0.0168
+,"Morphological trait",Root,4,17889105,20281368,4.3,IAC165,Co39,RFLP,,,,,RG449,RG788,,,"Root weight in the 60-90 cm layer",10.3,0.0046
+,"Morphological trait",Root,4,11283287,17888842,3.6,IAC165,Co39,RFLP,,,,,RZ69,RG449,,,"Deep root weight",12.3,0.023
+,"Morphological trait",Root,4,6571336,11290874,6.1,IAC165,Co39,RFLP,,,,,RM261,RZ69,,,"Deep root weight per unit shoot weight",20.7,0.64
+,"Morphological trait",Root,2,18269869,20729299,3.3,IAC165,Co39,RFLP,,,,,RG171,RG157,,,"Deep root weight per tiller ",7.8,-0.0018
+,"Morphological trait",Root,4,11283287,17888842,6.7,IAC165,Co39,RFLP,,,,,RZ69,RG449,,,"Deep root weight per tiller",17.6,0.0027
+,"Morphological trait",Dwarf,3,5210684,5584862,5.6,IAC165,Co39,RFLP,,,,,RG100,RG450,,,"Plant height",11.7,4.27
+,"Morphological trait",Culm/leaf,1,41444285,42364623,4.8,IAC165,Co39,RFLP,,,,,RZ801,RZ14,,,"Tiller number",18.4,1.27
+,"Morphological trait",Shoot/Seedling,9,9783058,12413337,2.5,IAC165,Co39,RFLP,,,,,RG553,RZ206,,,"Shoot dry weight",5.5,0.221
+Rf3,"Physiological trait",Sterility,1,5759741,5759851,20.07,"Zhenshan 97A",Minghui,RFLP,,,,,RG173,RG532,RG532,,"restoring factor",,
+qTNL-3,"Morphological trait",Culm/leaf,3,4072902,6784194,3.1,Asominori,IR24,RFLP,,,,,C563,R518,,,"total number of leaves",8.2,-0.33
+qDEF-3,"Physiological trait",Flowering,3,1423343,4098191,4.7,Asominori,IR24,RFLP,,,,,R518,C721,,,"days to emergence of flag-leaf",10.9,-3.17
+qLER-2,"Morphological trait",Culm/leaf,2,5357310,9018568,3.6,Asominori,IR24,RFLP,,,,,R2344,R712,,,"leaf emergence rate",12.3,0.06
+qRFC-5,"Physiological trait","Eating quality",5,23597602,28841123,6.6,Gui630,2428,RFLP,,,,,RG470,RG474,,,"Rice fat content",25.5,-0.17
+qPHT-1,"Morphological trait",Dwarf,1,36697294,42364623,16.06,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"Plant height",56.2,18.59
+qFDN-3,"Physiological trait",Flowering,3,1429107,3509693,4.19,IR64,Azucena,RFLP,,,,,RZ329,RG348,,,"Flowering duration",18.3,3.44
+qPL-1,"Morphological trait",Panicle/flower,1,36697294,42364623,6.01,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"Panicle length",26.8,1.82
+qPEN-4,"Morphological trait",Panicle/flower,4,8667374,13693920,4.62,IR64,Azucena,RFLP,,,,,RG190,RG908,,,"Panicle exsertion",16.2,-1.18
+qNOP-1,"Morphological trait",Culm/leaf,1,36697294,42364623,3.98,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"Number of panicles",18.7,-0.86
+qFRP-4,"Physiological trait","Source activity",4,20281518,21649520,3.12,IR64,Azucena,RFLP,,,,,RG788,RZ565,,,Fertility,11,4.96
+qTGW-1,"Morphological trait",Seed,1,42496228,43337260,4.74,IR64,Azucena,RFLP,,,,,RG810,RG331,,,"Thousand grain weight",16.3,1.27
+qHID-1,"Morphological trait",Seed,1,42496228,43337260,4.77,IR64,Azucena,RFLP,,,,,RG810,RG331,,,"Harvest index",19.1,-0.03
+qPHT3-2,"Resistance or Tolerance","Drought tolerance",3,29555852,29580503,3.42,IR64,Azucena,RFLP,,,,,RZ519,RZ448,,,"Plant height ",27,4.66
+sd1,"Resistance or Tolerance","Drought tolerance",1,36697294,42364623,3.63,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"Plant height",29.2,4.96
+qNOT4-2,"Resistance or Tolerance","Drought tolerance",4,17889105,20281368,2.51,IR64,Azucena,RFLP,,,,,RG449,RG788,,,"No. of tillers",19.8,-1.15
+qRTV3-1,"Resistance or Tolerance","Drought tolerance",3,464682,1429520,2.89,IR64,Azucena,RFLP,,,,,RG104,RG348,,,"Root volume",21.4,-1.99
+qRTT2-1,"Resistance or Tolerance","Drought tolerance",2,20728825,25430309,3.21,IR64,Azucena,RFLP,,,,,RG157,RZ318,,,"Root thickness",26.7,0.05
+qRDW3-1,"Resistance or Tolerance","Drought tolerance",3,464682,1429520,2.8,IR64,Azucena,RFLP,,,,,RG348,RG104,,,"Root dry weight",20.8,-0.38
+qDRS12-1,"Resistance or Tolerance","Drought tolerance",12,26277931,27748876,2.03,IR64,Azucena,RFLP,,,,,RG181,RG958,,,"Drought score",16.1,0.27
+qCC-1,"Physiological trait","Source activity",1,31822907,33817439,2.61,ZYQ8,"Jingxi 17",Mixture,,,,,RG541,RG101,,,"Chlorophyll content",11.2,1.7234
+,"Physiological trait","Eating quality",1,42496228,43337260,2.71,IR64,Azucena,RFLP,,,,,RG331,RG810,,,"gel consistency",9,-3.7
+,"Physiological trait","Eating quality",2,27928037,29583314,5.39,IR64,Azucena,RFLP,,,,,RG139,RZ58,,,"hot paste viscosity",16,-9.51
+,"Physiological trait","Eating quality",3,10652190,16024796,2.71,IR64,Azucena,RFLP,,,,,RZ574,RZ284,,,"cool paste viscosity",8,-16.96
+,"Physiological trait","Eating quality",4,32246485,33033092,2.64,IR64,Azucena,RFLP,,,,,RZ590,RG214,,,breakdown,9,-6.22
+,"Physiological trait","Eating quality",4,32246485,33033092,2.99,IR64,Azucena,RFLP,,,,,RZ590,RG214,,,setback,11,7.38
+qCHR-2,Others,Others,2,26758064,36554631,6.01,ZYQ8,"Jingxi 17",Mixture,,,,,RM263,RG520,Y8007R,,"chlorate sensitivity",26.5,-21.2
+,"Physiological trait","Eating quality",5,21013626,25225759,5.6,IR64,Azucena,SSR,,,,,RM305,RM178,,,inositol-6-phosphate,24.3,0.514
+,"Physiological trait","Eating quality",12,3185432,14601609,3.5,IR64,Azucena,SSR,,,,,RM247,RM179,,,,15.4,0.409
+,"Physiological trait","Eating quality",5,21013626,25225759,5.6,IR64,Azucena,SSR,,,,,RM305,RM178,,,"total P",24.3,0.016
+,"Physiological trait","Eating quality",12,26367959,27215000,3.1,IR64,Azucena,SSR,,,,,RM235,RM17,,,"Zinc content",12.8,5.407
+,"Resistance or Tolerance","Drought tolerance",3,464682,1429520,5.24,IR64,Azucena,Mixture,,,,,RG104,RG348,,,"days to flowering (non stress)",24.6,
+,"Resistance or Tolerance","Drought tolerance",1,36697294,42495953,3.36,IR64,Azucena,Mixture,,,,,RG810,RZ730,,,"plant height (non stress)",20,
+,"Resistance or Tolerance","Drought tolerance",1,42361507,42495953,3.1,IR64,Azucena,Mixture,,,,,RZ801,RG810,,,"plant height (Low moisture stress)",17.1,
+,"Resistance or Tolerance","Drought tolerance",3,2432425,3509693,3.44,IR64,Azucena,Mixture,,,,,RM231,RZ329,,,"days to flowering (mean)",21,
+,"Resistance or Tolerance","Drought tolerance",3,464682,1429520,3.63,IR64,Azucena,Mixture,,,,,RG104,RG348,,,"days to maturity (mean)",20.4,
+,"Resistance or Tolerance","Drought tolerance",2,20728825,25430309,3.21,IR64,Azucena,Mixture,,,,,RG157,RZ318,,,"root thickness (non stress 65 days)",26.9,
+,"Resistance or Tolerance","Drought tolerance",3,2432425,3509693,4.02,IR64,Azucena,Mixture,,,,,RM231,RZ329,,,"root volume (low moisture stress 85 days)",29.1,
+,"Resistance or Tolerance","Drought tolerance",3,2432425,3509693,4.22,IR64,Azucena,Mixture,,,,,RM231,RZ329,,,"root dry weight (low moisture stress 85 days)",30.7,
+,"Resistance or Tolerance","Drought tolerance",9,20078749,20828859,3.63,IR64,Azucena,Mixture,,,,,RZ12,RM201,,,"maximum root length (non stress)",12.9,
+,"Morphological trait",Seed,6,4346160,4352379,4.77,T65wx,T65Wx-pat,Mixture,,,,,,,,S1520,"Seed length",9.4,0.17
+,"Morphological trait",Seed,6,4346160,4352379,3.38,T65wx,T65Wx-pat,Mixture,,,,,,,,S1520,"Seed breadth",6.8,0.06
+,"Morphological trait",Seed,6,28130152,28130383,10.41,T65wx,T65Wx-pat,Mixture,,,,,,,,RM3,"Kernel breadth",24.4,-0.06
+,"Morphological trait",Seed,6,28130152,28130383,9.51,T65wx,T65Wx-pat,Mixture,,,,,,,,RM3,"Seed weight",22.6,-0.01
+,"Morphological trait",Seed,6,28130152,28130383,9.63,T65wx,T65Wx-pat,Mixture,,,,,,,,RM3,"Kernel weight",22.8,-0.01
+qRRE-8,"Resistance or Tolerance","Other soil stress tolerance",8,3170545,5333855,3.1,Kinmaze,DV85,RFLP,,,,,C166,C1121,,,"relative root elongation (an indicator for Al tolerance)",18.2,0.1
+"qLEI 4","Resistance or Tolerance","Submergency tolerance",12,24616244,27664972,12,T65,Bhadua,Mixture,,,,,RM5479,C901,,,"position of the lowest elongated internode",37.3,-1.3
+"qRIE 1","Resistance or Tolerance","Submergency tolerance",1,39466088,42591824,108,T65,Bhadua,Mixture,,,,,C86,G54,,,"rate of internodal elongation",32.2,1.5
+Grh5,"Resistance or Tolerance","Insect resistance",8,26358647,27651023,,"W1962 (Oryza rufipogon) ",T65,SSR,,RM1615,RM6845,RM3754,,,,,"nymph mortality",,
+,"Resistance or Tolerance","Insect resistance",3,22304962,25360678,2.4,Nipponbare,Kasalath,RFLP,,,,,G332,R19,,,"Egg mortality of WBPH ",14.1,-17.8
+,"Resistance or Tolerance","Insect resistance",12,21430775,21431060,4.6,T65,"Podiwi A8",SSR,,,,,,,,RM1986,"nymph mortality",29.7,25.8
+sp2(t),"Morphological trait",Panicle/flower,7,17530626,22912990,,Kinmaze,DV85,RFLP,,R1440,R1357,,,,,,"panicle length",,
+S29(t),"Physiological trait",Sterility,2,1660784,3836885,,WAB450-6,WAB56-104,,,RM423,RM7033,,,,,,sterility,,
+qZNT-3,"Resistance or Tolerance","Other soil stress tolerance",3,696186,979543,3.2,Asominori,IR24,RFLP,,,,,R1468B,C515,,,"Zn2+ toxicity tolerance",8.9,-0.85
+qLTSPS2,"Physiological trait",Sterility,2,27533328,32389986,2.39,3037,2428,SSR,,,,,RM1385,RM240,,,"lowtemperature-sensitive pollen sterility",15.6,0.021
+qCR-3,"Physiological trait","Source activity",3,3939279,4098191,3.05,Kinmaze,DV85,RFLP,,,,,C25,R518,,,"chlorophyll a/b ratio",13.8,-0.09
+qCC-1,"Physiological trait","Source activity",1,28628063,29823005,2.66,Kinmaze,DV85,RFLP,,,,,C122,R1012,,,"chlorophyll content of leaf",11.2,1.18
+S-9,"Physiological trait",Sterility,4,18772814,18772892,,"Ketan Nangka","Bai Mi Fen",SSR,,,,,,,,RM185,"spikelet fertility",,
+qSdn-5,"Physiological trait",Germination/dormancy,5,27457534,27457701,7.19,N22,"Nanjing 35",SSR,,,,,,,,RM480,"germination percentage",16,-33.5
+qPGWC8,"Physiological trait","Eating quality",8,26637711,28166213,,Asominori,IR24,SSR,,RM477,RM447,,,,,,"Percentage of chalkiness grains",,
+Qstv1,"Resistance or Tolerance","Other disease resistance",1,26686640,26690092,3.8,Kinmaze,DV85,RFLP,,,,,,,,R1485,"rice stripe virus resistance",25.1,21.01
+,"Resistance or Tolerance","Other disease resistance",7,16262181,17535483,2.77,Nipponbare,Kasalath,RFLP,,,,,C1226,R1440,,,"rice stripe virus resistance",8.96,-7.19
+Tid1,"Morphological trait",Dwarf,11,6171645,8107623,,Tid1-mutant,Kasalath,SSR,,RM3137,RM3701,,,,,,Tid1,,
+"qSS5 or S31(t)","Physiological trait",Sterility,5,2190812,2190895,15.1,Tuanguzao,"Ketan Nangka",SSR,,,,,,,,RM413,"hybrid sterility",20.1,21.5
+pss1,"Physiological trait",Sterility,8,1560795,1560923,,W207-2,Nipponbare,SSR,,,,,,,,RM6356,"pollen semi-sterility",,
+S34(t),"Physiological trait",Sterility,3,2432425,10000636,,"IRGC103977 (O. glaberrima)","Dianjingyou 1 (O. sativa)",SSR,,RM251,RM231,,,,,,"pollen sterility",,
+FSM,"Morphological trait",Shoot/Seedling,1,39535359,41672331,,"T65 mutant",Kasalath,RFLP,,R1764,S10526,,,,,,"flattened shoot meristem",,
+Su-Se-1(t),"Physiological trait",Flowering,6,8054255,8066362,,Asominori,IR24,RFLP,,,,,,,,R2171,"dominant photoperiod-sensitive suppression gene",,
+qTIL12,"Resistance or Tolerance","Submergency tolerance",12,25203610,25203829,2.04,T65,"Bangladesh (N01)",SSR,,,,,,,,RM6386,"Total internode length",10,
+qNEI12,"Resistance or Tolerance","Submergency tolerance",12,25203610,25203829,1.5,T65,"Bangladesh (N01)",SSR,,,,,,,,RM6386,"Elongated internode number",7,
+Pi-y(t),"Resistance or Tolerance","Blast resistance",2,35918141,36028798,,"Yanxian No.1",Lijiangxintuanheigu,SSR,,RM3248,RM208,,,,,,"blast resistance",,
+rbr2,"Resistance or Tolerance","Blast resistance",2,35545046,36028798,27.8,"Zhenshan 97","Minghui 63",SSR,,,,,RM213,RM208,,,"lesion number",42.7,13.42
+rbr2,"Resistance or Tolerance","Blast resistance",2,35545046,36028798,19.7,"Zhenshan 97","Minghui 63",SSR,,,,,RM213,RM208,,,"lesion length",29.5,1.13
+rbr2,"Resistance or Tolerance","Blast resistance",2,35545046,36028798,22.3,"Zhenshan 97","Minghui 63",SSR,,,,,RM213,RM208,,,"lesion area",29.2,9.41
+rbr2,"Resistance or Tolerance","Blast resistance",2,35545046,36028798,27.8,"Zhenshan 97","Minghui 63",SSR,,,,,RM213,RM208,,,"lesion degree",44.2,0.96
+qFL1-1,"Morphological trait",Culm/leaf,1,4795155,4797479,14.51,"Zhenshan 97","Minghui 63",RFLP,,,,,R753,RG352,G359,,"Area of flag leaf (cm2)",11.19,2.47
+qSL6-1,"Morphological trait",Culm/leaf,6,6927624,20691040,14.45,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ667,RG424,,,"Area of -2nd leaf (cm2)",11.8,2.53
+qTL6-1,"Morphological trait",Culm/leaf,6,6927624,20691040,20.05,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ667,RG424,,,"Area of -3rd leaf (cm2)",19.47,3.55
+qLVB10-1,"Morphological trait",Panicle/flower,10,16938289,18543072,15.59,"Zhenshan 97","Minghui 63",Mixture,,,,,C677,RM258,,,"Number of large vascular bundles",11.57,0.67
+qLVBTS1-1,"Morphological trait",Panicle/flower,1,36226902,39470731,28.27,"Zhenshan 97","Minghui 63",RFLP,,,,,C2340,C86,,,"Number of large vascular bundles/Total spikelets per panicle",18.58,0.09
+qGY6-1,"Morphological trait",Seed,6,6927624,20691040,53.71,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ667,RG424,,,"Grain yield (t/ha)",12.18,0.51
+qGW3-2,"Morphological trait",Seed,4,22267815,22270568,38.08,"Zhenshan 97","Minghui 63",RFLP,,,,,RG393,RZ403,C1087,,"""1,000-grain weight (g)""",15.41,0.95
+qSLTS4-1,"Morphological trait",Culm/leaf,4,27441052,27441315,17.11,"Zhenshan 97","Minghui 63",Mixture,,,,,C2807,G102,RM241,,"Area of -2nd leaf/Total spikelets per panicle",13.48,0.018
+qTLTS1-1,"Morphological trait",Culm/leaf,8,11101731,11107277,12.22,"Zhenshan 97","Minghui 63",Mixture,,,,,G393,RM212,R2201,,"Area of -3rd leaf/Total spikelets per panicle",5.88,0.015
+qLVBFL9-1,"Morphological trait",Panicle/flower,9,18374393,18491736,14.05,"Zhenshan 97","Minghui 63",Mixture,,,,,R2638,RM257,R2638,,"Number of large vascular bundles/Area of flag leaf",9.77,0.024
+qLVBSL6-1,"Morphological trait",Panicle/flower,6,6927624,20691040,10.75,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ667,RG424,,,"Number of large vascular bundles/Area of -2nd leaf",8.8,0.022
+qLVBTL6-1,"Morphological trait",Panicle/flower,6,6927624,20691040,16.61,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ667,RG424,,,"Number of large vascular bundles/Area of -3rd leaf",16.76,0.039
+qEML-2,"Morphological trait",Seed,2,5357310,9018568,4.3,Asominori,IR24,RFLP,,,,,R2344,R712,C132,,"Embryo Length",25.7,59
+qEMW-2,"Morphological trait",Seed,2,9013105,9018568,2.6,Asominori,IR24,RFLP,,,,,R1989,XNpb227,R712,,"Embryo Width",13.5,17.9
+qBMS1-2,"Physiological trait","Source activity",1,42361507,43337260,4.02,IR64,Azucena,RFLP,,,,,RZ801,RG331,,,"Biomass plant-1",14.1,3.83
+qFRP4-1,"Physiological trait","Source activity",4,17889105,20281368,3.4,IR64,Azucena,RFLP,,,,,RG449,RG788,,,"Fertility percentage",13.1,6.41
+qHDD3-2,"Physiological trait",Flowering,3,1429107,2432615,8.32,IR64,Azucena,Mixture,,,,,RG348,RM231,,,"Heading date",32.1,4.35
+qHID1-2,"Morphological trait",Seed,1,42361507,43337260,5.95,IR64,Azucena,RFLP,,,,,RZ801,RG331,,,"Harvest index",20.5,0.04
+qPHT1-1,"Morphological trait",Dwarf,1,36697294,42495953,18.92,IR64,Azucena,RFLP,,,,,RZ730,RG810,,,"Plant height",63.3,19.84
+qTGW1-3,"Morphological trait",Seed,1,42361507,43337260,6.22,IR64,Azucena,RFLP,,,,,RZ801,RG331,,,"1000 grain weight",20.9,1.47
+Rhz2,Others,Others,3,6088558,7176458,12.71,RD23,"O. longistaminata accession with long and strong rhizomes",SSR,,,,,OSR13,OSR16,,,"rhizome branching degree",0.83,
+,"Morphological trait",Seed,2,27971229,35962660,3.99,Nipponbare,Kasalath,RFLP,,,,,C747,C1445,C560,,"""1,000-grain weight""",16.5,
+Pi5(t),"Resistance or Tolerance","Blast resistance",9,10195130,10197474,,"RIL (Moroberekan/CO39)",CO39,Mixture,,2P10r,17I18-12,C1454,,,,,"blast resistance",,
+qSD-1-2,"Physiological trait",Germination/dormancy,1,23731232,23736697,2.8,Asominori,IR24,RFLP,,,,,,,,R1928,,15,0.2
+qPES-3,"Morphological trait",Panicle/flower,3,31082622,35089139,2.16,"Zaiyeqing 8","Jingxi 17",RFLP,,,,,G249,G164,,,"Percentage of exserted stigmas",10.7,8.6047
+qGL-6,"Morphological trait",Seed,6,24220931,25797291,5.1,Nipponbare,Kasalath,RFLP,,,,,R674,R2549,,,"Grain length",15,0.13
+qGW-3,"Morphological trait",Seed,3,18350837,22306369,5,Nipponbare,Kasalath,RFLP,,,,,G332,C80,,,"Grain width",12.7,0.06
+qPGWC-6b,"Physiological trait","Eating quality",6,6521345,6831863,6.4,Nipponbare,Kasalath,RFLP,,,,,R2147,C1478,,,"Percentages of grains with chalkiness",16.8,13.5
+qET-6,"Physiological trait","Eating quality",6,6521345,6831863,8.6,Nipponbare,Kasalath,RFLP,,,,,R2147,C1478,,,"Endosperm translucency",25.2,0.04
+sd-1,"Morphological trait",Dwarf,1,36697294,42495953,25.2,IR64,Azucena,RFLP,,,,,RZ730,RG810,,,"plant height",,14.7
+QHd7,"Physiological trait",Flowering,7,4606397,6812968,12.2,IR64,Azucena,RFLP,,,,,RZ488,RG477,,,"heading date",,4.1
+qBM-3,"Physiological trait","Source activity",3,9015683,12199844,11.88,Gui630,2428,RFLP,,,,,RG369,RG745,,,Biomass,16.6,1.24
+qGY-3,"Morphological trait",Seed,3,9015683,12199844,9.37,Gui630,2428,RFLP,,,,,RG369,RG745,,,"Grain yeild",3.23,0.51
+qSC-4,"Morphological trait",Panicle/flower,4,31648882,32036068,6.49,Gui630,2428,RFLP,,,,,RG776,RG476,,ZG9,"Sink capacity",8.6,0.37
+qPH-2,"Morphological trait",Dwarf,2,5263536,30654749,11.17,Gui630,2428,RFLP,,,,,RG324,RG83,,,"Plant height",28.7,8.38
+RPLD4,"Physiological trait","Eating quality",6,20691542,25333212,,,,RFLP,,,,,RG424,RG172,,,"Phospholipase D",,
+QFll3,"Morphological trait",Culm/leaf,3,31082622,37254205,11.51,Lemont,Teqing,RFLP,,,,,G249,RG418,,,"flag leaf length",18.7,2.63
+QPh3a,"Morphological trait",Dwarf,3,464682,698721,5.05,Lemont,Teqing,RFLP,,,,,RG104,C515,,,"plant height",7.8,3.3
+QSn3,"Morphological trait",Culm/leaf,3,31082622,37254205,11.5,Lemont,Teqing,RFLP,,,,,G249,RG418,,,"spikelet number per panicle",15.7,0.75
+QalSr8.1,"Resistance or Tolerance","Other stress resistance",8,19472018,20740963,3.1,IR64,"O. rufipogon (Acc 106424)",Mixture,,,,,RG28,RM223,,,"stress root length",20.8,1.915
+QalRr8.1,"Resistance or Tolerance","Other stress resistance",8,19472018,20740963,2.5,IR64,"O. rufipogon (Acc 106424)",Mixture,,,,,RG28,RM223,,,"relative root length",20.8,0.104
+,"Resistance or Tolerance","Drought tolerance",10,21384897,21932522,6.8,IR62266-42-6-2,IR60080-46A,RFLP,,,,,C809,R716,,,"osmotic adjustment",25,0.43
+Pi32(t),"Resistance or Tolerance","Blast resistance",12,21477298,21481353,8.65,IR64,Azucena,RFLP,,,,,,,C449,,,29,0.9
+,"Resistance or Tolerance","Other stress resistance",10,3758658,13115650,15.5,Nipponbare,Kasalath,RFLP,,,,,R1933,R1629,R2174,,"relative fresh weight",40.8,12
+,"Resistance or Tolerance","Other stress resistance",10,3758658,13115650,13.9,Nipponbare,Kasalath,RFLP,,,,,R1933,R1629,R2174,,"relative chlorophyll content of leaf blade",36.7,20.4
+dth7.1,"Physiological trait",Flowering,7,5512628,5512754,4.95,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM125,,"Days to heading",12.2,2.54
+ph1.1,"Morphological trait",Dwarf,1,38490966,38491404,64.18,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM315,,"Plant height",73.9,32.09
+pl1.1,"Morphological trait",Panicle/flower,1,38490966,38491404,6.86,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM315,,"Panicle length",9.9,0.85
+ppl1.1,"Morphological trait",Culm/leaf,1,40650780,40651278,6.62,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM431,,Panicles/plant,10.1,0.68
+pss2.1,"Physiological trait","Source activity",2,36318480,36318617,5.94,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM266,,"Percent seed set",9.8,4.65
+gw1.1,"Morphological trait",Seed,1,40650780,40651278,7.45,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM431,,"Grain weight",11.4,0.12
+,"Physiological trait","Source activity",8,22562556,22562749,6.4,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM210,,"Grain density",14.2,45.56
+,"Physiological trait","Eating quality",7,5512628,5512754,50.89,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM125,,"Red grain",70.4,47.09
+,"Physiological trait","Eating quality",10,1798870,1799061,6.08,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM474,,"Milled rice grain",20.5,2.73
+,"Physiological trait","Eating quality",2,26758064,26758298,8.86,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM263,,"Head rice grain",42.6,11.56
+,"Physiological trait","Eating quality",6,1360570,1360690,15.78,IR64,"O. rufipogon (IRGC 105491)",SSR,,,,,,,RM170,,"Amylose content",28.2,1.74
+qFLL-1,"Morphological trait",Culm/leaf,1,1405980,5759851,8.7,"Zhenshan 97B","Milyang 46",RFLP,,,,,RZ543,RG532,,,"first leaf length",22.7,3.3
+qFLP-1,"Morphological trait",Culm/leaf,1,1405980,5759851,11.8,"Zhenshan 97B","Milyang 46",RFLP,,,,,RZ543,RG532,,,"first leaf perimeter",32.5,9.2
+qSLL-6,"Morphological trait",Culm/leaf,6,3168374,4234201,7.2,"Zhenshan 97B","Milyang 46",SSR,,,,,RM204,RM217,,,"second leaf length",13.2,2.4
+qTLL-6,"Morphological trait",Culm/leaf,6,3168374,4234201,9.4,"Zhenshan 97B","Milyang 46",SSR,,,,,RM204,RM217,,,"third leaf length",16.5,2.5
+qTLWR-6,"Morphological trait",Culm/leaf,6,3168374,4234201,11.4,"Zhenshan 97B","Milyang 46",Mixture,,,,,RM204,RM217,,,"second leaf length/width ratio",29.6,4.3
+Xa4,"Resistance or Tolerance","Bacterial blight resistance",11,29841073,30349173,,IRBB4,IR24,RFLP,,Y6855RA,R1506,,,,,,"bacterial blight resistance",,
+dth7.1,"Physiological trait",Flowering,7,5512628,22532504,16.72,Jefferson,"O. rufipogon (IRGC 105491)",SSR,,,,,RM125,RM336,,,"Days to heading",25.8,
+spp3.1,"Morphological trait",Panicle/flower,3,34244159,35998885,10.46,Jefferson,"O. rufipogon (IRGC 105491)",Mixture,,,,,RM130,RG1356,,,"Spikelets per panicle",15.1,
+pl1.1,"Morphological trait",Panicle/flower,1,36697294,42364623,22.53,Jefferson,"O. rufipogon (IRGC 105491)",RFLP,,,,,RZ730,RZ801,,,"Panicle length",28.7,
+pss4.1,"Physiological trait","Source activity",4,25316661,33033092,10.04,Jefferson,"O. rufipogon (IRGC 105491)",RFLP,,,,,RZ740,RZ590,,,"Percent seed set",19.9,
+gw3.1,"Morphological trait",Seed,3,15401242,25890781,15.83,Jefferson,"O. rufipogon (IRGC 105491)",RFLP,,,,,RZ672,RZ474,,,"Grain weight",17.3,
+yld3.2,"Morphological trait",Seed,3,34244159,35998885,11.56,Jefferson,"O. rufipogon (IRGC 105491)",Mixture,,,,,RM130,RG1356,,,"Yield per plant",16.6,
+,"Resistance or Tolerance","Submergency tolerance",9,7787900,7791369,17.3,IR49830,CT6241,RFLP,,,,,,,RZ698,,"percent plant survival",48.3,2.6
+,"Resistance or Tolerance","Submergency tolerance",9,6582100,6586071,49.1,FR13A,CT6241,RFLP,,,,,,,R1164,,"Tolerance score",72.2,3.9
+,"Resistance or Tolerance","Submergency tolerance",9,7787900,7791369,18,IR49830,CT6241,RFLP,,,,,,,RZ698,,"Leaf senescence",72,1.9
+,"Resistance or Tolerance","Submergency tolerance",9,6582100,6586071,28.1,IR49830,CT6241,RFLP,,,,,,,R1164,,"Total shoot elongation",52,13.4
+,"Resistance or Tolerance","Submergency tolerance",11,24323354,24323830,,"Jao Hom Nin","Khaow Dawk Mali 105",SSR,,,,,,,,RM206,"Relative shoot elongation",2.7,16.6
+,"Resistance or Tolerance","Other soil stress tolerance",9,18489616,21113859,2.72,Asominori,IR24,RFLP,,,,,R2638,C1263,,,"Leaf bronzing index",11.16,0.11
+,"Resistance or Tolerance","Other soil stress tolerance",7,24952921,27191049,5.51,Asominori,IR24,RFLP,,,,,R1245,R1789,,,"Root length",29.87,3.38
+,"Resistance or Tolerance","Other soil stress tolerance",7,21001164,24959020,3.61,Asominori,IR24,RFLP,,,,,C451,R1245,,,"Root dry weight",36.34,0.07
+,Others,Others,7,23326303,25284593,9.41,"Zhong 156","Gumei 2",RFLP,,,,,RZ395,RZ264,,,allelopathy,32.3,0.002
+qLW-6,"Morphological trait",Seed,6,4234080,5096867,2.67,Balilla,NTH,SSR,,,,,RM217,RM111,,,"Grain shape",11.5,0.1279
+qSPTF6,"Physiological trait",Sterility,6,4234080,5096867,2.85,Balilla,NTH,SSR,,,,,RM217,RM111,,,"spikelet fertility",15.2,16.414
+qPLLN7,"Physiological trait",Sterility,7,26133781,30222602,2.76,Balilla,NTH,SSR,,,,,RM234,RM172,,,"Pollen fertility",12.9,12.003
+qChll1a,"Morphological trait",Culm/leaf,1,35712600,39470731,6.2,Nipponbare,Kasalath,RFLP,,,,,C86,C813,,,"Chlorophyll contents",22,2.08
+qH2O21,Others,Others,1,35712600,39470731,3.1,Nipponbare,Kasalath,RFLP,,,,,C86,C813,,,"H2O2 content",11.3,10.15
+Xa26(t),"Resistance or Tolerance","Bacterial blight resistance",11,29841073,30349173,,"Zhenshan 97","Minghui 63",RFLP,,R1506,Y6855RA,,,,,,"bacterial blight resistance",,
+qPH7-2,"Morphological trait",Dwarf,7,23766521,24746292,11.12,"Zhong 156","Gumei 2",RFLP,,,,,RZ626,RG650,,,"plant height",2.95,2.27
+qPN2,"Morphological trait",Culm/leaf,2,23021123,24905734,5.61,"Zhong 156","Gumei 2",RFLP,,,,,RZ961,RZ401,,,"panicle number",4.53,0.58
+,"Resistance or Tolerance","Drought tolerance",9,20600863,21314308,2.99,IR1552,Azucena,RFLP,,,,,RG570,RG667,,,"Seminal root length",13.4,2.84
+,"Resistance or Tolerance","Drought tolerance",2,23457248,23460088,3.22,IR1552,Azucena,RFLP,,,,,,,G45,,"Adventitious root numbers",18.2,0.8
+,"Resistance or Tolerance","Drought tolerance",3,5758005,5758498,2.48,IR1552,Azucena,RFLP,,,,,,,RG191,,"lateral root number",11.7,41.83
+PR-1,"Resistance or Tolerance","Blast resistance",10,13330314,13329988,,SHZ-2,Texianzhan-13,RFLP,,,,,,,,RZ892,,15.8,
+oa1.1,"Resistance or Tolerance","Drought tolerance",1,5094276,5094764,4.6,CT9993-5-10-1-M,IR62266-42-6-2,RFLP,,,,,,,RG140,,"Osmotic adjustment",12.9,0.991
+brt9.1,"Resistance or Tolerance","Drought tolerance",9,1159676,1164723,7.74,CT9993-5-10-1-M,IR62266-42-6-2,RFLP,,,,,,,C711,,"Basal root thickness",20.7,0.0849
+rpf3.1,"Resistance or Tolerance","Drought tolerance",3,1772253,1772098,6.02,CT9993-5-10-1-M,IR62266-42-6-2,RFLP,,,,,,,CDO20,,"Root pulling force",16.5,14.52
+trdw10.1,"Resistance or Tolerance","Drought tolerance",10,9125266,12043918,6.88,CT9993-5-10-1-M,IR62266-42-6-2,RFLP,,,,,RG257,R1261,,,"Total root dry weight",20.7,0.5085
+prdw12.1,"Resistance or Tolerance","Drought tolerance",12,18152227,18160498,4.13,CT9993-5-10-1-M,IR62266-42-6-2,RFLP,,,,,,,RG9,,"Penetrated root dry weight",12.7,0.0737
+prt12.1,"Resistance or Tolerance","Drought tolerance",12,18152227,18160498,4.62,CT9993-5-10-1-M,IR62266-42-6-2,RFLP,,,,,,,RG9,,"Penetrated root thichness",14.5,0.0809
+sd1,"Morphological trait",Dwarf,1,40038301,40288357,,sd1NIL,Shiokari,RFLP,,RG109,RG220,,,,,,,,
+sh4,"Morphological trait",Panicle/flower,3,25876546,25884563,19.3,Dinalaga,SR-5,RFLP,,,,,C746,XNpb40,R250,,"shattering ",79.6,90.9
+,"Physiological trait",Sterility,10,845399,21629868,8.04,"Taichung 65","O. glaberrima (ACC IRGC104038)",RFLP,,,,,C701,C16,,,"pollen fertility",,
+Grh1,"Resistance or Tolerance","Insect resistance",5,7773134,7779385,,Norin-PL2,Kinuhikari,RFLP,,,,,,,R566,,,,
+qNVB-1-1,"Morphological trait",Culm/leaf,1,15849886,23361033,2.29,Asominori,IR24,RFLP,,,,,R2159,C178,,,"number of vascular bundle",14.8,0.96
+Rf-5,"Physiological trait",Sterility,10,18542704,18543072,,"Congguang 4lA","Milyang 23",SSR,,,,,,,,RM258,"Cytoplasmic male sterility",,
+,"Resistance or Tolerance","Other disease resistance",1,40287847,43764612,6.13,Moroberekan,C039,RFLP,,,,,RG109,RG236,,,"Sheath rot resistance",18.8,11.82
+Ovc,"Resistance or Tolerance","Insect resistance",6,4932906,4937483,,Asominori,IR24,RFLP,,,,,S1520,L688,R1954,,"whitebacked planthopper",,
+,"Resistance or Tolerance","Insect resistance",5,8708578,8715068,22.5,Asominori,IR24,RFLP,,,,,,,C309,,"Green rice hopper",80.1,-56.9
+eui2,"Morphological trait",Dwarf,10,19184232,19184413,,XQZeB-2,AJNT,SSR,,,,,,,RM304,,"Elongated uppermost internode",,
+d11,"Morphological trait",Dwarf,4,22813028,24022219,,d11,"SL14 (Substitution line of Nipponbare/Kasalath)",RFLP,,R1721,R278,,,,,,dwarf,,
+En-Se1,"Physiological trait",Flowering,6,2770072,3826329,,"T65WxS6 (W593A)","T65wxSe1S6 (W593C)",RFLP,,C764,R845,B174,,,,,"days to heading",,
+Lhd1(t),"Physiological trait",Flowering,6,2684129,4352379,,"IRGC Acc. No. 105668","Taichung 65",RFLP,,R1962,S1520,,,,,,,,
+,"Morphological trait",Seed,12,5820051,24012742,5.75,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG543,RG81,,,"1000 grain weight",,0.85
+,"Morphological trait",Seed,6,3459492,6023472,4.96,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG138,RZ398,,,"grain yield",,-1.95
+,"Physiological trait","Source activity",1,1039868,5759851,7,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG532,RG472,,,"number of filled grain per paniucle",,10.3
+,"Morphological trait",Panicle/flower,6,3459492,6023472,11.8,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG138,RZ398,,,"total number of spikelets per panicle",,-13
+,"Physiological trait","Source activity",6,3459492,6023472,3.4,"Zhenshan 97B","Milyang 46",RFLP,,,,,RG138,RZ398,,,"spikelet fertility",,3.01
+,"Physiological trait",Sterility,10,19738642,22303661,,"Zhenshan 97B","Milyang 46",RFLP,,,,,RZ811,RG561,,,,,34
+S23(t),"Physiological trait",Sterility,7,27188091,30322668,,"IRGC Acc. No. 105668","Taichung 65",RFLP,,,,,R1789,C213,,,,,
+qOVA-5-2,"Resistance or Tolerance","Insect resistance",5,20217134,20220313,6.1,Asominori,IR24,RFLP,,,,,,,C1268,,"whitebacked planthopper",46.9,7.9
+sho2,"Morphological trait",Dwarf,3,18350837,22142430,,"Sho2 heterozygote (SHO2 / sho2)",Kasalath,RFLP,,C80,C816,,,,,,,,
+An5(t),"Morphological trait",Panicle/flower,3,16196565,25360678,,Asominori,IR24,RFLP,,,,,C1677,R19,G1316,,awnless,,
+mori1,"Morphological trait",Culm/leaf,3,28179047,28179157,,"Taichung 65 MORI1 heterozygous plant",Kasalath,SSR,,,,,RM16,RM55,OSR31,,,,
+orl1,"Morphological trait",Culm/leaf,4,20518311,24585809,,"ORL1 heterozygous plants",,RFLP,,,,,S10628,C377,,,,,
+spl12(t),Others,Others,2,26033535,26034238,,IR24,Asominori,RFLP,,,,,G1314B,R399S,C920,,"spotted leaf",,
+qEhd1,"Physiological trait",Flowering,10,17505263,17510657,10.3,"Oryza glumaepatula (IRGC 105668)introgression line","Taichung 65",RFLP,,,,,R3217,G37,C234,,,50,2.1
+qNFGP-6,"Physiological trait","Source activity",6,8751256,12402719,5.8,"Zhong 156","Gumei 2",Mixture,,,,,RM136,RG456,,,"number of filled grains per panicle",7.3,6
+qSF-6,"Physiological trait","Source activity",6,8751256,12402719,7.2,"Zhong 156","Gumei 2",Mixture,,,,,RM136,RG456,,,"spikelet fertility",18.4,3.5
+cl8.1,"Morphological trait",Dwarf,11,20701870,20702000,,Hwaseongbyeo,HG101,SSR,,,,,,,RM229,,"culm length",23.2,3
+pms1,"Physiological trait",Sterility,7,5884863,6812968,,"Minghui 63",32001S,RFLP,,RG477,R1807,,,,,,"phtoperiod-sensitivite genetic male sterility",,
+,"Morphological trait",Root,9,1159676,11367960,3.43,ZYQ8,"Jingxi 17",RFLP,,,,,C711,G103,,,"Maximum Root Length",17,1.4249
+,"Morphological trait",Root,6,29906429,31674997,4.52,ZYQ8,"Jingxi 17",RFLP,,,,,RG653,RG433,,,"Root / Shoot Ratio of Dry Weight",19.9,0.0355
+Qpn3,"Morphological trait",Culm/leaf,3,28179047,28999468,6.82,Lemont,Teqing,Mixture,,,,,CDO337,OSR31,,,"panicle number",4.7,1.03
+Qsnp3b,"Morphological trait",Panicle/flower,3,35783061,37199035,20.26,Lemont,Teqing,Mixture,,,,,RM227,RM85,,,"spikelet number per panicle",17.2,26.74
+Qsbn3b,"Morphological trait",Panicle/flower,3,35783061,37199035,19.83,Lemont,Teqing,Mixture,,,,,RM227,RM85,,,"Secondary branch number per panicle",17.2,4.89
+qASV6-1,"Physiological trait","Eating quality",6,4844259,5096867,28.16,Balilla,Nantehao,SSR,,,,,RM111,RM314,,,"alkali spreading value",87.6,3.26
+qRf-10,"Physiological trait",Sterility,10,19738642,22303661,19.6,"Zhenshan 97A","Zhenshan 97B",RFLP,,,,,RZ811,RG561,,,"Spikelet fertility",43,34.3
+,"Morphological trait",Culm/leaf,8,20740779,20740963,8.51,"O. glumaepatula RS-16","O. sativa BG90-2",Mixture,,,,,RM44,RM210,RM223,,"panicle number",30.82,
+qGR5-1,"Physiological trait",Germination/dormancy,5,27056983,27486349,15.9,"Zhenshan 97","Minghui 63",Mixture,,,,,C246,RM26,,,"Germination rate",17.4,7.8
+qTDW5-1,"Morphological trait",Shoot/Seedling,5,27486247,28855659,16.2,"Zhenshan 97","Minghui 63",Mixture,,,,,RM26,C1447,,,"Total dry weight",17.4,0.39
+qSDW1-1,"Morphological trait",Shoot/Seedling,1,43765087,44751487,8.4,"Zhenshan 97","Minghui 63",Mixture,,,,,RG236,C112,,,"Shoot dry weight",9.7,0.18
+qRDW5-1,"Morphological trait",Shoot/Seedling,5,27056983,27486349,19.4,"Zhenshan 97","Minghui 63",Mixture,,,,,C246,RM26,,,"Root dry weight",24.1,0.22
+qMRL5-1,"Morphological trait",Shoot/Seedling,5,27486247,28855659,11,"Zhenshan 97","Minghui 63",Mixture,,,,,RM26,C1447,,,"Max. root length",13.1,4.87
+qTAA3-1,"Morphological trait",Shoot/Seedling,3,6027240,8462713,3.5,"Zhenshan 97","Minghui 63",Mixture,,,,,C316,C63,,,"Total amylase activity",5.5,0.02
+qRS6-1,"Morphological trait",Shoot/Seedling,6,6927624,20691040,6.7,"Zhenshan 97","Minghui 63",Mixture,,,,,RZ667,RG424,,,"Reducing sugar content",9,0.05
+qRA5-1,"Morphological trait",Shoot/Seedling,5,27056983,27486349,7.8,"Zhenshan 97","Minghui 63",Mixture,,,,,C246,RM26,,,"Root activity",13,6.99
+qSW1-3,"Morphological trait",Seed,1,4795155,5759851,11,"Zhenshan 97","Minghui 63",Mixture,,,,,G359,RG532,,,"Seed weight",7.7,0.73
+qPL3-1,"Morphological trait",Panicle/flower,3,35783061,36303203,7.2,"Zhenshan 97","Minghui 63",Mixture,,,,,R1925,RM227,,,"panicle length",8.3,0.43
+qNPB6-1,"Morphological trait",Panicle/flower,6,6521345,6927968,13.49,"Zhenshan 97","Minghui 63",Mixture,,,,,RZ667,R2147,,,"number of primary branches per panicle",19.8,0.33
+qNSB1-1,"Morphological trait",Panicle/flower,1,36226902,39470731,4.89,"Zhenshan 97","Minghui 63",Mixture,,,,,C86,C2340,,,"number of secondary branches per panicle",7.7,1.11
+qSPBp10-2,"Morphological trait",Panicle/flower,10,9888577,15136649,15.43,"Zhenshan 97","Minghui 63",Mixture,,,,,C1633,RM239,,,"number of spikelets on primary branches per panicle",24.6,2.47
+qSSBp1-1,"Morphological trait",Panicle/flower,1,36226902,39470731,6.3,"Zhenshan 97","Minghui 63",Mixture,,,,,C86,C2340,,,"number of spikelets on secondary branches per panicle",9.3,4.68
+qLSVB10-1,"Morphological trait",Panicle/flower,10,16938289,18543072,4.21,"Zhenshan 97","Minghui 63",Mixture,,,,,RM258,C677,,,"No. of large stem vascular bundles ",6.5,0.52
+qSPB2-1,"Morphological trait",Panicle/flower,10,9888577,15136649,3.06,"Zhenshan 97","Minghui 63",Mixture,,,,,C1633,RM239,,,"number of spikelets on primary branches per primary branches",7,0.08
+qSSB1-1,"Morphological trait",Panicle/flower,1,4795155,5759851,9.69,"Zhenshan 97","Minghui 63",Mixture,,,,,RG532,G359,,,"number of spikelets on secondary branches per secondary branches",13.8,0.07
+qSB-9,"Resistance or Tolerance","Sheath blight resistance",9,15302939,18491736,2.26,"Zhenshan 97B","Minghui 63",Mixture,,,,,C472,R2638,,,"Sheath blight response ratings",10.1,0.36
+,"Morphological trait",Root,2,34831427,35173313,6.15,IR58821,IR52561,Mixture,,,,,RG256,RG151,,,"Deep root ratio",17.3,0.55
+,"Morphological trait",Root,4,32246485,33717911,5.35,IR58821,IR52561,Mixture,,,,,RG214,C1016,,,"Rooting depth",,0.81
+,"Morphological trait",Root,3,35998421,36303203,6.3,IR58821,IR52561,Mixture,,,,,R1925,RG1356,,,"Root thickness 0-10 cm",13.8,0.03
+,"Morphological trait",Root,3,1772253,3475138,7.01,CT9993,IR62266,Mixture,,,,,CDO20,RG409,,,"Deep root mass",14.6,0.05
+,"Morphological trait",Root,1,33178792,34810544,3.76,CT9993,IR62266,Mixture,,,,,RM212,R2417,,,"Deep root per tiller",9.8,1.52
+,"Morphological trait",Root,5,3320155,3597128,5.54,CT9993,IR62266,Mixture,,,,,C119,C859,,,"Rooting depth",9.6,1.2
+,"Morphological trait",Root,4,31648882,32246967,15.82,CT9993,IR62266,Mixture,,,,,RG476,RG214,,,"Root thickness 0-10 cm",29.9,0.06
+,"Morphological trait",Root,4,31648882,32246967,7.26,CT9993,IR62266,Mixture,,,,,RG476,RG214,,,"Root thickness 20-25 cm",18.3,0.05
+Hd3a,"Physiological trait",Flowering,6,2839864,2912060,,Nipponbare,Kasalath,,"""P0037G03,P0046E09,P0698G05""",,,,,,,,"days to heading",,
+qSBR-3,"Resistance or Tolerance","Sheath blight resistance",3,31082622,35089139,2.43,ZYQ8,"Jingxi 17",RFLP,,,,,G249,G164,,,"Sheath blight response",10.5,13.931
+,"Physiological trait","Eating quality",7,25762909,26436746,7.01,Lemont,Teqing,RFLP,,,,,CDO497,BCD855,,,"head milled rice",17.52,-4.6804
+qSD-5,"Physiological trait",Germination/dormancy,5,3281266,3285751,3.1,Nipponbare,Kasalath,RFLP,,,,,R3166,C249,R1838,,"Seed dormancy",13.6,13.6
+qLG-9,"Physiological trait",Germination/dormancy,9,11366789,15020655,13.883,Nipponbare,Kasalath,RFLP,,,,,G103,R1751,R79,,"Seed longevity",59.5,25.5
+Hd3b,"Physiological trait",Flowering,6,1370829,2501902,,Nipponbare,Kasalath,RFLP,,R2291,R3139,R1952,,,,,"days to heading",,
+,"Resistance or Tolerance","Drought tolerance",1,39466088,41444527,11,Bala,Azucena,RFLP,,,,,C86,RZ14,C949,,"leaf rolling",20.4,0.175
+,"Resistance or Tolerance","Drought tolerance",1,41444285,44211418,6.8,Bala,Azucena,RFLP,,,,,RZ14,R117,,,"leaf drying score",17.6,0.141
+,"Resistance or Tolerance","Drought tolerance",9,6582100,12413787,5.9,Bala,Azucena,Mixture,,,,,R1164,R79,R1687,,"relative water content",25.6,2.36
+Gm7,"Resistance or Tolerance","Insect resistance",4,31436862,31649362,,RP2333,Shyamala,Mixture,,RG329,RG476,,,,,,"score of gall midge resistance",,
+qBLASTads-2,"Resistance or Tolerance","Blast resistance",2,36554929,36554631,13.8,Lemont,Teqing,RFLP,,,,,,,RG520,,"Standard Evaluation System (SES) for rating leaf blast",31.7,1.86
+qBLASTa-12-2f,"Resistance or Tolerance","Blast resistance",12,1595305,1594834,5.21,Lemont,Teqing,RFLP,,,,,,,RG574,,"the area under a disdisease progress curve",1.9,0.35
+alk(t),"Physiological trait","Eating quality",6,6521345,6831863,,Nipponbare,Kasalath,RFLP,,R2147,C1478,E11025,,,,,"granule disintegration",,
+gel(t),"Physiological trait","Eating quality",6,6521345,6831863,,Nipponbare,Kasalath,RFLP,,R2147,C1478,E11025,,,,,"starch gelatinisation",,
+acl(t),"Physiological trait","Eating quality",6,6521345,6831863,,Nipponbare,Kasalath,RFLP,,R2147,C1478,E11025,,,,,"amylopectin chain-length",,
+,"Physiological trait",Flowering,8,3170545,5333855,4.43,"Taichung 65",Bhadua,RFLP,,,,,C166,C1121,,,"heading date",22.9,
+qRf-10-2,"Physiological trait",Sterility,10,18542704,19738291,39.7,"Xieqingzao B","B/Miyang 46",SSR,,,,,RM258,RZ811,,,"spikelet fertility",36.2,0.327
+"Bph 12(t)","Resistance or Tolerance","Insect resistance",4,6571336,6571458,,B14,"Taichung Native 1",Mixture,,,,,,,,RM261,"score of brown planthopper",,
+ph1,"Morphological trait",Dwarf,1,41820167,43764612,3.7,"Zhenshan 97","Minghui 63",Mixture,,,,,RG236,C547,,,"Plant height",6.9,3.59
+hd7a,"Physiological trait",Flowering,7,26313662,27191049,5.8,"Zhenshan 97","Minghui 63",Mixture,,,,,RM18,R1789,,,"Heading date",11.1,3.77
+qVB-1,"Morphological trait",Culm/leaf,1,22256683,24776333,2.75,Gui630,2428,RFLP,,,,,RZ776,RZ744,,,"no. of vascular bundles in peduncle",14.2,1.33
+,"Physiological trait","Eating quality",6,8054255,9537572,,KDML105,CT9993-5-10-1-M,Mixture,,,,,RG64,R2171,,,"Gel Consistency",10.5,5.18
+,"Physiological trait","Eating quality",6,6822037,6927968,,KDML105,CT9993-5-10-1-M,Mixture,,,,,C1478,RZ667,,,"Gelatinization Temperature",60.3,2.21
+lpa1,"Physiological trait","Eating quality",2,36028513,36262401,,"ÅeKaybonnetÅf lpa1 mutant",ZHE733,Mixture,,RM208,RM207,,,,,,"Seed total P",,
+PLFDH,"Morphological trait",Panicle/flower,1,42157734,42364623,7,Azucena,IR64,Mixture,,,,,RG323,RZ801,,,"panicle length",16,-2.9
+,Others,Others,2,23457248,26356387,9.9,"Norin 1",Tadikan,RFLP,,,,,C424,G45,,,"shoot regeneration from mature seed-derived calli",18.8,2.67
+Sub1,"Resistance or Tolerance","Submergency tolerance",9,6582100,7791369,,IR40931-26,PI543851,Mixture,,RZ698,R1164,,,,,,"score of submergence tolerance",,
+Hd7,"Physiological trait",Flowering,2,29242392,35959447,3.2,Nipponbare,Kasalath,RFLP,,,,,R3393,R2511,C560,,"heading date",13.8,2.4
+S5,"Physiological trait",Sterility,6,6283432,9284248,9.03,Nanjing11,Duiai,,,,,,RG213,C235,,,"spikelet fertility",32.3,
+,"Morphological trait",Root,3,464682,1429520,3.21,IR64,Azucena,Mixture,,,,,RG104,RG348,,,"total root number",14.3,31.4
+,"Morphological trait",Root,3,464682,1429520,2.18,IR64,Azucena,Mixture,,,,,RG104,RG348,,,"root-penetration index",8.9,6
+,"Morphological trait",Root,1,36697294,42364623,2.61,IR64,Azucena,Mixture,,,,,RZ730,RZ801,,,"penetrated root thickness",16.4,81
+QKw5,"Morphological trait",Seed,5,6115238,18944887,5.1,Lemont,Teqing,RFLP,,,,,RG182,RG13,,,"1000 kernel weight",16.3,1.51
+QGn4,"Morphological trait",Panicle/flower,4,32246485,34252531,4.93,Lemont,Teqing,RFLP,,,,,RG143,RG214,,,"grain number per panicle",8.8,10.2
+QGwp4,"Physiological trait","Source activity",4,32246485,34252531,3.89,Lemont,Teqing,RFLP,,,,,RG143,RG214,,,"grain weight per panicle",6.8,1.79
+QSs3,"Physiological trait",Sterility,3,1429107,3215610,5.4,Lemont,Teqing,RFLP,,,,,RG348,RG944,,,"Spikelet sterility",11.7,3.9
+,"Resistance or Tolerance","Drought tolerance",9,19559036,19562133,,IR20,63-83,Mixture,,,,,,,,S1057,"ABA accumulation",,109.7
+yd1a,"Morphological trait",Seed,1,196647,1891262,3.5,"Zhenshan 97","Minghui 63",Mixture,,,,,R753,C161,,,"""Yield, t/ha""",9.7,20.3
+gp1a,"Morphological trait",Panicle/flower,1,1887524,4635870,6,"Zhenshan 97","Minghui 63",Mixture,,,,,RM1,R753,,,Grains/panicle,15.5,28.1
+gw3a,"Morphological trait",Seed,3,23850041,25360678,11.4,"Zhenshan 97","Minghui 63",Mixture,,,,,R19,RZ403,,,"""Grain weight, g/1,000""",23.6,21.8
+qCTB2a,"Resistance or Tolerance","Cold tolerance",2,11418741,12245613,6,M-202,IR50,SSR,,,,,RM324,RM301,,,"Spikelet fertility",16.8,5.83
+qCTS8-2a,"Resistance or Tolerance","Cold tolerance",8,20740779,21233221,5.29,M-202,IR50,SSR,,,,,RM223,RM284,,,"Cold-induced wilting tolerance",12.7,0.55
+qCTS4-1,"Resistance or Tolerance","Cold tolerance",4,679929,6571458,8.36,M-202,IR50,SSR,,,,,RM335,RM261,,,"Cold tolerance",20.8,0.6
+qCTS8-2b,"Resistance or Tolerance","Cold tolerance",8,20740779,21233221,4.41,M-202,IR50,SSR,,,,,RM223,RM284,,,"Cold-induced necrosis tolerance",12.1,0.95
+qCTS4-3,"Resistance or Tolerance","Cold tolerance",4,27441052,29644770,5.3,M-202,IR50,SSR,,,,,RM241,RM317,,,"Cold-induced yellowing tolerance",14.2,0.5
+rwc9.1,"Resistance or Tolerance","Drought tolerance",9,21313734,22021406,8.59,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RM215,RG667,,,"Relative water content",58.8,7.73
+dhs9.1,"Resistance or Tolerance","Drought tolerance",9,20828464,21314308,4.48,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RG667,RM201,,,"Days to heading-stress",23.8,1.8
+dhc9.1,"Resistance or Tolerance","Drought tolerance",9,21313734,22021406,3.6,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RM215,RG667,,,"Days to heading-control",19.5,1.98
+phs4.1,"Resistance or Tolerance","Drought tolerance",4,31648882,32246967,7.82,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RG476,RG214,,,"Plant height-stress",14.4,4.91
+phc4.1,"Resistance or Tolerance","Drought tolerance",4,31648882,32246967,8.97,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RG476,RG214,,,"Plant height-control",16,3.92
+bmc4.1,"Resistance or Tolerance","Drought tolerance",4,35277669,35283358,6.75,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RG620,C107,,,Biomass-control,15.4,54.69
+gpps4.1,"Resistance or Tolerance","Drought tolerance",4,32246485,35283358,3.58,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RG214,RG620,,,"Grains per panicle-stress",13.6,4.09
+Spk(t),"Morphological trait",Culm/leaf,9,21109960,22690613,,Nipponbare,Kasalath,RFLP,,C1263,C506,c570,,,,,"spread stub",,
+hwd1,"Physiological trait",Lethality,10,845399,1935940,,Co1.No.15,W26,RFLP,,C701,R2309,,,,,,"hybrid breakdown",,
+hwd2,"Physiological trait",Lethality,7,6841433,15871629,,W26,"Siborunauli 1",RFLP,,C67A,R1788,ÇªÇÃëº8Ç¬Ç∆ã§ï™ó£,,,,,"hybrid breakdown",,
+qDLA-12-3,"Resistance or Tolerance","Blast resistance",12,2427030,24823647,5.34,IR64,Azucena,Mixture,,,,,RG463,RZ816,,,"field resistance to leaf blast",17.5,
+qNBL-5,"Resistance or Tolerance","Blast resistance",5,19614740,27264019,2.42,IR64,Azucena,Mixture,,,,,RZ649,RZ225,,,"field resistance to neck blast",11.1,
+xa13,"Resistance or Tolerance","Bacterial blight resistance",8,26865987,27199300,,IR65598-112-2,IRBB13,RFLP,,RG136,R2027,,,,,,"bacterial blight resistance ",,
+qPSP-6,"Physiological trait",Flowering,6,6720901,8066362,,"O. rufipogon(W1944)",Pei-Khu,Mixture,,,,,R2171,RZ144,,,"photoperiod sensitive phase",8.4,
+Ef(t),"Physiological trait",Flowering,10,17684573,17686581,,"Taichung 65","O. glaberrima (ACC IRGC104038)",RFLP,,C234,G37,C1369,,,,,"heading date",,
+Ta1,"Morphological trait",Culm/leaf,9,19168716,21314308,32.3,Lemont,Teqing,RFLP,,,,,RZ228,RG667,,,"""tiller, leaf and flag leaf angles""",47.5,
+,"Resistance or Tolerance","Other soil stress tolerance",1,42157734,42364623,6.93,IR1552,Azucena,Mixture,,,,,RZ801,RG323,,,"Relative root length after 2 weeks stress",19,0.08
+,"Resistance or Tolerance","Other soil stress tolerance",12,18152227,19802220,6.82,IR1552,Azucena,Mixture,,,,,RG9,RG457,,,"Relative root length after 4 weeks stress",20,0.07
+,"Resistance or Tolerance","Other soil stress tolerance",12,18152227,19802220,4.89,IR1552,Azucena,Mixture,,,,,RG9,RG457,,,"Conditional Relative root length (4-week/2-week)",18,0.05
+QRl7,"Morphological trait",Culm/leaf,7,18481047,25763098,4.6,Lemont,Teqing,Mixture,,,,,CDO497,CDO385,,,"leaf rolling",7.5,0.16
+qLTG-5,"Resistance or Tolerance","Cold tolerance",5,10787462,18944887,4.22,"Milyang 23","Milyang 23",Mixture,,,,,RM249,RG13,,,"germinability at low temperature (15Åé)",15.6,
+hsa2(t),"Physiological trait",Sterility,8,8921661,16630704,,Asominori,IR24,RFLP,,G104,C347,,,,,,"F2 sterility",,
+Sh(t),"Morphological trait",Panicle/flower,4,34553977,35281498,,"O. glumaepatula","Taichung 65",RFLP,,R1427,C107,,,,,,"seed shattering",,
+qml5-4,"Morphological trait",Shoot/Seedling,5,26972040,27060414,4.37,"Zhenshan 97B","Milyang 46",Mixture,,,,,C246,RM274,,,"mesocotyl length",11.4,0.172
+qSB-2,"Resistance or Tolerance","Sheath blight resistance",2,23457248,30711734,4.3,Lemont,Teqing,RFLP,,,,,G45,RZ273,,,"resistance to sheath blight (SB) disease",7,0.67
+qCA-2,"Resistance or Tolerance","Blast resistance",2,22631410,23025244,6.8,Zhong158,"Gumei 2",RFLP,,,,,RG25,RZ961,,,"parial resistance to neck blast",17.1,66.2
+pf12,"Physiological trait",Sterility,12,2432289,3185629,5.52,02428/Nanjing15,Balilla,SSR,,,,,RM19,RM247,,,"Pollen fertility",12.5,20.78
+spf6,"Physiological trait",Sterility,6,6283432,7177183,5.14,02428/Nanjing12,Balilla,SSR,,,,,RG213,RM557,,,"Spikelet fertility",11.01,17.64
+,"Morphological trait",Panicle/flower,4,29158445,31356186,5.05,"Milyang 23",Akihikari,SSR,,,,,"RM303 ",RM255,,,"Spikelet number per panicle(35 d after heading)",11.6,10.35
+6.3,"Resistance or Tolerance","Blast resistance",6,27586549,27586198,5.8,Bala,Azucena,RFLP,,,,,,,,RZ682,"disease severity",17,-0.47
+1.2,"Resistance or Tolerance","Blast resistance",1,31203835,31206299,5.9,Bala,Azucena,RFLP,,,,,,,,C1370,"Lesion area",13.2,-0.2
+10.2,"Resistance or Tolerance","Blast resistance",10,21624625,21629868,4,Bala,Azucena,RFLP,,,,,,,,C16,"dry weight per plant",7.8,0.024
+12.1,"Resistance or Tolerance","Blast resistance",10,3758658,3760625,4.8,Bala,Azucena,RFLP,,,,,,,,R1933,"number of lesions per leaf",16.1,-0.76
+4.2,"Resistance or Tolerance","Blast resistance",4,17889105,17888842,5.1,Bala,Azucena,RFLP,,,,,,,,RG449,"plant carbon  concentration",11.2,0.65
+12.1,"Resistance or Tolerance","Blast resistance",10,3758658,3760625,5.8,Bala,Azucena,RFLP,,,,,,,,R1933,"plant nitrogen concentration",13.9,0.145
+ÇëSÇa-9,"Resistance or Tolerance","Sheath blight resistance",9,23107112,23552932,3,Teqing,Lemont,SSR,,,,,RM205,RM245,,,"sheath blight resistance",11.8,0.7968
+D11,"Morphological trait",Dwarf,4,23865707,23870132,,d11,SL14(KasalathSLchr4),Others,AB158759,,,,,,,,"dwarf mutant",,
+qSD-3,"Physiological trait",Germination/dormancy,3,9880148,9880322,3.6,IR50/Tatsumimochi,Miyukimochi,SSR,,,,,,,,RM7,"seed dormancy(germination rate)",15,20.1
+qGL-3,"Morphological trait",Seed,3,16196565,25360678,6.4625,Asominori,IR29,RFLP,,,,,R19,C1677,,,"grain length",32.7625,0.2575
+qLWR-3,"Morphological trait",Seed,3,16196565,25360678,3.925,Asominori,IR31,RFLP,,,,,R19,C1677,,,"grain length-width ratio",20.6,0.1475
+qSS-2,"Physiological trait",Sterility,2,12245463,26758298,2.22,CPSLO17,W207-2,SSR,,,,,RM301,RM263,,,"spikelet fertility",6.3,6.3
+qDLA8,"Resistance or Tolerance","Blast resistance",8,4377457,4377597,,"Zhong 156","Gumei 2",SSR,,,,,,,,RM25,"percentage diseased leaf area against isolate Ca89 ",7.7,0.43
+qLN8,"Resistance or Tolerance","Blast resistance",8,4377457,4377597,,"Zhong 156","Gumei 2",SSR,,,,,,,,RM25,"lesion number against isolate Ca89 ",7.4,0.52
+qLS3,"Resistance or Tolerance","Blast resistance",3,10000519,10000636,,"Zhong 156","Gumei 2",SSR,,,,,,,,RM251,"lesion size against isolate Ca89 ",6.8,0.34
+qLS8,"Resistance or Tolerance","Blast resistance",8,4377457,4377597,,"Zhong 156","Gumei 2",SSR,,,,,,,,RM25,"lesion sizea gainst isolate Ca89 ",6.1,0.28
+qDLA2,"Resistance or Tolerance","Blast resistance",2,6945662,6945420,,"Zhong 156","Gumei 2",RFLP,,,,,,,,RZ599,"percentage diseased leaf area against isolate C923-39",10.7,0.85
+qLN1-1,"Resistance or Tolerance","Blast resistance",5,2760002,2760413,,"Zhong 156","Gumei 2",RFLP,,,,,,,,RG313,"lesion number against isolate C923-39",25.9,13.97
+qDLA3-1,"Resistance or Tolerance","Blast resistance",3,1498936,1499106,,"Zhong 156","Gumei 2",SSR,,,,,,,,RM22,"percentage diseased leaf area at blast nursery",28.6,3.16
+QHd10b,"Resistance or Tolerance","Drought tolerance",10,22769959,22770151,,Teqing,Lemont,SSR,,,,,,,,RM228,"heading date",,2.3
+QGy11a,"Resistance or Tolerance","Drought tolerance",11,2827521,2827670,,Teqing,Lemont,SSR,,,,,,,,RM332,"grain yield",,129.6
+QHd8,"Resistance or Tolerance","Drought tolerance",8,6762708,6762895,,Teqing,Lemont,SSR,,,,,,,,RM72,"heading date difference between irrigated and water-stress conditions",,1.7
+QGy11a,"Resistance or Tolerance","Drought tolerance",11,2827521,2827670,,Teqing,Lemont,SSR,,,,,,,,RM332,"grain yield difference between irrigated and water-stress conditions",,134.5
+qLTSPS2,"Physiological trait",Sterility,2,27533328,32389986,2.39,3037,2428,SSR,,,,,RM1385,RM240,,,"low-temperature-sensitive pollen sterility",15.6,0.021
+,"Resistance or Tolerance","Drought tolerance",8,6762708,12383755,4.5,"Zhenshan 97",IRAT109,SSR,,,,,RM72,RM331,,,"delay in flowering time by drought (DFT)",10.38,1.58
+,"Resistance or Tolerance","Drought tolerance",6,1360570,3168547,4.3,"Zhenshan 97",IRAT109,SSR,,,,,RM170,RM204,,,"leaf rolling score (LRS)",11.38,0.26
+,"Resistance or Tolerance","Drought tolerance",10,15737354,17165630,4.5,"Zhenshan 97",IRAT109,SSR,,,,,RM596,RM271,,,"drought respond index (DRI)",15.49,0.5
+,"Resistance or Tolerance","Drought tolerance",10,22769959,22957121,3.7,"Zhenshan 97",IRAT109,SSR,,,,,RM496,RM228,,,"relative yield (RY)",32.06,11.74
+,"Resistance or Tolerance","Drought tolerance",8,522421,2114959,2.7,"Zhenshan 97",IRAT109,SSR,,,,,RM407,RM38,,,"relative spikelet fertility (RSF)",15.45,9.91
+,"Resistance or Tolerance","Drought tolerance",1,20666582,25629404,4.8,"Zhenshan 97",IRAT109,SSR,,,,,RM129,RM5,,,"canopy temperature (CT)",14.14,0.26
+qSV-3-1,"Morphological trait",Shoot/Seedling,3,18350854,28859103,2.6,Lemont,Teqing,SSR,,,,,RM156,RM168,,,"dry weight",10.3,0.07
+qSV-3-2,"Physiological trait",Germination/dormancy,3,35783061,37199035,5.4,Lemont,Teqing,SSR,,,,,RM227,RM85,,,"germination rate",14.7,8.36
+,"Morphological trait",Shoot/Seedling,6,1764586,3416728,4.4,Lemont,Teqing,SSR,,,,,OSR19,RM225,,,"root length",7.2,2.22
+qSV-3-1,"Morphological trait",Shoot/Seedling,3,18350854,28859103,3.8,Lemont,Teqing,SSR,,,,,RM156,RM168,,,"shoot length",6.3,0.82
+qGY-2b,"Resistance or Tolerance","Drought tolerance",2,27557550,29160460,4.23,"Zhenshan 97B",IRAT109,SSR,,,,,RM526,RM525,,,"grain yield per plant",5.05,0.5
+qPN-4b,"Resistance or Tolerance","Drought tolerance",4,29644621,31356186,7.48,"Zhenshan 97B",IRAT109,SSR,,,,,RM317,RM255,,,"panicle number per hill",9.17,0.44
+qSN-4b,"Resistance or Tolerance","Drought tolerance",4,31356068,33083265,13.2,"Zhenshan 97B",IRAT109,SSR,,,,,RM255,RM349,,,"spikelet number per panicle",12.85,10.82
+qTGW-2a,"Resistance or Tolerance","Drought tolerance",2,27557550,29160460,9.02,"Zhenshan 97B",IRAT109,SSR,,,,,RM526,RM525,,,"""1,000-grain weight""",9.66,0.07
+,"Resistance or Tolerance","Blast resistance",1,22256683,22256222,22.5,Moroberekan," C039",RFLP,,,,,,,,RZ744,"lesion number in polycyclic  test",58.8,0.46
+,"Resistance or Tolerance","Blast resistance",4,32246485,32246967,13.7,Moroberekan," C039",RFLP,,,,,,,,RG214,"diseased leaf area (DLA) ",,49.8
+,"Resistance or Tolerance","Drought tolerance",7,1570817,2350360,5.2,Moroberekan," C039",RFLP,,,,,"RG528 ",RG128,,,"the lethal osmotic potential Å@",36,1.57
+,"Resistance or Tolerance","Drought tolerance",8,17528232,25684949,4.7,Moroberekan," C039",RFLP,,,,,"RG978 ","RZ66 ",,,"osmotic adjustment at 70 % RWC ",32,0.6
+qSPN-6,"Morphological trait",Panicle/flower,6,9282143,17933378,3,ZYQ8,"Jingxi 17",RFLP,,,,,C235,G294,,,"Number of spikelets per panicle",15.3,-43.3
+qDTH-7,"Physiological trait",Flowering,7,27391198,29608218,28,Hayamasari,"Italica Livorno",Mixture,,,,,S10832,RM1306,,,"day to heading",64.5,7.1
+qBFR11,"Resistance or Tolerance","Blast resistance",11,20100938,21478317,14.7,"Norin 12",Koshihikari,SSR,,,,,RM209,RM5349,,,"field resistance",39.2,1.14
+qHD6,"Physiological trait",Flowering,6,483009,1562787,4.26,Moritawase,Koshihikari,SSR,,,,,RM8120,RM1369,,,"Heading date",13.9,2.71
+qPC9,"Physiological trait","Eating quality",9,1119992,12373242,3.24,Moritawase,Koshihikari,SSR,,,,,RM4413,RM1896,,,"Protein content",11.4,0.17
+qAC9,"Physiological trait","Eating quality",9,1119992,15903077,3.52,Moritawase,Koshihikari,SSR,,,,,RM4413,RM5122,,,"Amylose content",11.6,0.37
+,"Physiological trait","Eating quality",2,23191143,32334580,14.91,Koshihikari,Akihikari,RFLP,,,,,C621,C370,,,"Amylose content",37.1,-1.99
+,"Morphological trait",Shoot/Seedling,3,16840989,16841409,6,Labelle,"Black Gora",RFLP,,,,,,,,RZ452,Shoot-length,15.5,
+,"Morphological trait",Shoot/Seedling,3,29580203,29580503,5.31,Labelle,"Black Gora",RFLP,,,,,,,,RZ448,Coleoptile-length,25.1,
+,"Morphological trait",Shoot/Seedling,3,23850041,23850248,4.73,Labelle,"Black Gora",RFLP,,,,,,,,RZ403,Mesocotyl-length,17.5,
+"Pi-2(t) ","Resistance or Tolerance","Blast resistance",6,9536259,11765132,,Co39,C101A51,RFLP,,RZ612,RG64,,,,,,"infection type (R/S)",,
+"Pi-4(t) ","Resistance or Tolerance","Blast resistance",12,1548039,5758733,,Co39,C101PKT,RFLP,,RG241,RZ397,,,,,,"infection type (R/S)",,
+,"Physiological trait","Source activity",6,4896312,4899565,,Palawan,IR42,RFLP,,,,,,,,"RZ588 ","atom  % 15N excess",,
+Sub-1(t),"Resistance or Tolerance","Submergency tolerance",9,4357987,7791369,,IR40931-26-3-3-5,PI543851,RFLP,,,,,C1232,RZ698,,,"submergence tolerance",69,
+np4,"Morphological trait",Panicle/flower,4,32246485,34252531,9.68,"Waiyin 2",CB,RFLP,,,,,RG143,RG214,,,"Number of panicles per plant",26.1,2.92
+ng1,"Morphological trait",Panicle/flower,1,34264553,36658883,4.41,"Tesanai 2",CB,RFLP,,,,,RG374,RG394,,,"Number of grains per panicle",17.2,1.39
+sf1,"Physiological trait","Source activity",1,34264553,36658883,3.86,"Tesanai 2",CB,RFLP,,,,,RG374,RG394,,,"Spikelet fertility",12.2,5.1
+tgwt4,"Morphological trait",Seed,4,32246485,34252531,2.74,"Tesanai 2",CB,RFLP,,,,,RG143,RG214,,,"1000-grain weight",8.5,1.39
+nfb8,"Morphological trait",Panicle/flower,8,5421262,7568613,6.49,"Waiyin 2",CB,RFLP,,,,,RG108,RZ562,,,"Number of first branches per panicle",20.9,1.91
+gwt4a,"Morphological trait",Seed,4,8667374,20281368,4.67,"Waiyin 2",CB,RFLP,,,,,RG788,RG190,,,"Grain weight per plant",22.3,8.85
+tns6,"Morphological trait",Panicle/flower,6,6023974,9537572,5.01,"Tesanai 2",CB,RFLP,,,,,RG138,RG64,,,"Total number of spikelets  per panicle",13.1,38.04
+sd6,"Morphological trait",Panicle/flower,6,6023974,9537572,5.15,"Tesanai 2",CB,RFLP,,,,,RG138,RG64,,,"Spikelet density",13.3,14.62
+hd8,"Physiological trait",Flowering,8,5421262,17528755,7.2,"Tesanai 2",CB,RFLP,,,,,RZ562,RG978,,,"heading date",23.1,6.25
+,"Morphological trait",Shoot/Seedling,6,28605507,28610782,2.59,Surjumkhi,"Dao Ren Qiao",RFLP,,,,,,,,G1091,"mesocotyl length",11.7,
+,"Morphological trait",Seed,5,18944261,21678878,,Tesanai,CB,RFLP,,,,,RG13,RG573,,,"1000-grain  weight (TGW)",,0.72
+,"Physiological trait","Source activity",8,25681306,27825769,,Tesanai,CB,RFLP,,,,,RZ66,RG598,,,"filled grain weight per plant (GYD)",,7.96
+,"Physiological trait","Source activity",1,34067651,36658883,,Tesanai,CB,RFLP,,,,,RG374,RG690,,,"number of filled grain per panicle (NFG)",,1.39
+,"Morphological trait",Panicle/flower,4,32246485,35283358,,Tesanai,CB,RFLP,,,,,RG620,RG214,,,"number of productive panicles per plant (PAN)",,2.92
+,"Morphological trait",Panicle/flower,4,11283287,20281368,,Tesanai,CB,RFLP,,,,,RG788,RZ69,,,"panicle length (PAL)",,1.17
+APAGE1,"Physiological trait","Eating quality",5,22309016,25730022,,"Indica cultivar","O. rufipogon",RFLP,,C43,RG480,,,,,,"Salt-soluble storage proteins",,
+Hd4,"Physiological trait",Flowering,7,8358800,11394315,,Nipponbare,"NIL (Hd4)",RFLP,,R46,C39,R610,,,,,"days to heading",,
+Hd5,"Physiological trait",Flowering,8,4444681,4446617,,Nipponbare,"NIL (Hd5)",RFLP,,C166,R902,R2976,,,,,"days to heading",,
+qAC-6,"Physiological trait","Eating quality",6,642688,2687409,43.5,Nipponbare,Kasalath,RFLP,,,,,R2869,R1962,,,"amylose content",80.7,-4.4
+clr9,"Resistance or Tolerance","Cold tolerance",9,2658483,16317550,3.3,"Milyang 23","Hapcheonaengmi 3",SSR,,,,,RM285,RM434,,,"ratio of culm length reduction",11.5,-2.1
+fer11,"Resistance or Tolerance","Cold tolerance",11,4830321,8107623,2.7,"Milyang 23","Hapcheonaengmi 3",SSR,,,,,RM3701,RM552,,,"spikelet fertility",12.9,-9.7
+dc11,"Resistance or Tolerance","Cold tolerance",11,4830321,6171879,2.9,"Milyang 23","Hapcheonaengmi 3",SSR,,,,,RM552,RM3137,,,discoloration,17.8,1.1
+,"Resistance or Tolerance","Insect resistance",2,31163247,31166188,6.6,Nipponbare,URK72,RFLP,,,,,,,,C601,"rice stripe resistance",22.5,16.2
+qSB-3,"Resistance or Tolerance","Sheath blight resistance",3,29542638,29542992,2.8,Hinohikari,WSS2,SSR,,,,,,,,RM3856,"sheath blight resistance",19.4,
+qPH1-4-1,"Morphological trait",Dwarf,4,22859833,27441315,9.05,"Zhenshan 97","Minghui 63",Mixture,,,,,RM241,C2807,,,"plant height at 35DAT",13.94,-1.74
+qPH2-6-1,"Morphological trait",Dwarf,6,6927624,20691040,22.51,"Zhenshan 97","Minghui 63",RFLP,,,,,RG424,RZ667,,,"plant height at maturity",38.4,6.9
+qTN2-6-1,"Morphological trait",Culm/leaf,6,6927624,20691040,21.93,"Zhenshan 97","Minghui 63",RFLP,,,,,RG424,RZ667,,,"tiller number at maturity",32.08,-0.96
+qHD-6-1,"Physiological trait",Flowering,6,6927624,20691040,3,"Zhenshan 97","Minghui 63",RFLP,,,,,RG424,RZ667,,,"heading date",7.3,
+qRCT6b,"Resistance or Tolerance","Cold tolerance",6,4932906,5425602,5.8,Kunmingxiaobaigu,Towada,Mixture,,,,,R1954,RM253,,,"cold tolerance at the reproductive stage",10.1,10.17
+qWIJ-2,"Morphological trait",Seed,2,2069848,5347589,,IR36,Nekken2,SSR,,,,,RM233A,RM8,,,"grain width",11,
+qTHJ-5,"Morphological trait",Seed,5,7818863,10787755,,IR36,Nekken2,SSR,,,,,RM289,RM249,,,"grain thickness",14.7,
+qLEJ-1,"Morphological trait",Shoot/Seedling,1,33856510,34810544,,IR36,Nekken2,SSR,,,,,RM212,RM297,,,"first leaf length at seedling",10.2,
+qHEJ-3,"Morphological trait",Shoot/Seedling,3,1498936,3845280,,IR36,Nekken2,SSR,,,,,RM175,RM22,,,"seedling hight",10.1,
+,"Resistance or Tolerance","Submergency tolerance",12,24616244,26389832,18.2,"Habiganj Aman VIII","Patnai 23",SSR,,,,,RM5479,RM6953,,,"lowest elongated internode",41,-0.87
+Qbph10,"Resistance or Tolerance","Insect resistance",10,21593531,22957121,2.74,"Rathu Heenati",2428,SSR,,,,,RM484,RM496,,,,10.1,-0.81
+d4,"Morphological trait",Dwarf,6,2853061,4303488,,H125,Kasalath,SSR,RM587,RM4608,RM3805,,,,,,,,
+hbd1(t),"Physiological trait",Lethality,2,2450945,2451056,,Koshihikari,"Nona Bokra",Mixture,,K/Nindel-1,RM12463,RM12453,,,,,"hybrid breakdown ",,
+,"Physiological trait","Source activity",6,29477181,29477319,3.89,"Milyang 23",Akihikari,SSR,,,,,,,,RM340,"Carbon isotope discrimination É¢",8.7,-0.17
+QPl5,"Morphological trait",Panicle/flower,5,18944261,29429411,7.7,Lemont,Teqing,RFLP,,,,,RG13,RG346,,,"Spikelet density",7.7,
+hbd3,"Physiological trait",Lethality,11,15492181,19497296,,Koshihikari,Habataki,Mixture,,S790A,RM1355,,,,,,"the number of tillers",,
+qCTB8,"Resistance or Tolerance","Cold tolerance",8,2954625,3045863,,Hokkai-PL9,Hokkai287,SSR,"""P0443G08,OJ1349_D05""",RM5647,PLA61,,,,,,"mean seed fertility of F7 lines",26.6,11.4
+Pikm,"Resistance or Tolerance","Blast resistance",11,29929121,30047077,,Tsuyuake,"""AS20-1, M142, Kasalath""",SSR,"""OSJNBa0047M04, OSJNBa0036K13""",,,,,,,,"Blast resistance",,
+qCTs-1-c,"Resistance or Tolerance","Cold tolerance",1,38490966,39646396,8.03,"Zhenshan 97B",AAV002863,SSR,,,,,RM315,RM472,,,"cold tolerance at seedling stage (CTS)",8.81,5.86
+Qbph6,"Resistance or Tolerance","Insect resistance",6,2831443,4844376,18.301,"Col.5 T",2428,SSR,,,,,RM510," RM314",,,resistance-scoring,46.2,-2.547
+"qTN-9-2 ","Morphological trait",Culm/leaf,9,22021233,23027968,,"Zhenshan 97","Minghui 63",Mixture,,,,,RM215,"RZ404 ",,,"Tiller number",7.3,0.92
+"qPH-11-1 ","Morphological trait",Dwarf,11,20100938,20702000,,"Zhenshan 97","Minghui 63",SSR,,,,,RM229,"RM209 ",,,"Plant height",5.3,0.64
+Gw2,"Morphological trait",Seed,2,8041708,8197754,,WY3,Fengaizhan-1,Mixture,AP005004,W024,W004,,,,,,"Grain weight",,
+Yd3-13,"Morphological trait",Seed,3,23850041,28999468,,IR64,Azucena,RFLP,,,,,RZ403,CDO337,,,Yield,,-0.88
+hi7b,"Morphological trait",Seed,7,30000996,30092568,6.88,Dasanbyeo,TR22183,SSR,,,,,RM420,RM248,,,"harvest index",23.1,-3.9
+gy9,"Morphological trait",Seed,9,19464779,22021406,4.1,Dasanbyeo,TR22183,SSR,,,,,RM242,RM215,,,"grain yield",12.9,37.1
+Gc,Others,Others,1,84323,1058644,,"Chongqing 2","Zhenshan 97B",SSR,,RM462,RM6340,RM6464,,,,,"chlorophyll content",,
+tms5,"Physiological trait",Sterility,2,6035616,6762680,,Y58S,Guanghui122,SSR,,RM5862,RM5897,,,,,,"thermo-sensitive genic male sterile",,
+Xa3,"Resistance or Tolerance","Bacterial blight resistance",11,29841073,30773636,,IRBB3,IR24,RFLP,,R1506,S10559,,,,,,"bacterial blight resistance",,
+FON3,"Morphological trait",Panicle/flower,11,24948460,28848614,,9311,"fon3 mutant from Guguanghuang",SSR,,,,,RM4601,RM1233,,,"floral organ number",,
+Xa2,"Resistance or Tolerance","Bacterial blight resistance",4,29644621,33083265,,Zhenzhuai,IRBB2,SSR,,,,,RM317,RM349,,,"bacterial blight resistance",,
+q2LSL3,"Morphological trait",Shoot/Seedling,3,37198953,37199035,5.2,A58,"W107 (o. rufipogon)",SSR,,,,,,,RM85,,"leaf sheath length st seedling stage",26,
+qSPR4,"Morphological trait",Panicle/flower,4,34553977,34561100,3.9,A58,"W107 (o. rufipogon)",RFLP,,,,,,,R1427,,"spreading of panicle at maturity stage",21.2,
+qSH1,"Morphological trait",Panicle/flower,1,38378834,38379204,10.9,A58,"W630 (o. rufipogon)",SSR,,,,,,,RM8278,,"shattring habit at maturity stage",36.2,
+qSW5,"Morphological trait",Seed,5,10894478,10897829,3.2,A58,"W107 (o. rufipogon)",RFLP,,,,,,,R413,,"seed width at seed traits",19.2,
+qAHL6,"Morphological trait",Panicle/flower,6,6230045,6230185,4.5,A58,"W107 (o. rufipogon)",SSR,,,,,,,RM276,,"apiculus hair length at seed traits",21.6,
+qLT12,"Resistance or Tolerance","Cold tolerance",12,3185432,3185629,6.8,A58,"W107 (o. rufipogon)",SSR,,,,,,,RM247,,"low-temperature tolerance",27,
+qTRA7,"Resistance or Tolerance","Other stress resistance",7,2908317,2908485,4.8,A58,"W107 (o. rufipogon)",SSR,,,,,,,RM481,,"tolerance to disturbance trampling tolerance",26.6,
+qTA,"Morphological trait",Culm/leaf,7,2908317,2908485,15,A58,"W630 (o. rufipogon)",SSR,,,,,,,RM481,,"tiller angle at vegetative stage ",55.2,
+qTN,"Morphological trait",Culm/leaf,7,2908317,2908485,19.1,A58,"W630 (o. rufipogon)",SSR,,,,,,,RM481,,"tiller number at vegetative stage ",60.5,
+qLSL,"Morphological trait",Culm/leaf,7,2908317,2908485,17.1,A58,"W630 (o. rufipogon)",SSR,,,,,,,RM481,,"leaf sheath length at vegetative stage ",61,
+qLA,"Morphological trait",Culm/leaf,7,2908317,2908485,21.8,A58,"W630 (o. rufipogon)",SSR,,,,,,,RM481,,"leaf angle length at vegetative stage ",75.1,
+qCL,"Morphological trait",Dwarf,7,2908317,2908485,8.3,A58,"W630 (o. rufipogon)",SSR,,,,,,,RM481,,"culm length at maturity stage",30.3,
+qPN-1,"Morphological trait",Culm/leaf,7,2908317,2908485,7.9,A58,"W630 (o. rufipogon)",SSR,,,,,,,RM481,,"panicle number at maturity stage",31.9,
+qHD-1,"Physiological trait",Flowering,7,11391449,11394315,11.2,A58,"W107 (o. rufipogon)",RFLP,,,,,,,C39,,"days to heading",38,
+qSDS-7-2,"Physiological trait",Germination/dormancy,7,19354374,26133946,,EM93-1,SS18-2,SSR,,,,,RM320,RM234,,,"Seed ÇÑormancy",9.3,0.08
+qLTG-7,"Resistance or Tolerance","Cold tolerance",7,17530626,22912990,3.58,Kinmaze,DV85,RFLP,,,,,R1440,R1357,,," low temperature germinability",22.9,0.17
+,"Physiological trait",Germination/dormancy,3,36693668,37199035,2.66,Lemont,Teqing,SSR,,,,,RM148,RM85,,,"germination rate(7days after incubation)",5.2,4.47
+,"Physiological trait",Germination/dormancy,2,26758064,28502793,3.52,Lemont,Teqing,SSR,,,,,RM263,RM221,,,"germination rate(9days after incubation)",5.6,4.34
+,"Morphological trait",Shoot/Seedling,2,33667096,34831889,4,Lemont,Teqing,Mixture,,,,,RM250,RG256,,,"shoot length",5.9,1.55
+,"Morphological trait",Seed,7,27297755,30001266,11.1,"Zhenshan 97","Wuyujing 2",SSR,,,,,RM118,RM248,,,"the grain yield per plant (GY) ",6.6,-3.6
+,"Morphological trait",Culm/leaf,6,7592048,8751554,10.3,"Zhenshan 97","Wuyujing 2",SSR,,,,,RM121,RM136,,,"the effective tiller percentage per plant(TPP) ",5.3,4.3
+,"Morphological trait",Panicle/flower,6,6230045,7592308,24.8,"Zhenshan 97","Wuyujing 2",SSR,,,,,RM276,RM121,,,"the spikelet number of a panicle (SP)",15.6,16.7
+,"Morphological trait",Panicle/flower,6,7592048,8751554,13.1,"Zhenshan 97","Wuyujing 2",SSR,,,,,RM121,RM136,,,"the number of grains per panicle (GP) ",10.3,11.1
+,"Morphological trait",Panicle/flower,9,15359476,18374564,36.8,"Zhenshan 97","Wuyujing 2",SSR,,,,,RM257,RM566,,,"the panicle length (PL) ",20.8,2
+,"Physiological trait","Source activity",6,6230045,7592308,13.3,"Zhenshan 97","Wuyujing 2",SSR,,,,,RM276,RM121,,,"the grain-setting density(SDEN) ",9.2,0.6
+,"Resistance or Tolerance","Lodging resistance",6,6822037,8066362,3.98,Nipponbare,Kasalath,RFLP,,,,,C1478,R2171,,,"pushing resistance of thelower part",0.174,
+,"Resistance or Tolerance","Lodging resistance",1,4541296,7481804,4.48,Nipponbare,Kasalath,RFLP,,,,,R1944,C955,,,"Stem diameter",0.19,
+Rf1,"Physiological trait",Sterility,10,19343755,19470171,,"""MS-Koshihikari,FR-Koshihikari""",Koshihikari,CAPS,AC068923,M6227Bsl1,M1239MboI,,,,,,"Restoration of the pollen fertility",,
+,"Physiological trait",Flowering,6,9536259,9537572,,"Puang Rai 2",IR26760-27-1-3-2-1,RFLP,,,,,,,,RG64,,,
+xa5,"Resistance or Tolerance","Bacterial blight resistance",5,336573,336728,,"IRBB- 5",IR24,,,,,,,,,RG207,,,
+Hg,"Morphological trait",Panicle/flower,3,1429107,1429520,,,,RFLP,,,,,,,,RG348,,,
+Cl,"Physiological trait",Sterility,6,25332713,25333212,,,,RFLP,,,,,,,,RG172,"Clustered spikelets ",,
+Dn-1,"Morphological trait",Panicle/flower,9,9783058,9783612,,,,RFLP,,,,,,,,RG553,"Dense panicle",,
+d-27,"Morphological trait",Dwarf,11,4060115,4066682,,,,RFLP,,,,,,,,RZ141,dwarf,,
+QGt6b,"Physiological trait","Eating quality",6,4844259,5425602,9.96,Yuefu,IRAT109,Mixture,,,,,RM253,RM314,,,"Alkali-spreading score",,0.954
+qCSH2,"Resistance or Tolerance","Cold tolerance",2,21658702,26758298,5.02,"Milyang 23","Jileng 1",SSR,,,,,RM262,RM263,,,"Seedling height",16.6,1.4561
+qSDW2,"Resistance or Tolerance","Cold tolerance",2,26758064,30472718,3.9,"Milyang 27","Jileng 1",SSR,,,,,RM263,RM6,,,"Seedling dry weight",8.6,0.1272
+qHd-7,"Physiological trait",Flowering,7,5512628,19619933,8.4,USSR5,N22,SSR,,,,,RM125,RM432,,,"heading date",15.14,5.2
+qLVG6,"Resistance or Tolerance","Cold tolerance",6,28130152,29477319,2.4,"Milyang 24","Jileng 1",SSR,,,,,RM340,RM30,,,"Vigor of germination (7days)Å@",6,1.5605
+qLVG3,"Resistance or Tolerance","Cold tolerance",3,10000519,12459455,4.26,"Milyang 30","Jileng 1",SSR,,,,,RM251,RM282,,,"Vigor of germination (11 days)",11.8,4.3897
+qLVG7-2,"Resistance or Tolerance","Cold tolerance",7,22532352,27297913,3.45,"Milyang 23","Jileng 1",SSR,,,,,RM336,RM118,,,"Vigor of germination (14 days)",11.2,8.359
+qCIVG7-2,"Resistance or Tolerance","Cold tolerance",7,22532352,27297913,3.49,"Milyang 25","Jileng 1",SSR,,,,,RM336,RM118,,,"Cold response index for vigor of germination",12.9,9.3532
+qtl12.1,"Resistance or Tolerance","Drought tolerance",12,14257182,17546401,34,"Way Rarem",Vandana,SSR,,,,,RM28048,RM511,,,"Grain yield",33,172
+qtl12.1,"Resistance or Tolerance","Drought tolerance",12,14257182,17758636,23,"Way Rarem",Vandana,SSR,,,,,RM28048,RM28166,,,"Biomass yield",18,634
+qtl12.1,"Resistance or Tolerance","Drought tolerance",12,9895474,17758636,22,"Way Rarem",Vandana,SSR,,,,,RM7195,RM28166,,,"Harvest index",26,0.03
+qtl3.1,"Resistance or Tolerance","Drought tolerance",3,390526,4976444,34,"Way Rarem",Vandana,SSR,,,,,RM7332,RM545,,,"Days to 50% flowering",64,11.2
+qtl12.1,"Resistance or Tolerance","Drought tolerance",12,14257182,17758636,9.8,"Way Rarem",Vandana,SSR,,,,,RM28048,RM28166,,,"Plant heigh at maturity",5,1.4
+qtl12.1,"Resistance or Tolerance","Drought tolerance",12,9895474,17758636,12.9,"Way Rarem",Vandana,SSR,,,,,RM7195,RM28166,,,"Panicle number m-2",9,26
+qtl12.1,"Resistance or Tolerance","Drought tolerance",12,9895474,17758636,19,"Way Rarem",Vandana,SSR,,,,,RM7195,RM28166,,,"Flowering delay",16,-2.4
+qtl12.1,"Resistance or Tolerance","Drought tolerance",12,14257182,17546401,39,"Way Rarem",Vandana,SSR,,,,,RM28048,RM511,,,"Droughtresponse index",37,0.89
+,"Morphological trait",Root,9,20442345,21379666,,Otomemochi,Yumenohatamochi,SSR,,,,,RM160,RM3808,,,"No. of new roots",,
+,"Resistance or Tolerance","Other stress resistance",3,11360711,23162767,4.6,Hana-echizen,Niigatawase,SSR,,,,,RM4512,RM8208,,,"White-back kernels",25.9,-0.73
+,"Resistance or Tolerance","Other stress resistance",3,11360711,23162767,4.98,Hana-echizen,Niigatawase,SSR,,,,,RM4512,RM8208,,,"one-thousand kernel weight",12.3,-0.17
+Ovc,"Resistance or Tolerance","Insect resistance",6,4932906,4937483,,IR24,Asominori,RFLP,,S1954,L688,R1954,,,,,"ovicidal response to whitebacked planthopper",,
+qOVA-4,"Resistance or Tolerance","Insect resistance",4,608084,4435752,21.2,IR24,Asominori,RFLP,,,,,R1854,C946,,,"ovicidal response to whitebacked planthopper",61,-5.9
+qHUS-1-1,Others,Others,1,5558578,6155115,6.36,"Zhenshan 97B","Milyang 46",SSR,,,,,RM151,RM3746,,,"hull siliconcontent",10.3,0.537
+,"Morphological trait",Seed,1,36697294,42364623,6.2,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"grain shape",23.3,0.4013
+qGC6-2,"Physiological trait","Eating quality",6,441692,537430,6.2,Nanjing11,Balilla,Mixture,,,,,RM508,RM435,,,"Gel consistency",19.7,-8.4
+qGT5-1,"Physiological trait","Eating quality",5,26157218,27457701,2.6,Nanjing11,Balilla,Mixture,,,,,RM538,RM480,,,"Gelatinization temperature",10.6,0.5
+,"Physiological trait",Flowering,3,32239082,32365157,21.3,"Nona Bokra",Koshihikari,RFLP,,,,,R2404,R2856,,,Days-to-heading,33.3,6.4
+Bph3,"Resistance or Tolerance","Insect resistance",6,1476793,1477087,61.6,"Rathu Heenati",KDML105,SSR,,,,,,,,RM586,"brown planthopperresistance",57.4,-2.665
+"apd9 ",Others,Others,9,4326497,11367960,5.65,ZYQ8,"Jingxi 17",RFLP,,,,,"CDO590 ","G103 ",,,"Albino plantlet differentiation frequency",27.9,-18.9
+"gpy1 ",Others,Others,1,31822907,33817439,2.42,ZYQ8,"Jingxi 17",RFLP,,,,,"RG541 ","RG101 ",,,"Green plantlet yield frequency",10.4,-0.38
+"qDTH8 ","Physiological trait",Flowering,8,360155,4446617,22.65,98SQ1496,Koshihikari,Mixture,,,,,R1943,"R2976 ",,,Days-to-heading,22.92,9.25
+"qPL8 ","Morphological trait",Panicle/flower,8,360155,4446617,5.79,98SQ1496,Koshihikari,Mixture,,,,,R1943,"R2976 ",,,"Panicle length ",16.89,1.09
+"qGL9 ","Morphological trait",Seed,9,18374393,19465043,3.99,98SQ1496,Koshihikari,Mixture,,,,,RM257,RM242,,,"Grain length ",11.09,0.13
+"qGW3 ","Morphological trait",Seed,3,7935478,9901136,4.8,98SQ1496,Koshihikari,Mixture,,,,,C706,"C12534S ",,,"Grain width ",5.69,0.04
+,"Physiological trait","Eating quality",6,6230045,6976691,73,"Zhenshan 97","Delong 208",Mixture,,,,,RM276,RM549,,,"alkali spreading value",87.8,-1.78
+,"Physiological trait","Eating quality",6,6230045,6976691,51.7,"Zhenshan 97","Delong 208",Mixture,,,,,RM276,"RM549 ",,,"Pasting temperature (61-02)",85.2,3.63
+,"Physiological trait","Eating quality",6,6230045,6976691,49.6,"Zhenshan 97","Delong 208",Mixture,,,,,RM276,"RM549 ",,,"""Pasting time, time of initial viscosity increase""",84,0.49
+Rf3,"Physiological trait",Sterility,1,4885916,6676229,21.36,IR58025A,IR34686R,SSR,,RM283,RM490,,,,,,"pollen sterility",49,
+Rf,"Physiological trait",Sterility,1,5788225,6220168,14.12,IR75596A,IR68077-82-22-2-3R,SSR,,RM7466,RM1360,,,,,,"pollen sterility",52,
+Rf,"Physiological trait",Sterility,10,18542704,19345496,19.78,IR75601A,IR68444R,SSR,,RM258,RM6100,,,,,,"pollen sterility",38,
+Rf,"Physiological trait",Sterility,1,5941444,8139063,23.14,IR75596A,IR68077-82-22-2-3R,SSR,,RM272,RM576,,,,,,"pollen sterility",36,
+Hbd2,"Physiological trait",Lethality,2,24880297,27129441,,"SL-407 (Sasanishiki/Habataki//Sasanishiki)",Sasanishiki,SSR,,RM3515,RM3730,RM6617,,,,,"No. of tiller",,
+Hbd3,"Physiological trait",Lethality,11,16351679,19497296,,"SL-407 (Sasanishiki/Habataki//Sasanishiki)",Habataki,SSR,,RM5824,RM1355,RM5824,,,,,"No. of tiller",,
+S31,"Physiological trait",Sterility,5,1243631,1376781,,IR24,Asominori,,P0008A07,,,,,,,,"seed sterility",,
+"aro8-1 ","Physiological trait","Eating quality",8,20740779,24569536,11.54,"Pusa 1121","Pusa 1342",SSR,,,,,RM223,"RM80 ",,,"Aroma ",18.9,4.21
+"grl1-1 ","Morphological trait",Seed,1,40650780,41923950,5.75,"Pusa 1121","Pusa 1342",SSR,,,,,RM431,"RM104 ",,,"Grain length ",10.1,1.92
+"grb7-2 ","Morphological trait",Seed,7,22532352,25188107,9.2,"Pusa 1121","Pusa 1342",SSR,,,,,RM505,"RM336 ",,,"Grain breadth ",18.9,-0.79
+"amy6-1 ","Physiological trait","Eating quality",6,4234080,28130383,21.8,"Pusa 1121","Pusa 1342",SSR,,,,,RM3,"RM217 ",,,"Amylose content ",39.6,-2.76
+"elr11-1 ","Physiological trait","Eating quality",11,2391119,20101064,2.8,"Pusa 1121","Pusa 1342",SSR,,,,,RM1812,"RM209 ",,,"cooked kernel elongation ratio",6.8,0.45
+"asv6-1 ","Physiological trait","Eating quality",6,4234080,28130383,2.63,"Pusa 1121","Pusa 1342",SSR,,,,,RM3,"RM217 ",,,"Alkali spreading value",6.9,2.54
+Se8,"Physiological trait",Flowering,8,4377457,4377597,,EM93-1,SS18-2,SSR,,,,,RM7015,RM547,RM25,,Days-to-heading,29,54.2
+"qAC-6 ","Physiological trait","Eating quality",6,1764586,2831635,35.5,"Wuyujing 2","Zhenshan 97B",SSR,,,,,RM190,"RM510 ",,,"Amylose content",61.8,-9.4
+"qGC-6 ","Physiological trait","Eating quality",6,1764586,2831635,33.7,"Wuyujing 2","Zhenshan 97B",SSR,,,,,RM190,"RM510 ",,,"Gel consistency",59.7,24.4
+"qGT-6 ","Physiological trait","Eating quality",6,6230045,7592308,34,"Wuyujing 2","Zhenshan 97B",SSR,,,,,RM276,"RM121 ",,,"Gelatinization temperature",80.3,3.52
+"qWA-6 ","Physiological trait","Eating quality",6,1360570,1764729,17.9,"Wuyujing 2","Zhenshan 97B",SSR,,,,,RM170,"RM190 ",,,"Water absorption",45.9,-56.13
+"qCRE-6 ","Physiological trait","Eating quality",6,1360570,1764729,4.1,"Wuyujing 2","Zhenshan 97B",SSR,,,,,RM170,"RM190 ",,,"cooked rice elongation",11.7,-13.12
+"qVE-6 ","Physiological trait","Eating quality",6,1360570,1764729,8.1,"Wuyujing 2","Zhenshan 97B",SSR,,,,,RM170,"RM190 ",,,"volume expansion",30,-61.54
+,"Resistance or Tolerance","Drought tolerance",9,20078749,21314308,9.39,IR64,Azucena,RFLP,,,,,RZ12,RG667,,,"leaf rolling",18,0.27
+,"Resistance or Tolerance","Drought tolerance",4,34247154,35283358,4.16,IR64,Azucena,RFLP,,,,,RG143,RG620,,,"leaf drying",8.2,-0.16
+,"Resistance or Tolerance","Drought tolerance",1,36697294,42364623,4.09,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"relative water content",14.9,1.63
+Symptoms,"Resistance or Tolerance","Other disease resistance",9,19168716,21314308,2.3,IR64,Azucena,RFLP,,,,,RZ228,RG667,,,"yellow mottle virus (RYMV)",12,
+,"Resistance or Tolerance","Drought tolerance",3,35998421,36303203,2.3,IR58821-23-B-1-2-1,IR52561-UBN-1-1-2,Mixture,,,,,R1925,RG1356,,,"Total root number(Fall)",9,-12.8
+,"Resistance or Tolerance","Drought tolerance",1,23281883,24776333,2.3,IR58821-23-B-1-2-1,IR52561-UBN-1-1-2,Mixture,,,,,BCD134,RZ776,,,"Penetrated root number(Sum.)",9.1,7.9
+,"Resistance or Tolerance","Drought tolerance",3,27894595,29580503,2,IR58821-23-B-1-2-1,IR52561-UBN-1-1-2,Mixture,,,,,C746,RZ448,,,"Penetrated root number(Fall)",7.1,-4.7
+,"Resistance or Tolerance","Drought tolerance",10,13330314,19551633,2.06,IR58821-23-B-1-2-1,IR52561-UBN-1-1-2,Mixture,,,,,RZ892,BCD386,,,"Root penetration index(Sum.)",9.6,-0.05
+,"Resistance or Tolerance","Drought tolerance",7,29072683,30127996,2.22,IR58821-23-B-1-2-1,IR52561-UBN-1-1-2,Mixture,,,,,RZ978,RG351,,,"Penetrated root thickness(Fall)",7.1,-0.06
+"Area Under Symptoms Progression Curve (AUSPC)","Resistance or Tolerance","Other disease resistance",2,12493299,12493559,17.63,IR64,Azucena,SSR,,,,,,,RM550,,"yellow mottle virus (RYMV)",12,
+"Area Under Symptoms Progression Curve (AUSPC)","Resistance or Tolerance","Other disease resistance",12,8828352,8828505,18.25,IR64,Azucena,SSR,,MV4,AB28,RM101,,,,,"yellow mottle virus (RYMV)",11.8,
+fgr,"Physiological trait","Eating quality",8,20464618,20591286,,"Kyeema (Pelde//Della/ Kulu)","Gulfmont (Lebonnet//CI9881/PI 331581) ",SSR,AP004463,RM515,SSRJ07,,,,,,"flavour or fragrance of basmati and jasmine rice",,
+qSHT-4,"Morphological trait",Panicle/flower,4,31863376,32246967,,Pei-Khu,"W1944(O. rufipogon Griff.)",Mixture,,,,,CDO244,RG214,,,shattering,14.8,
+,"Resistance or Tolerance","Drought tolerance",12,5758920,5758733,,Co39,Moroberekan,RFLP,,,,,,,,RZ397,"Root thickness",15,74
+,"Resistance or Tolerance","Drought tolerance",12,5758920,5758733,,Co39,Moroberekan,RFLP,,,,,,,,RZ397,"Root/shoot ratio",15,37
+,"Resistance or Tolerance","Drought tolerance",12,27748377,27748876,,Co39,Moroberekan,RFLP,,,,,,,,RG181,"Deep root weight",14,29
+Xa7,"Resistance or Tolerance","Bacterial blight resistance",6,4946071,5029146,,IRBB7,IR24,SSR,AP006056,GDSSR02,RM20593,"""RM20589,RM20590,RM20591""",,,,,"Bacterial blight",,
+ppp1.1,"Morphological trait",Panicle/flower,1,5094276,7970819,5.24,"Milyang 23",Gihobyeo,Mixture,,,,,RG140,RM243,,,"panicle per plant",16.97,
+spp1.2,"Morphological trait",Panicle/flower,1,5094276,7970819,7.47,"Milyang 23",Gihobyeo,Mixture,,,,,RG140,RM243,,,"spikelets per panicle",15.87,
+tgw6.1,"Physiological trait","Source activity",6,10015514,28130383,8.68,"Milyang 23",Gihobyeo,Mixture,,,,,RG264,RM3,,,"1000 grain weight",18.08,
+prg1.2,"Physiological trait","Source activity",1,5094276,7970819,8.58,"Milyang 23",Gihobyeo,Mixture,,,,,RG140,RM243,,,"percent ripened grain",18.48,
+yld1.1,"Physiological trait","Source activity",1,25629211,30941150,3.66,"Milyang 23",Gihobyeo,Mixture,,,,,RM5,RG462,,,yield,8.41,
+dth1.1,"Physiological trait",Flowering,1,33817920,40288357,3.42,"Milyang 23",Gihobyeo,Mixture,,,,,RG541,RG109,,,"days to heading",7.22,
+cl8.1,"Morphological trait",Dwarf,8,2034368,3543208,4.49,"Milyang 23",Gihobyeo,Mixture,,,,,RG20,RG885,,,"culm length",4.58,
+qPHw6-2,"Resistance or Tolerance","Other soil stress tolerance",6,6927624,20691040,7.23,"Zhenshan 97","Minghui 63",Mixture,,,,,RG424,RZ667,,,"plant height (Well watered)",11.43,0.49
+qPHd1,"Resistance or Tolerance","Other soil stress tolerance",1,43765087,44751487,11.98,"Zhenshan 97","Minghui 63",Mixture,,,,,C112,RG236,,,"plant height (Water deficit)",18.89,-0.39
+qSFWw1-1,"Resistance or Tolerance","Other soil stress tolerance",1,43765087,44751487,13.62,"Zhenshan 97","Minghui 63",Mixture,,,,,C112,RG236,,,"shoot fresh weight (Well watered)",18.76,-3.63
+qSFWd6,"Resistance or Tolerance","Other soil stress tolerance",6,6927624,20691040,7.3,"Zhenshan 97","Minghui 63",Mixture,,,,,RG424,RZ667,,,"shoot fresh weight (Water deficit)",15.75,1.78
+qRNw5,"Resistance or Tolerance","Other soil stress tolerance",5,27486247,28855659,9.24,"Zhenshan 97","Minghui 63",Mixture,,,,,C1447,RM26,,,"Root number (Well watered)",18.17,-0.62
+qRNd1,"Resistance or Tolerance","Other soil stress tolerance",1,39466088,43764612,11.88,"Zhenshan 97","Minghui 63",Mixture,,,,,RG236,C86,,,"Root number (Water deficit)",7.54,-0.38
+qMRLw8,"Resistance or Tolerance","Other soil stress tolerance",8,19395396,20740963,10.99,"Zhenshan 97","Minghui 63",Mixture,,,,,RM223,R727,,,"maximum root length (Well watered)",35.73,-1.11
+qMRLd2,"Resistance or Tolerance","Other soil stress tolerance",2,9013105,10110105,13.11,"Zhenshan 97","Minghui 63",Mixture,,,,,RZ324,R712,,,"maximum root length (Water deficit)",22.28,0.95
+qRFWw3,"Resistance or Tolerance","Other soil stress tolerance",3,27894595,29301670,8.12,"Zhenshan 97","Minghui 63",Mixture,,,,,C944,C746,,,"root fresh weight (Well watered)",16.88,1.57
+qRFWd3-2,"Resistance or Tolerance","Other soil stress tolerance",3,27894595,29301670,5.07,"Zhenshan 97","Minghui 63",Mixture,,,,,C944,C746,,,"root fresh weight (Water deficit)",12.57,1.46
+qRSd5,"Resistance or Tolerance","Other soil stress tolerance",5,27486247,28855659,14.5,"Zhenshan 97","Minghui 63",Mixture,,,,,C1447,RM26,,,"root to shoot ratio (Water deficit)",13.98,-0.033
+qChla4-1,"Morphological trait",Shoot/Seedling,4,22859833,27441315,3.08,"Zhenshan 97A","Minghui 63",Mixture,,,,,C2807,RM241,,,"Chlorophyll a",6.67,0.07
+qChlab4-1,"Morphological trait",Shoot/Seedling,4,22859833,27441315,2.5,"Zhenshan 97A","Minghui 63",Mixture,,,,,C2807,RM241,,,"Total Chlorophyll",5.23,0.09
+qLS1-2,"Morphological trait",Shoot/Seedling,1,4795155,5759851,11.91,"Zhenshan 97A","Minghui 63",Mixture,,,,,G359,RG532,,,"Length of the second seedling leaf",14.47,1.78
+qLT3-1,"Morphological trait",Shoot/Seedling,3,35783061,36303203,3.78,"Zhenshan 97A","Minghui 63",Mixture,,,,,RM227,R1925,,,"Length of the third seedling leaf",7.2,0.39
+qPH1-1,"Morphological trait",Shoot/Seedling,1,39466088,43764612,11.56,"Zhenshan 97A","Minghui 63",Mixture,,,,,C86,RG236,,,"Seedling height",16.97,0.57
+qSS1-2,"Morphological trait",Seed,1,4795155,5759851,9.04,"Zhenshan 97A","Minghui 63",Mixture,,,,,G359,RG532,,,"Seed size",6.67,-0.59
+AsTol,"Resistance or Tolerance","Other soil stress tolerance",6,2561213,6283916,,Bala,Azucena,RFLP,,,,,RZ516,RG213,,,"root length",,
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,5.12,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (High N level, Nutrient solution culture, )""",24.2,5.4
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,3.89,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (High N level, Soil culture , Tillering stage )""",22,3
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,4.52,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (High N level, Soil culture , Heading stage )""",23.6,10.4
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,5.7,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (High N level, Soil culture , Maturity  )""",36.1,18.8
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,6.06,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (Low N level, Nutrient solution culture, )""",27.9,4.3
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,6.44,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (Low N level, Soil culture , Tillering Stage )""",33.5,4.9
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,5.43,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (Low N level, Soil culture , Heading stage )""",27,8.2
+,"Resistance or Tolerance","Other soil stress tolerance",1,36697294,42364623,8.94,IR64,Azucena,RFLP,,,,,RZ730,RZ801,,,"""Plant height (Low N level, Soil culture , Maturity  )""",41.7,17.2
+"""qLTG3-1,""","Resistance or Tolerance","Other stress resistance",3,198324,199266,,BIL116,Hayamasari,Indel,Os03g0103300,SSR118673-13.1,S107,,,,,,"low-temperature germinability",,
+Xa10,"Resistance or Tolerance","Bacterial blight resistance",11,23939104,24038825,,IRBB10A,IR24,CAPS,AC104847,M491,M419,S723,,,,,"Bacterial blight",,
+,"Morphological trait",Root,1,3483439,7970819,6.66,Akihikari,IRAT109,SSR,,,,,RM7383,RM243,,,"Root dry weight",12,1.24
+,"Morphological trait",Root,1,3483439,10753685,3.74,Akihikari,IRAT109,SSR,,,,,RM7383,RM23,,,"Root axis length",16,0.98
+,"Morphological trait",Root,1,10753550,26104011,3.66,Akihikari,IRAT109,SSR,,,,,RM23,RM306,,,"Branching index",12,1.56
+,"Morphological trait",Dwarf,12,1595305,1594834,,C039,Moroberekan,RFLP,,,,,,,,RG574,"plant height",,
+Qbp1,"Resistance or Tolerance","Insect resistance",3,32803587,36303203,12.9,B5,"Minghui 63",RFLP,,,,,R1925,R2443,,,ResistanceÅ@score,26.4,0.995
+,"Physiological trait","Source activity",1,42710233,42715593,,Nipponbare,Kasalath,RFLP,,,,,,,,C742,Sucrose/plant,19,
+,"Physiological trait","Source activity",5,20217134,20220313,,Nipponbare,Kasalath,RFLP,,,,,,,,C1268,Starch/plant,12,
+,"Physiological trait","Source activity",1,42710233,42715593,,Nipponbare,Kasalath,RFLP,,,,,,,,C742,Hexose/plant,11,
+,"Physiological trait","Source activity",5,5896190,5898983,,Nipponbare,Kasalath,RFLP,,,,,,,,C249,Starch/sucrose,12,
+,"Morphological trait",Seed,3,27494415,27496634,4.3,Nipponbare,Kasalath,RFLP,,,,,,,,C136,"Grain number per panicle",20.6,
+,"Morphological trait",Seed,3,27494415,27496634,6.3,Nipponbare,Kasalath,RFLP,,,,,,,,C136,Yield,22.2,
+,Others,Others,12,27662696,27664972,3.1,Nipponbare,Kasalath,RFLP,,,,,,,,C901,Ratoon,13.6,
+,"Physiological trait","Source activity",3,27494415,27496634,2.8,Nipponbare,Kasalath,RFLP,,,,,,,,C136,"Chl. Content",10.8,
+,"Physiological trait","Source activity",6,31870268,31872155,2.9,Nipponbare,Kasalath,RFLP,,,,,,,,C607,"Decreased Chl. content",10.9,
+,"Physiological trait","Source activity",5,3281266,3285751,4.2,Nipponbare,Kasalath,RFLP,,,,,,,,R1838,Rubisco/Chl,17.9,
+,"Physiological trait","Source activity",2,23021123,23025244,3,Nipponbare,Kasalath,RFLP,,,,,,,,R26,"É¬-[13C] value",11.4,
+,"Morphological trait",Dwarf,1,41321619,41326023,3.8,Nipponbare,Kasalath,RFLP,,,,,,,,R2414,"Plant height  (middle stage)",12.9,
+,"Morphological trait",Dwarf,1,41321619,41326023,5.7,Nipponbare,Kasalath,RFLP,,,,,,,,R2414,"Plant height  (maximum)",19.2,
+,"Morphological trait",Dwarf,9,22688515,22690613,2.7,Nipponbare,Kasalath,RFLP,,,,,,,,C506,"Elongation of plant height",10.6,
+,"Morphological trait",Culm/leaf,1,42710233,42715593,3.6,Nipponbare,Kasalath,RFLP,,,,,,,,C742,"-2 leaf height",16.1,
+,"Morphological trait",Culm/leaf,7,3215492,3219427,2.3,Nipponbare,Kasalath,RFLP,,,,,,,,R565,"Leaf area",12.5,
+,"Physiological trait",Germination/dormancy,3,10238092,10240940,5.1,Nipponbare,Kasalath,RFLP,,,,,,,,C1488,"Seed dormancy",25.6,
+,"Physiological trait",Flowering,6,8054255,8066362,5.1,Nipponbare,Kasalath,RFLP,,,,,,,,R2171,"Heading date",27.6,
+xa5,"Resistance or Tolerance","Bacterial blight resistance",5,347741,491988,,Nipponbare,IRBB5,,"""AC129716, AC079022, and 44B4.""","""K8(ctacagagaactaatcaacc,  ctcgatttcttacaatgtcc)""","""T25 (tccagtcgaaaggtcttcac,ttgcagactcgcagttactc)""",,,,,,"resistant or susceptible phenotype ",,
+yld2.1,"Morphological trait",Panicle/flower,2,34831427,34831889,,V20A,"O. rufipogon (IRGC 105491)",RFLP,,,,,,,,RG256,"grain yield",17.07,1.14
+,Others,Others,1,31203835,31206299,7.8,Azucena,Bala,RFLP,,,,,,,,C1370,"rice plant height of Striga/control treatment;",20.8,
+,Others,Others,1,31203835,31206299,10.4,Azucena,Bala,RFLP,,,,,,,,C1370,"rice leaf dry weight of Striga/control treatment",30.4,
+,Others,Others,1,31203835,31206299,7,Azucena,Bala,RFLP,,,,,,,,C1370,"rice stem dry weight of Striga/control treatment",22.8,
+,Others,Others,1,31203835,31206299,15.7,Azucena,Bala,RFLP,,,,,,,,C1370,"rice shoot dry weight of Striga/control treatment",26.1,
+,Others,Others,1,31203835,31206299,6.8,Azucena,Bala,RFLP,,,,,,,,C1370,"rice leaf/stem ratio of Striga/control treatment",22,
+,Others,Others,1,33178792,33184516,4.9,Azucena,Bala,RFLP,,,,,,,,"R2417 ","Striga dry weight",11,
+,Others,Others,1,33178792,33184516,7.6,Azucena,Bala,RFLP,,,,,,,,R2417,"Striga number at week 11",18.4,
+,Others,Others,1,31203835,31206299,5.8,Azucena,Bala,RFLP,,,,,,,,C1370,"time of first Striga emergence.",14.4,
+,"Resistance or Tolerance","Drought tolerance",3,1429107,3509693,,IR64,Azucena,RFLP,,,,,RG348,RZ329,,,"Day toÅ@flowering",,
+,"Resistance or Tolerance","Drought tolerance",1,36697294,42495953,,IR64,Azucena,RFLP,,,,,RZ730,RG810,,,"Plant height",,
+,"Resistance or Tolerance","Drought tolerance",1,34067651,42495953,,IR64,Azucena,RFLP,,,,,RG690,RG810,,,Panicles/m2,,
+,"Resistance or Tolerance","Drought tolerance",5,2069338,2760413,,IR64,Azucena,RFLP,,,,,RG313,RZ556,,,"Steririty (%)",,
+cisc(t),"Resistance or Tolerance","Cold tolerance",9,18374393,19465043,,Lemont,Dular,SSR,,RM257,RM242,,,,,,"cold tolerance at seedling stage",,
+Ste2,"Physiological trait",Sterility,12,309365,308865,,"3037 (indica)",2428,RFLP,,,,,,,,RG98,"low-temperature-sensitive sterility",,
+"qSS-7a ","Physiological trait",Sterility,7,413668,1165196,19.9,"WAB450-16(O. sativa)","""CG14,(O. glaberrima)""",SSR,,,,,"RM295 ",RM3831,,,"pollen and spikelet fertility",63,36.85
+"gp7a ","Morphological trait",Panicle/flower,7,2349842,17535483,9.1,"Zhenshan 97","Minghui 6",RFLP,,,,,R1440,"RG128 ",,,"Grains/panicle ",20.4,18.6
+"gw7 ","Morphological trait",Panicle/flower,7,2349842,17535483,6.8,"Zhenshan 97","Minghui 6",RFLP,,,,,R1440,"RG128 ",,,"1000 Grain weight ",21.8,1.8
+"tp7b ","Morphological trait",Culm/leaf,7,2349842,17535483,4.5,"Zhenshan 97","Minghui 6",RFLP,,,,,R1440,"RG128 ",,,"Tillers/plant ",9.3,1.4
+"yd7a ","Morphological trait",Panicle/flower,7,2349842,17535483,9.3,"Zhenshan 97","Minghui 6",RFLP,,,,,R1440,"RG128 ",,,"Yield per plant",19.8,9.5
+qSPN-6,"Morphological trait",Panicle/flower,6,9282143,17933378,3,ZYQ8,"Jingxi 17",RFLP,,,,,C235,G294,,,"Spikelets per panicle",15.3,43.3
+Ta,"Morphological trait",Culm/leaf,9,19168716,21314308,32.3,Lemont,Teqing,RFLP,,,,,RZ228,RG667,,,"tillering angle",47.5,0.82
+Ta,"Morphological trait",Culm/leaf,9,19168716,21314308,11.1,Lemont,Teqing,RFLP,,,,,RZ228,RG667,,,"leaf angle",20.7,0.36
+QFla5,"Morphological trait",Culm/leaf,5,23597602,29429411,7.8,Lemont,Teqing,RFLP,,,,,RG470,RG346,,,"flag leaf angle",22.1,-0.36
+"QSbr3a ","Resistance or Tolerance","Sheath blight resistance",3,1429107,3215610,15.26,Lemont,Teqing,RFLP,,,,,RG348,RG944,,,"sheath blight response ratings (SBRs)",27.7,-1.11
+PNF(DH)1,"Morphological trait",Culm/leaf,1,42157734,42364623,5.42,Azucena,IR64,RFLP,,,,,RG323,RZ801,,,"panicle number",13.6,
+Pi37,"Resistance or Tolerance","Blast resistance",1,34825679,34969341,,,,,"""DQ92349.1,B1100D10""",,,,,,,,"blast resistance",,
+"np4 ","Morphological trait",Seed,4,32246485,34252531,9.68,"Waiyin 2",CB,RFLP,,,,,RG143,RG214,,,"Number of panicles/plant",26.1,-2.92
+ng1,"Morphological trait",Seed,1,34264553,36658883,4.41,"Tesanai 2",CB,RFLP,,,,,RG374,RG394,,,"Number of grains/plant",17.2,-1.39
+sf1,"Morphological trait",Seed,1,34264553,36658883,3.86,"Tesanai 2",CB,RFLP,,,,,RG374,RG394,,,"Spikelet fertility",12.2,-5.1
+"tgwt4 ","Morphological trait",Seed,4,32246485,34252531,2.74,"Tesanai 2",CB,RFLP,,,,,RG143,RG214,,,"1000-grain weight",8.5,-1.39
+"nfb8 ","Morphological trait",Seed,8,5421262,7568613,6.49,"Waiyin 2",CB,RFLP,,,,,RG108,RZ562,,,"Number of first branches / main panicle",20.9,1.91
+"gwt4a ","Morphological trait",Seed,4,8667374,20281368,4.67,"Tesanai 2",CB,RFLP,,,,,RG788,"RG190 ",,,"Grain weight/plant",22.3,-8.85
+"tns6 ","Morphological trait",Seed,6,6023974,9537572,5.01,"Waiyin 2",CB,RFLP,,,,,RG138,"RG64 ",,,"Total number of spikelets/panicle",13.1,-38.04
+"sd6 ","Morphological trait",Seed,6,6023974,9537572,5.15,"Tesanai 2",CB,RFLP,,,,,RG138,"RG64 ",,,"Spikelet density (number of spikelets per 10cm of panicle)",13.3,-14.62
+,"Resistance or Tolerance","Salinity tolerance",6,23740405,23740821,,"Tesanai 2",CB,RFLP,,,,,,,,RG716,"The average for survival days",,1.5
+qER-2,"Physiological trait","Eating quality",2,31163247,32334580,6.75,Asominori,IR24,RFLP,,,,,C370,C601,,,"elongation ratio",34.8,-0.1
+qEL-2,"Physiological trait","Eating quality",2,31163247,32334580,3.75,Asominori,IR24,RFLP,,,,,C370,C601,,,"elongation index",17.7,-0.052
+qWA-2,"Physiological trait","Eating quality",2,31163247,32334580,3.81,Asominori,IR24,RFLP,,,,,C370,C601,,,"water absorption",15.2,0.098
+qER-2a,"Physiological trait","Eating quality",2,29520942,30524437,,Asominori,IR24,SSR,,RM450,RM318,,,,,,"elongation ratio",31.5,
+qER-2b,"Physiological trait","Eating quality",2,27533328,28207849,,Asominori,IR24,SSR,,RM1385,RM3512,,,,,,"elongation ratio",26.2,
+Aroma,"Physiological trait","Eating quality",8,19472018,21737684,14.5,Azucena,IR64,RFLP,,,,,RG28,RG1,,,"scent revelation with KOH",69,
+gw-6,"Morphological trait",Seed,6,9282143,17933378,3.02,"Zaiyeqing 8","Jingxi 17",RFLP,,,,,C235,G294,,,"1000-grain weight ",11.5,0.4
+eui,"Morphological trait",Dwarf,5,23775727,23785531,,,,,Os05g0482400,,,,,,,,"elongation of the uppermost internode at the heading stage",,
+RL10(t),"Morphological trait",Culm/leaf,9,14310249,14458878,,rl10,D62B,SSR,AP005904,,,,,,,,"rolled leaf trait",,
+OsPIPK1,"Physiological trait",Flowering,3,28940657,28946571,,,,,Os03g0701800,,,,,,,,"heading date",,
+Ehd2,"Physiological trait",Flowering,10,15197103,15199951,,ehd2Å@mutant,"Guang Lu Ai 4",,Os10g0419200,,,,,,,,"heading date",,
+qRPA-2-c,"Resistance or Tolerance","Other soil stress tolerance",2,23457248,26356387,2.72,ZYQ8,"Jingxi 17",RFLP,,,,,C424,G45,,,"relative P allocation between shoot and root",13.6,0.11
+dth3.1,"Resistance or Tolerance","Drought tolerance",3,464682,3509693,5.18,Caiapo,"O. rufipogon (IRGC 105491)",RFLP,,,,,RG104,RZ329,,,"Days to heading",,
+ph1.2,"Resistance or Tolerance","Drought tolerance",1,41923730,42364623,13.28,Caiapo,"O. rufipogon (IRGC 105491)",Mixture,,,,,RM104,RZ801,,,"Plant height",,
+ppl6.1,"Resistance or Tolerance","Drought tolerance",6,26569436,28130383,4.54,Caiapo,"O. rufipogon (IRGC 105491)",Mixture,,,,,RM3,CDO78,,,"Panicles per plant ",,
+ste10.2,"Resistance or Tolerance","Drought tolerance",10,21474732,21503768,6.22,Caiapo,"O. rufipogon (IRGC 105491)",Mixture,,,,,RM147,RZ500,,,"Percent sterility",,
+gpl11.1,"Resistance or Tolerance","Drought tolerance",11,17246592,23651853,3.66,Caiapo,"O. rufipogon (IRGC 105491)",RFLP,,,,,RZ537,RZ900,,,"Grains per plant",,
+gw11.1,"Resistance or Tolerance","Drought tolerance",11,17246592,23651853,7.19,Caiapo,"O. rufipogon (IRGC 105491)",RFLP,,,,,RZ537,RZ900,,,"1000-grain weight",,
+yld11.1,"Resistance or Tolerance","Drought tolerance",11,17246592,23651853,4.96,Caiapo,"O. rufipogon (IRGC 105491)",RFLP,,,,,RZ537,RZ900,,,"Yield per plant",,
+OsPRR95,"Physiological trait",Flowering,9,21716815,21721485,,,,,Os09g0532400,,,,,,,,"relative amount of mRNA",,
+OsPRR59,"Physiological trait",Flowering,11,2772223,2776940,,,,,Os11g0157600,,,,,,,,"relative amount of mRNA",,
+OsPRR37,"Physiological trait",Flowering,7,30276864,30289374,,,,,Os07g0695100,,,,,,,,"relative amount of mRNA",,
+OsORR73,"Physiological trait",Flowering,3,9810142,9819353,,,,,Os03g0284100,,,,,,,,"relative amount of mRNA",,
+OsPRR1,"Physiological trait",Flowering,2,25427321,25430309,,,,,Os02g0618200,,,,,,,,"relative amount of mRNA",,
+,"Resistance or Tolerance","Other soil stress tolerance",12,1548039,18160498,16.51,IR20,IR55178-3B-9-3,RFLP,,,,,RG9,RG241,,,"Relative tillering ability",54,42.9
+,"Resistance or Tolerance","Other soil stress tolerance",12,1548039,18160498,16.98,IR20,IR55178-3B-9-3,AFLP,,,,,RG9,RG241,,,"Relative shoot dry weight",60.8,31.3
+,"Resistance or Tolerance","Other soil stress tolerance",12,1548039,18160498,12.05,IR20,IR55178-3B-9-3,AFLP,,,,,RG9,RG241,,,"Relative root dry weight",44.2,47
+,"Physiological trait",Flowering,7,4606397,17535483,52.3,Hoshinoyume,Kasalath,RFLP,,,,,R2401,R1440,,,"heading date",69.3,-13.1
+AsTol10,"Resistance or Tolerance","Other soil stress tolerance",10,12044545,12043918,,Bala,Azucena,RFLP,,,,,,,,RG257,"Arsenate tolerance",,
+,"Resistance or Tolerance","Other soil stress tolerance",4,19921036,29158662,10.92,Nekken-1,IR36,SSR,,,,,RM5586,RM3916,RM3839,,"Boron tolerance",,
+OsCPS1,Others,Others,2,10302717,10312725,,,,,Os02g0278700,,,,,,,,"GA biosynthesis?",,
+OsCyc1,Others,Others,4,5310439,5318806,,,,,Os04g0178300,,,,,,,,"phytoalexin biosynthesis?",,
+OsCyc2,Others,Others,2,22698920,22705606,,,,,Os02g0571100,,,,,,,,"phytoalexin biosynthesis?",,
+qCER4-1,"Morphological trait",Shoot/Seedling,4,8667374,11290874,15.94,"Zhenshan 97B",MY46,RFLP,,,,,RG190,RZ69,,,"coleoptile elongation rate",7.26,-0.12
+OsId1,"Physiological trait",Flowering,10,15197103,15199951,,,,,Os10g0419200,,,,,,,,,,
+RG869,"Resistance or Tolerance","Other disease resistance",12,7731505,7731094,,IR64,Azucena,RFLP,,,,,,,,RG869,"resistance to rice yellow mottle virus",36.5,
+,"Morphological trait",Root,1,44208186,44211418,,Bala,Azucena,RFLP,,,,,,,," R117  "," No. of roots  ",10.3,
+,"Morphological trait",Root,11,23732960,23734930,,Bala,Azucena,RFLP,,,,,,,," C189  "," No. of penetrated roots",6.9,
+,"Morphological trait",Root,11,23732960,23734930,,Bala,Azucena,RFLP,,,,,,,," C189  "," Ratio penetrated total roots",7.4,
+,"Resistance or Tolerance","Drought tolerance",1,41444285,44211418,,Bala,Azucena,RFLP,,,,,RZ14,"R117 ",,,"No. of roots ",10.3,7.8
+,"Resistance or Tolerance","Drought tolerance",11,23732960,23734930,,Bala,Azucena,RFLP,,,,,RZ2,G1465,"C189 ",,"No. of penetrated root",6.9,2.2
+,"Resistance or Tolerance","Drought tolerance",11,23732960,23734930,,Bala,Azucena,RFLP,,,,,RZ2,G1465,"C189 ",,"Ratio penetrated: total root",7.4,0.047
+2-2,"Morphological trait",Root,2,31163247,31166188,0,Bala,Azucena,RFLP,,,,,,,,C601,"""root to shoot ratio,deep root weight,root thickness,maximum root length,number of roots past 100cm""",,
+5-1,"Morphological trait",Root,5,28994948,29429411,0,Bala,Azucena,RFLP,,,,,RG119,RG346,,,"""deep root weight,maximum root length,number of roots past 100cm""",,
+7-3,"Morphological trait",Root,7,24746657,26133946,0,Bala,Azucena,Mixture,,,,,RG650,RM234,,,"""root thickness,maximum root length,number of roots past 100cm""",,
+8-4,"Morphological trait",Root,8,24274675,27825769,0,Bala,Azucena,RFLP,,,,,R202,RG598,,,"""root to shoot ratio,maximum root length""",,
+9-1,"Morphological trait",Root,9,15969906,15977784,0,Bala,Azucena,RFLP,,,,,,,,G385,"""root to shoot ratio,root thickness""",,
+10-1,"Morphological trait",Root,10,845399,847614,0,Bala,Azucena,RFLP,,,,,,,,C701,"""root thickness,maximum root length""",,
+11-1,"Morphological trait",Root,11,23732960,23734930,0,Bala,Azucena,RFLP,,,,,,,,C189,"""root thickness,number of roots past 100cm""",,
+,"Resistance or Tolerance","Drought tolerance",7,30127519,30127996,2.3,Bala,Azucena,RFLP,,,,,,,,"RG351 ","rate of stomatal closure upon excision based on visual assessment of a plot of stomatal resistance vs. time",6.1,0.1
+,"Resistance or Tolerance","Drought tolerance",3,12199361,12199844,2.5,Bala,Azucena,RFLP,,,,,,,,RG745,"time of fastest stomatal closure after leaf excision",9.6,-0.49
+,"Resistance or Tolerance","Drought tolerance",3,5758005,5758498,2.7,Bala,Azucena,RFLP,,,,,C643,RG745,RG191,,"stomatal resistance before leaf excision",16.9,-2.31
+"qDLR11 ","Resistance or Tolerance","Other soil stress tolerance",11,383711,21835946,2.78,"Gaochan 106","Changbai 9",SSR,,,,,RM2596,"RM286 ",,,"Dead leaf rate at 20 days",5.96,2.05
+"qDLR2-1 ","Resistance or Tolerance","Other soil stress tolerance",2,29160264,36128950,2.29,"Gaochan 106","Changbai 9",SSR,,,,,RM525,"RM406 ",,,"Dead leaf rate at 27 days",5.41,4.42
+"qDLR2-1 ","Resistance or Tolerance","Other soil stress tolerance",2,29160264,36128950,2.82,"Gaochan 106","Changbai 9",SSR,,,,,RM525,"RM406 ",,,"Dead leaf rate at 34 days",6.04,5.44
+"qDLR4 ","Resistance or Tolerance","Other soil stress tolerance",4,23292321,23757222,3.74,"Gaochan 106","Changbai 9",SSR,,,,,RM3524,"RM3866 ",,,"Dead leaf rate at 41 days",10.5,-7.39
+"qDLR4 ","Resistance or Tolerance","Other soil stress tolerance",4,23292321,23757222,3.64,"Gaochan 106","Changbai 9",SSR,,,,,RM3524,"RM3866 ",,,"Dead leaf rate at 48 days",8.34,-7
+"qDLR3 ","Resistance or Tolerance","Other soil stress tolerance",3,13274763,21005826,2.82,"Gaochan 106","Changbai 9",SSR,,,,,RM338,"RM2453 ",,,"Dead leaf rate at 55 days",3.47,-4.09
+"qDLR6-2 ","Resistance or Tolerance","Other soil stress tolerance",6,24221010,25399700,2.88,"Gaochan 106","Changbai 9",SSR,,,,,RM1340,"RM5957 ",,,"Dead leaf rate at 62 days",9.86,4.13
+"qDSR 8 ","Resistance or Tolerance","Other soil stress tolerance",8,3927309,15529036,3.76,"Gaochan 106","Changbai 9",SSR,,,,,RM3572,"RM404 ",,,"Dead seedling rate at 62 days",18.86,12.96
+brt4b,"Resistance or Tolerance","Drought tolerance",4,33234004,33430563,13,IRAT109,Yuefu,SSR,,,,,RM1153,"RM348 ",,,"Basal root thickness",,0.05
+rn3,"Resistance or Tolerance","Drought tolerance",3,2432425,3845280,10.3,IRAT109,Yuefu,SSR,,,,,RM231,"RM175 ",,,"root number",,-7.96
+mrl9a,"Resistance or Tolerance","Drought tolerance",9,18297411,20828859,9.48,IRAT109,Yuefu,SSR,,,,,"RM201 ",RM410,,,"maximum root length",,2.69
+rfw4a,"Resistance or Tolerance","Drought tolerance",4,25626203,33083265,14.7,IRAT109,Yuefu,SSR,,,,,"RM349 ",RM1136,,,"root fresh weight",,1.06
+rv12-2,"Resistance or Tolerance","Drought tolerance",12,3581725,8828505,5.67,IRAT109,Yuefu,SSR,,,,,"RM491 ",RM101,,,"root volume",,0.04
+,"Morphological trait",Seed,8,22562556,22562749,,BG90-2,"RS-16(Oryza glumaepatula)",SSR,,,,,,,,RM210,"grain yield",16.43,
+,"Morphological trait",Shoot/Seedling,3,16018787,23850248,5.62,Labelle,"Black Gora",RFLP,,,,,RZ284,RZ403,"RZ452 ",,"Shoot length ",17.1,-9.12
+,"Morphological trait",Shoot/Seedling,3,23850041,31298638,5.31,Labelle,"Black Gora",RFLP,,,,,RZ403,RZ630,"RZ448 ",,"Coleoptile length ",25.1,3.19
+,"Morphological trait",Shoot/Seedling,3,16840989,29580503,4.73,Labelle,"Black Gora",RFLP,,,,,RZ452,RZ448,"RZ403 ",,"Mesocotyl length ",17.5,3.34
+,"Morphological trait",Panicle/flower,3,23850041,29580503,7.72,Labelle,"Black Gora",RFLP,,,,,RZ448,"RZ403 ",,,"Panicle size",16,-26.1
+,"Morphological trait",Panicle/flower,1,23359606,24776333,4.96,Labelle,"Black Gora",RFLP,,,,,CDO920,"RZ776 ",,,"Spikelet fertility",10.6,-7.3
+,"Morphological trait",Panicle/flower,3,16018787,16841409,9.95,Labelle,"Black Gora",RFLP,,,,,"RZ452 ",RZ284,,,"Grain length",20.9,-0.29
+,"Morphological trait",Panicle/flower,2,27928037,31809030,4.01,Labelle,"Black Gora",RFLP,,,,,"RG139 ",CDO686,,,"Grain breadth",9.1,-0.08
+,"Morphological trait",Panicle/flower,3,16840989,23850248,10.19,Labelle,"Black Gora",RFLP,,,,,"RZ403 ",RZ452,,,"Grain shape",21.4,-0.18
+,"Morphological trait",Panicle/flower,8,4105519,5425677,3.35,Labelle,"Black Gora",RFLP,,,,,"RG333 ",RZ562,,,"Grain weight",7.7,-0.08
+GA20ox-2,"Morphological trait",Dwarf,1,40138229,40141332,,,,,AB077025,,,,,,,,semi-dwarf,,
+,"Resistance or Tolerance","Insect resistance",1,11726709,11726808,,IR36,TNAULFR831311,SSR,,,,,,,,"RM3412 ","Damage score based on green house screening ",4.32,
+,"Resistance or Tolerance","Insect resistance",1,34539279,39646396,10.96,IR36,TNAULFR831311,RFLP,,,,,RM543,RM472,,,"Length of the flag leaf ",25.8,2.8043
+,"Resistance or Tolerance","Insect resistance",1,8138438,11726808,2.95,IR36,TNAULFR831311,RFLP,,,,,RM576,RM3412,,,"Width of the flag leaf ",9.7,0.0657
+qREP-6,"Resistance or Tolerance","Other soil stress tolerance",6,25399524,31966537,95.2,Nipponbare,CSSL29,SSR,,RM5957,RM494,,,,,,"root elongation under phosphorus deficiency",54.5,3.4
+,"Resistance or Tolerance","Insect resistance",6,27116596,27116110,4.4,Bala,Azucena,RFLP,,,,,R2654,RG778,RG778,,"controlling nematode tolerance",9,1.96
+yld1.1,"Morphological trait",Panicle/flower,1,25629211,25629404,,,,Others,AP003216,,,RM5,,,,,yield,,
+"QPh1b ","Resistance or Tolerance","Submergency tolerance",1,26419476,29360353,6.6,IR74,Jalmagna,RFLP,,,,,RZ527,"RZ154 ",,,"initial plant height",-3.5,14.9
+"qDTH-6 ","Morphological trait",Seed,6,3416533,3416728,42.15,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,OSR25,RM253,"RM225 ",,"Days to heading ",74.8,24.7
+"qCL-10 ","Morphological trait",Seed,10,18542704,18543072,3.73,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,,,"RM258 ",,"Culm length",11.1,-3.9
+"qPL-2 ","Morphological trait",Seed,2,1326947,1327099,4.33,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,,,"RM110 ",,"Panicle length",12.5,1.8
+"qPN-8 ","Morphological trait",Seed,8,20740779,24569536,5.59,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,RM223,RM80,"OSR7 ",,"Panicles per plant ",9.1,-1.4
+"qSN-3 ","Morphological trait",Seed,3,2432425,2432615,4.93,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,,,"RM231 ",,"Spikelets per panicle",11.9,13.3
+"qFER-6 ","Morphological trait",Seed,6,3416533,3416728,26.81,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,OSR25,RM253,"RM225 ",,Fertility,58.3,-40
+"qGW-6 ","Morphological trait",Seed,6,3416533,3416728,12.7,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,OSR25,RM253,"RM225 ",,"""1,000-grain weight""",34,-2.4
+"qYI-6-2 ","Morphological trait",Seed,6,3416533,3416728,21.74,"Milyang 23","Oryza glaberrima (accession IRGC No. 103544)",SSR,,,,,OSR25,RM253,"RM225 ",,Yield,50.9,-3.6
+PhyB,"Physiological trait",Flowering,3,11070754,11078864,,,,,Os03g0309200,,,,,,,,,,
+PhyC,"Physiological trait",Flowering,3,31767880,31772937,,,,,"Os03g0752100 ",,,,,,,,,,
+,"Resistance or Tolerance","Blast resistance",6,27116596,27586198,5.8,Bala,Azucena,RFLP,,,,,RG778,"RZ682 ","RZ682 ",,"Disease severity",18.2,-0.463
+,"Resistance or Tolerance","Blast resistance",10,3758658,3760625,8.7,Bala,Azucena,RFLP,,,,,RG341,C449,"R1933 ",,"lesion size",22.1,-0.736
+,"Resistance or Tolerance","Blast resistance",1,44208186,44211418,3.6,Bala,Azucena,RFLP,,,,,,,"R117 ",,"number of lesions per leaf",12.3,-7.44
+,"Physiological trait",Sterility,10,1928434,12043918,7.5,RD21A,IR24,RFLP,,,,,R2309,"RG257 ",,,"Pollen fertility",25.8,0.326
+,"Physiological trait","Eating quality",5,27056983,28855659,2.8,"Zhenshan 97","Minghui 63",RFLP,,,,,C246,"C1447 ",,,"Milled rice percentage",7,-1.32
+,"Physiological trait","Eating quality",7,24952921,26133946,3.2,"Zhenshan 97","Minghui 63",Mixture,,,,,"R1245 ",RM234,,,Protein,6,-0.43
+,"Physiological trait","Eating quality",1,196647,1891262,3.8,"Zhenshan 97","Minghui 63",RFLP,,,,,"C161 ",R753,,,"Grain width ",13.7,0.02
+,"Physiological trait","Eating quality",3,23850041,25360678,21,"Zhenshan 97","Minghui 63",RFLP,,,,,RZ403,"R19 ",,,"Length-width ratio ",36.4,0.24
+,"Physiological trait","Eating quality",1,196647,1891262,2.6,"Zhenshan 97","Minghui 63",RFLP,,,,,"C161 ",R753,,,"Chalkiness ",8.9,1.97
+,"Physiological trait","Eating quality",7,24952921,27191049,2.7,"Zhenshan 97","Minghui 63",RFLP,,,,,"R1245 ",R1789,,,"White belly ",9.5,24.5
+"Ph7a ","Morphological trait",Dwarf,7,19344636,24746292,2.6,"Zaiyeqing 8","Jingxi 17",RFLP,,,,,"RG650 ",C285,,,"Plant height ",12.7,-9.4382
+Sn2a,"Morphological trait",Dwarf,2,23457248,26356387,2.07,"Zaiyeqing 8","Jingxi 17",RFLP,,,,,"C424 ",G45,,,"Length of top second internode ",8.9,1.6461
+"Ra7a ",Others,Others,7,19344636,24746292,4.24,"Zaiyeqing 8","Jingxi 17",RFLP,,,,,"RG650 ",C285,,,"Ratooning ability ",18.3,-0.5108
+"Gy3a ",Others,Others,3,5466676,8462713,3.11,"Zaiyeqing 8","Jingxi 17",RFLP,,,,,"RG266 ",C63,,,"Grain yield per plant",12.1,3.9014
+,"Morphological trait",Root,3,6042033,6041592,,Palawan,IR42,RFLP,,,,,,,,"RZ742 ","Root value",0.08,0.2
+,"Morphological trait",Root,5,18944261,18944887,,Palawan,IR42,RFLP,,,,,,,,"RG13 ","maximum root length",0.12,-1.9
+"qPTD-2 ","Morphological trait",Panicle/flower,2,23457248,26356387,2.53,"Zaiyeqing 8","Jingxi 17",RFLP,,,,,"C424 ",G45,,,"peduncle top diameter",12.5,-0.2368
+,"Resistance or Tolerance","Other soil stress tolerance",10,13111494,14711256,4.7,Nipponbare,Kasalath,RFLP,,,,,R1629,"R2447 ",,,"P uptake",7.7,621
+,"Resistance or Tolerance","Other soil stress tolerance",4,608084,4435752,4.35,Nipponbare,Kasalath,RFLP,,,,,C946,R1854,,,"P-use eficiency ",9.4,0.303
+,"Resistance or Tolerance","Other soil stress tolerance",1,42157734,42364623,6.93,IR1552,Azucena,Mixture,,,,,"RZ801 ",RG323,,,"maximum root length (2 weeks-stress)",0.2,0.08
+,"Resistance or Tolerance","Other soil stress tolerance",12,18152227,19802220,6.82,IR1552,Azucena,Mixture,,,,,"RG9 ",RG457,,,"maximum root length (after 4-weeks stress)",0.2,0.07
+,"Physiological trait","Source activity",4,31436862,34252531,2.91,IR42,Palawan,RFLP,,,,,RG143,"RG329 ",,,"chlorophyll content",5.9,0.134
+,"Resistance or Tolerance","Other soil stress tolerance",1,42496228,43337260,3.53,IR64,Azucena,RFLP,,,,,RG810,RG331,,,"tolerance index to Fe 2+ toxicity",12.6,0.63
+gpp4,"Morphological trait",Seed,4,21645173,34244441,10.31,9024,LH422,RFLP,,,,,RZ569,RZ565,,,"grains per panicle",10,-1.52
+spp4-2,"Morphological trait",Panicle/flower,4,1137976,17888842,2.09,9024,LH422,RFLP,,,,,RG449,CDO456,,,"spikelets per panicle",5.1,-9.64
+ph6,"Morphological trait",Dwarf,6,6927624,29906021,5.36,9024,LH422,RFLP,,,,,RZ667,RG653,,,"plant height",12.1,-6.28
+dth8,"Physiological trait",Flowering,8,4105519,25684949,27.66,9024,LH422,RFLP,,,,,RG333,RZ66,,,"days to heading",51.1,9.31
+ssd10,"Morphological trait",Panicle/flower,10,12044545,19623828,2.46,9024,LH422,RFLP,,,,,RG257,RZ583,,,"spikelets setting density",6.9,-0.46
+gy12,"Morphological trait",Seed,12,309365,7731094,2.68,9024,LH422,RFLP,,,,,RG869,RG98,,,"grain yield",9.1,-0.42
+gl3a,"Morphological trait",Panicle/flower,3,8460597,9806441,3.77,"Zhenshan 97","Minghui 63",Mixture,,,,,C63,RM232,,,"grain length",8.8,0.17
+gw6,"Morphological trait",Panicle/flower,6,20691542,25797291,2.45,"Zhenshan 97","Minghui 63",Mixture,,,,,RG424,R2549,,,"grain width",6.6,0.06
+qSSP7,"Morphological trait",Panicle/flower,7,8910286,11394315,56.1,"Zhenshan 97","Minghui 63",Mixture,,"RM3859 ",C39,,,,,,"number of spikelets per panicle",74.2,59.8
+"qRRE-11 ","Resistance or Tolerance","Other soil stress tolerance",11,5402356,5699215,2.64,Asominori,IR24,RFLP,,,,,C496,C410,,,"relative root elongation",13.5,0.22
+bc7(t),"Morphological trait",Culm/leaf,1,33168525,33249565,,"Zhonghua 11((bc7(t) mutant)",Dular,,AP003237,,,,,,,,"brittle culm",,
+tn1-4,"Morphological trait",Culm/leaf,1,36697294,42364623,,IR64,Azucena,Mixture,,,,,RZ730,RZ801,,,"tiller numbers",,
+"dcf3 ","Physiological trait","Source activity",3,10000519,12459455,10.36,SNU-SG1,"Milyang 23",Mixture,,,,,RM282,"RM251 ",,,"degree of chlorophyll content of flag leaf at the heading date",13.4,5.33
+"ccf3b ","Physiological trait","Source activity",3,12459327,23887965,12.34,SNU-SG1,"Milyang 23",Mixture,,,,,RM16,"RM282 ",,,"cumulative chlorophyll content of the flag leaf",16,23.72
+"ccs3 ","Physiological trait","Source activity",3,10000519,12459455,9.04,SNU-SG1,"Milyang 23",Mixture,,,,,RM282,"RM251 ",,,"cumulative chlorophyll content of the second leaf",13.9,15.08
+"ccfs3 ","Physiological trait","Source activity",3,12459327,23887965,12.23,SNU-SG1,"Milyang 23",Mixture,,,,,RM16,"RM282 ",,,"mean of cumulative chlorophyll contents of the flag and second leaves",36.5,22.59
+"dcs5 ","Physiological trait","Source activity",5,18760746,19982059,11.62,SNU-SG1,"Milyang 23",Mixture,,,,,RM440,"RM430 ",,,"degree of chlorophyll content of the second leaf at the heading date",12.7,3.93
+"dcfs5 ","Physiological trait","Source activity",5,18760746,19982059,12.14,SNU-SG1,"Milyang 23",Mixture,,,,,RM440,"RM430 ",,,"degree of mean chlorophyll content of the flag and second leaves",21,4.91
+Xa1,"Resistance or Tolerance","Bacterial blight resistance",4,32036440,32061259,,IR24,"""IR-BB1, Kogyoku""",,AB002266,,,,,,,,"bacterial blight resistance",,
+Tac1,"Morphological trait",Culm/leaf,9,21504897,21615388,,IR24,"""introgressed line, IL55, derived from japonica rice Asominori""",Mixture,AP005682,,,,,,,,"tiller angle",,
+"oa2.1 ","Resistance or Tolerance","Drought tolerance",2,26758064,29247371,3,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RM263,"R3393 ",,,"Osmotic adjustment ",8.9,0.08
+"prt6.1 ","Resistance or Tolerance","Drought tolerance",6,23740405,25797291,3,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,R2549,"RG716 ",,,"Penetrated root thickness ",9,0.06
+"rpf4.1 ","Resistance or Tolerance","Drought tolerance",4,32246485,35283358,7.3,CT9993-5-10-1-M,IR62266-42-6-2,Mixture,,,,,RG214,"RG620 ",,,"Root pulling force ",19.9,13.4
+"AsS ","Resistance or Tolerance","Other soil stress tolerance",2,29520942,30524437,5.7,CJ06,TN1,SSR,,,,,RM318,"RM450 ",,,"arsenic concentrations in shoots",24.4,-1.38
+"AsSe2 ","Resistance or Tolerance","Other soil stress tolerance",8,4772713,5115915,5.5,CJ06,TN1,SSR,,,,,RM1111,"RM310 ",,,"arsenic concentrations in brown rice ",35.2,-0.092
+ostd(t),"Physiological trait",Sterility,6,24812663,25202821,,ostd(t),Nipponbare,SSR,,RM7434,RM275,,,,,,"male sterility",,
+,"Resistance or Tolerance","Other soil stress tolerance",1,42496228,43337260,4.23,IR64,Azucena,Mixture,,,,,RG810,RG331,,,"leaf bronzing index",16,0.104
+,"Resistance or Tolerance","Other soil stress tolerance",1,42496228,43337260,3.16,IR64,Azucena,Mixture,,,,,RG810,RG331,,,"iron concentration in shoot tissue",15,0.24
+"qSB-3 ","Resistance or Tolerance","Bacterial blight resistance",3,25876546,27899169,6.86,"Jasmine 85",Lemont,Mixture,,,,,R250,"C746 ",,,"sheath blight resistance",26.5,0.7332
+"qLCC-7 ","Physiological trait","Source activity",7,23518753,24685302,3.72,IR24,Asominori,RFLP,,,,,R2394,"R2677 ",,,"leaf chlorophyll content",14.2,0.94
+"qCDS-7 ","Physiological trait","Source activity",7,23518753,24685302,3.64,IR24,Asominori,RFLP,,,,,R2394,"R2677 ",,,"chlorophyll degradation speed",15.9,1.02
+qLEI3,"Resistance or Tolerance","Submergency tolerance",3,10708808,12954471,,T65,C9285,Mixture,,RM3803,RM7249,,,,,,"Lowest elongated internode",,
+qTIL12,"Resistance or Tolerance","Submergency tolerance",12,25203610,26368115,,T65,C9285,Mixture,,RM6386,RM235,,,,,,"Total internode elongation length",,
+qNEI12,"Resistance or Tolerance","Submergency tolerance",12,25203610,26368115,,T65,C9285,Mixture,,RM6386,RM235,,,,,,"Number of elongated internodes",,
+qLEI12,"Resistance or Tolerance","Submergency tolerance",12,25203610,26368115,,T65,C9285,Mixture,,RM6386,RM235,,,,,,"Lowest elongated internode",,
+qGL3-1,"Physiological trait","Eating quality",3,10220781,18799084,,SL207,Koshihikari,SSR,,RM4321,RM1940,,,,,,glossiness,,
+qOE3-1,"Physiological trait","Eating quality",3,2432217,15045666,,SL207,Koshihikari,SSR,,RM1332,RM6676,,,,,,"overall evaluation",,
+qST3-2,"Physiological trait","Eating quality",3,514856,2432647,,SL207,Koshihikari,SSR,,RM4108,RM1332,,,,,,stickiness,,
+qTA3,"Physiological trait","Eating quality",3,2432217,15045666,,SL207,Koshihikari,SSR,,RM1332,RM6676,,,,,,taste,,
+qSTA-2,"Morphological trait",Root,2,20199878,21658842,7.05,IR64,"Kinandang Patong",Mixture,,,,,RM262,RM341,,,"stele transversal area",14.7,3612
+qMXA-2-1,"Morphological trait",Root,2,7735705,8789557,4.92,IR64,"Kinandang Patong",Mixture,,,,,OSR9A,RM71,,,"total area of late metaxylem vessels",8.7,656.87
+qMXN-9,"Morphological trait",Root,9,20442345,20828859,4.67,IR64,"Kinandang Patong",Mixture,,,,,RM201,OSR29,,,"number of late metaxylem vessels",11.9,0.15
+qRTH-2,"Morphological trait",Root,2,20199878,21658842,7.86,IR64,"Kinandang Patong",Mixture,,,,,RM262,RM341,,,"root thickness",19.3,40.14
+qLEI3,"Resistance or Tolerance","Submergency tolerance",3,10708808,12954471,3.14,T65,C9285,SSR,,,,,RM7249,RM3803,,,"Lowest elongated internode",14,0
+,"Physiological trait","Eating quality",2,26613968,30200578,,Akihikari,"DH92(Koshihikari x Akihikari DHL line)",SSR,,RM13658,RM6933,,,,,,"stickiness score",,
+,"Physiological trait","Eating quality",2,26613968,30200578,,Akihikari,"DH92(Koshihikari x Akihikari DHL line)",SSR,,RM13658,RM6933,,,,,,"amylose content",,
+,"Physiological trait","Eating quality",2,4414015,5205255,11.6,"CSSL(Koshihikari x Kasalath)",Koshihikari,SSR,,,,,RM3865,RM3294,,,"white-back kernels",43,7.8
+,"Physiological trait","Eating quality",1,36657777,40959893,8.2,"CSSL(Koshihikari x Kasalath)",Koshihikari,SSR,,,,,RM8084,RM6827,,,"white-berry kernels",14.9,11.8

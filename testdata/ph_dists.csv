@@ -1,0 +1,623 @@
+trait,distance
+Germination rate,0.6730707883834839
+number of vascular bundles,0.6289524435997009
+stress root length (SRL),0.6216487884521484
+primary branch number,0.5912473201751709
+number of panicles per plant,0.7475842237472534
+Total amylase activity,0.5689722895622253
+No. of roots ,0.6226085424423218
+number of spikelets on secondary branches per panicle,0.6622917652130127
+number of filled grain per paniucle,0.5783214569091797
+spikelet number per panicle,0.6744235157966614
+early elongation ability using the lowest elongated internode (LEI) concept,0.5059660077095032
+Plant height-control,0.9010267853736877
+relative fresh weight,0.6437065601348877
+rate of internodal elongation,0.6093342304229736
+osmotic adjustment,0.5927616953849792
+root volume,0.6626580953598022
+Number of large vascular bundles,0.6184605360031128
+relative root elongation (an indicator for Al tolerance),0.579116702079773
+glutelin subunit polypeptides ,0.496482789516449
+"""small grain,""",0.6497405171394348
+"""Plant height (Low N level, Soil culture , Heading stage )""",0.7368408441543579
+ResistanceÅ@score,0.6646966934204102
+Relative tillering ability,0.5947226285934448
+root fresh weight (Water deficit),0.6407797336578369
+Tiller number,0.6355641484260559
+day to heading,0.537386417388916
+arsenic concentrations in brown rice ,0.6147246360778809
+cytoplasmic male sterility restorer gene,0.5895470380783081
+the grain yield per plant (GY) ,0.7257905006408691
+Number of large vascular bundles/Area of flag leaf,0.5885570049285889
+penetrated root thickness,0.6295203566551208
+panicle length (PAL),0.7084311842918396
+first leaf perimeter,0.6704165935516357
+panicle number per hill,0.6644362807273865
+Relative water content,0.6071089506149292
+Endosperm translucency,0.5776000618934631
+Relative root length after 4 weeks stress,0.5755255818367004
+panicle number,0.666557252407074
+Relative germination vigor(RGV),0.6349185705184937
+Dead seedling rate at 62 days,0.5572875738143921
+Biomass-control,0.6780738830566406
+Deep root weight per unit shoot weight,0.6527238488197327
+shoot length,0.682343602180481
+Chlorophyll content,0.6401087641716003
+maximum root length (Well watered),0.6416850090026855
+Length of the second seedling leaf,0.6591630578041077
+white belly,0.6421111226081848
+relative P allocation between shoot and root,0.5677144527435303
+plant height (non stress),0.8289470076560974
+Head rice,0.6791156530380249
+1000-grain weight ,0.7216695547103882
+elongation of the uppermost internode at the heading stage,0.5951741933822632
+Fertility restorer,0.6442925930023193
+Heading date,0.5922601819038391
+pollen and spikelet fertility,0.7008112668991089
+Panicle length ,0.7414609789848328
+Grains/panicle(1998),0.7088485956192017
+Chalkiness ,0.47262147068977356
+tiller angle,0.670942485332489
+cold tolerance at seedling stage,0.64774489402771
+Yield,0.6707443594932556
+one-thousand kernel weight,0.6056154370307922
+Maximum new root length NF-RP,0.6292509436607361
+maximum root length,0.7042084336280823
+Number of tillers per plant,0.7638803124427795
+"""STS, mg Si per 100 mg dry weight in the stem""",0.6751372218132019
+the grain-setting density(SDEN) ,0.5799014568328857
+Sheath blight response,0.6192760467529297
+"""Pasting time, time of initial viscosity increase""",0.45709195733070374
+panicle per plant,0.7814515829086304
+Biomass plant-1,0.8093750476837158
+spikelets per panicle,0.7233706712722778
+Embryo Length,0.678979754447937
+iron concentration in shoot tissue,0.5882081389427185
+head milled rice,0.6596943140029907
+resistance to sheath blight (SB) disease,0.617311954498291
+Rice fat content,0.6062325239181519
+position of the lowest elongated internode,0.6331712603569031
+Deep root weight per tiller,0.66437828540802
+bacterial blight resistance ,0.6617506146430969
+third leaf length,0.6735542416572571
+the panicle length (PL) ,0.7270662784576416
+number of florets per branch (FPB),0.5983197689056396
+tolerance index to Fe 2+ toxicity,0.5937322974205017
+Grain shape,0.6908864378929138
+Gelatinization Temperature,0.5407561659812927
+Day toÅ@flowering,0.6766254305839539
+number of filled grains per panicle,0.640251636505127
+dwarf phenotype and leaves with abnormally rounded tip regions,0.6186760067939758
+Plant age in leaf number NF-RP,0.702373743057251
+H2O2 content,0.6353453397750854
+chlorophyll content,0.643162190914154
+Grain breadth ,0.669721245765686
+Width of the flag leaf ,0.7091053128242493
+Leaf bronzing index,0.6152330040931702
+Spikelet sterility,0.676974356174469
+carbon isotope discrimination(É¢ 13C) in IRRI 1996,0.5659447908401489
+Alkali spreading value,0.6325574517250061
+root elongation under phosphorus deficiency,0.6003573536872864
+yellowish-green leaf,0.6977154612541199
+grain shape,0.6925196051597595
+Root axis length,0.6712341904640198
+total P,0.6606866121292114
+Awned,0.6728617548942566
+Plant age in leaf number F-C,0.727295994758606
+the spikelet number of a panicle (SP),0.6728249788284302
+Number of panicles/plant,0.7643362283706665
+elongation ratio,0.6488640308380127
+Plant mortality  (Sep-Dec),0.7323336005210876
+Tid1,0.6448968052864075
+grain length,0.6966056823730469
+elongation index,0.6448853015899658
+Grains/panicle ,0.7230066657066345
+Relative root dry weight,0.6739006042480469
+days to emergence of flag-leaf,0.5327433943748474
+Panicle size,0.7307848334312439
+Tillers/plant(1998),0.8361692428588867
+hybrid breakdown,0.6142750382423401
+Dead leaf rate at 20 days,0.5471617579460144
+white-back kernels,0.577580451965332
+soluble protein content at 5days after heading,0.46929222345352173
+the number of grains per panicle (GP) ,0.6573476195335388
+Steririty (%),0.0
+second leaf length/width ratio,0.6762296557426453
+Milled rice percentage,0.6199860572814941
+Penetrated root number(Sum.),0.5437435507774353
+Total number of spikelets/panicle,0.6704379916191101
+"""eui (for elongated uppermost internode),""",0.6139538884162903
+first leaf length at seedling,0.6926411390304565
+lowtemperature-sensitive pollen sterility,0.6186473965644836
+Coleoptile length ,0.6196878552436829
+relative root length,0.6483150720596313
+seedling hight,0.6673511266708374
+Root thickness,0.6837984323501587
+number of primary branches per panicle (BPP),0.6077327728271484
+amylose content,0.5867006778717041
+ultraviolet-B (UVB) resistance,0.5811495780944824
+Reducing sugar content,0.5523311495780945
+palealess mutant (pal),0.6427962183952332
+Secondary branch number per panicle,0.6484411954879761
+Panicle number m-2,0.6721944212913513
+initial plant height,0.8542200326919556
+Basal root thickness,0.6836198568344116
+No. of new roots,0.5845025181770325
+taste,0.6085311770439148
+Chlorophyll a,0.7293692231178284
+spotted leaf,0.6787302494049072
+Plant weight normal N condition ,0.8076093792915344
+grain breadth,0.6526727676391602
+Neck blast incidence against the THL84,0.4937591850757599
+plant height at 35DAT,0.8704358339309692
+Penetrated root thickness(Fall),0.6186075210571289
+No. of new roots F-RP,0.5720440745353699
+brittle culm,0.6526333689689636
+Dead leaf rate at 27 days,0.5644274950027466
+pollen sterility (Wide-compatibility),0.6249220371246338
+dwarf,0.7297181487083435
+Rubisco protein content at 5days after heading,0.47415727376937866
+Root length,0.6912586688995361
+Ratooning ability ,0.518112301826477
+lesion number,0.5586398839950562
+pistilloid stamen,0.7139877080917358
+Restoration of the pollen fertility,0.653937816619873
+relative yield (RY),0.6186914443969727
+Gel Consistency,0.587634265422821
+Days to heading-control,0.545160174369812
+1000-grain weight,0.712279200553894
+number of spikelets on primary branches per panicle,0.6232185959815979
+Grains per plant,0.7851623892784119
+grains/plant,0.8109734654426575
+lesion degree,0.5675177574157715
+photoperiod sensitive phase,0.5994629263877869
+Dead leaf rate at 41 days,0.549699604511261
+plant height at maturity,0.8799651265144348
+"""Plant height (High N level, Nutrient solution culture, )""",0.7279051542282104
+Plot yield,0.6486691236495972
+leaf rolling score (LRS),0.5868090391159058
+"""Grain weight, g/1,000""",0.7139613032341003
+Maximum new root length F-RP,0.6594545841217041
+root thickness,0.6869257092475891
+culm length,0.6692127585411072
+phytoalexin biosynthesis?,0.6279388666152954
+Plant heigh at maturity,0.7426450252532959
+Grain l/w ratio,0.6476083993911743
+granule disintegration,0.5979721546173096
+Number of panicles per plant,0.7582133412361145
+grain yield,0.6754628419876099
+Hexose/plant,0.6996180415153503
+P-use eficiency ,0.6231985092163086
+Total internode elongation length,0.6372537612915039
+brown planthopper ,0.6509609222412109
+Zn2+ toxicity tolerance,0.6129871606826782
+discoloration,0.613683819770813
+cumulative chlorophyll content of the second leaf,0.5914903283119202
+Panicles/m2,0.7447634339332581
+Length of top second internode ,0.6133135557174683
+Neck blast incidence at Kampangsaen (1998),0.5717971920967102
+alternative oxidase,0.5853060483932495
+White-back kernels,0.5833953619003296
+Root volume,0.672347366809845
+P uptake,0.6384196877479553
+Albino plantlet differentiation frequency,0.598450243473053
+Alkali-spread.score,0.5904079675674438
+length of the heading period,0.6061348915100098
+Penetrated root number(Fall),0.5585125088691711
+Deep root per tiller,0.6302694082260132
+filled grain weight per plant (GYD),0.6419474482536316
+breakdown,0.6282874941825867
+biomass yield ,0.6802430748939514
+tiller number at maturity,0.5904741287231445
+inhibition of seed shattering,0.6016291975975037
+Max. root length,0.6740580201148987
+delay in flowering time by drought (DFT),0.5607839226722717
+Disease severity,0.6124358177185059
+Root number (Water deficit),0.5892684459686279
+Stem diameter,0.7641047835350037
+number of spikelets on primary branches per primary branches,0.6148382425308228
+root volume (low moisture stress 85 days),0.5496351718902588
+Percent sterility,0.6237664818763733
+thermo-sensitive genic male-sterile,0.5767319798469543
+bacterial blight disease resistance,0.6456905007362366
+inositol-6-phosphate,0.6136102080345154
+root dry weight,0.7031527757644653
+Biomass yield,0.6721003651618958
+leaf drying,0.6736966967582703
+Çíeduction in chlorophyll content,0.6354674696922302
+Plant height ,0.9703910946846008
+Total dry weight,0.6864823698997498
+Days to wilt (DW4),0.5602582693099976
+Deep root weight,0.6837113499641418
+Percentage of chalkiness grains,0.5032073855400085
+Tillers/plant ,0.8487275242805481
+parial resistance to neck blast,0.5068721771240234
+number of productive panicles per plant (PAN),0.6828421354293823
+lowest elongated internode,0.6507540941238403
+the number of tillers,0.6468538045883179
+number of late-discoloring leaves per panicle at 25 DAF,0.570060670375824
+grain weight per panicle,0.7373617887496948
+Root weight in the 30-60 cm laye,0.6758658289909363
+Root weight in the 60-90 cm layer,0.7016948461532593
+Amylose content,0.5844104290008545
+Rice bran,0.667528510093689
+leaf rolling,0.6722344160079956
+submergence tolerance,0.6623092889785767
+No. of new roots Average,0.5876545906066895
+tolerance to ferrous iron toxicity,0.6468679308891296
+total area of late metaxylem vessels,0.5403652787208557
+root length ratio,0.6625877022743225
+cooked kernel elongation ratio,0.5685984492301941
+Maximum Root Length,0.7094694375991821
+Grain weight/plant,0.8339926600456238
+fertility-restoring,0.5825662612915039
+Cold tolerance,0.6372015476226807
+Seedling height,0.8315030336380005
+Total Chlorophyll,0.6641232371330261
+Grain weight(1999),0.713261604309082
+percent ripened grain,0.6162739396095276
+ratio of culm length reduction,0.5980857014656067
+Sheath blight response ratings,0.6037957668304443
+Vigor of germination (14 days),0.6203675270080566
+Protein content,0.6004744172096252
+Plant weight low N condition ,0.7890661358833313
+plant height,0.9679995775222778
+Area of -3rd leaf (cm2),0.6894728541374207
+grains per panicle,0.717635989189148
+partial resistance to leaf blast,0.6246552467346191
+relative spikelet fertility (RSF),0.6236696839332581
+phtoperiod-sensitivite genetic male sterility,0.6514812111854553
+grain number per panicle,0.6741008758544922
+Grains/panicle,0.707560658454895
+Days-to-heading,0.5404284596443176
+total root number,0.6160681247711182
+Grain length ,0.7026242017745972
+"""Plant height (Low N level, Nutrient solution culture, )""",0.7273886799812317
+Seed ÇÑormancy,0.7234725952148438
+number of panicle,0.6738488078117371
+Total root number(Fall),0.6003503799438477
+field resistance to neck blast,0.5896259546279907
+chlorate sensitivity,0.569130539894104
+relative root elongation,0.6388618350028992
+Fertility,0.6505274176597595
+degree of mean chlorophyll content of the flag and second leaves,0.5247628688812256
+degree of chlorophyll content of the second leaf at the heading date,0.5009922385215759
+leaf chlorophyll content,0.6639979481697083
+spreading of panicle at maturity stage,0.6629413366317749
+Number of large vascular bundles/Total spikelets per panicle,0.6664788126945496
+"""Plant height (Low N level, Soil culture , Tillering Stage )""",0.7251285910606384
+total number of spikelets per panicle,0.6690496802330017
+leaf rolling of  spraying (LRS),0.6051546335220337
+spikelets setting density,0.6175764203071594
+Shoot weight normal N condition,0.6577515602111816
+Sheath rot resistance,0.6252860426902771
+lesion length,0.6144981980323792
+spread stub,0.6105284690856934
+rhizome branching degree,0.6509344577789307
+Grain weight per plant,0.8036437630653381
+gel consistency,0.5888042449951172
+days to flowering (mean),0.6320760250091553
+Panicle length,0.7440645694732666
+leaf emergence rate,0.6178033351898193
+Grain length,0.6939102411270142
+field resistance,0.6237514019012451
+Branching index,0.6660157442092896
+tiller numbers,0.6381645202636719
+cumulative chlorophyll content of the flag leaf,0.582423210144043
+Biomass,0.7181435227394104
+the effective tiller percentage per plant(TPP) ,0.6689733862876892
+Na+ uptake,0.6224263906478882
+Green plantlet yield frequency,0.5998626947402954
+Flowering duration,0.6876545548439026
+chlorophyll content of leaf,0.6568895578384399
+mean of cumulative chlorophyll contents of the flag and second leaves,0.5235614776611328
+sheath blight resistance,0.6706067323684692
+Length of the third seedling leaf,0.6782279014587402
+root thickness (non stress 65 days),0.5576686263084412
+Honeydew weight (HDW),0.598159909248352
+Deep root mass,0.6421990394592285
+Root thickness 0-10 cm,0.720535159111023
+Phyllochron,0.5902830362319946
+Cold-induced yellowing tolerance,0.6033776998519897
+resistance to green rice leafhopper (GRH),0.5588757991790771
+spikelet fertility,0.7087376117706299
+no. of vascular bundles in peduncle,0.6238424181938171
+Shoot weight low N condition,0.6501723527908325
+DRW F-C,0.6129492521286011
+Shoot length ,0.6995689272880554
+Egg mortality of WBPH ,0.4865953028202057
+cold tolerance at the reproductive stage,0.6018027067184448
+Early heading date,0.5206905603408813
+seed setting,0.6404074430465698
+Striga number at week 11,0.5602284669876099
+stele transversal area,0.6104298830032349
+maximum root length (Water deficit),0.6545944213867188
+root fresh weight (Well watered),0.6267821192741394
+number of primary branches per panicle,0.6286307573318481
+pushing resistance of thelower part,0.5303780436515808
+rolled leaf trait,0.6428661346435547
+number of spikelets on secondary branches per secondary branches,0.6378194689750671
+control root elongation,0.6422275900840759
+seed shattering,0.6336082220077515
+hull siliconcontent,0.6466948986053467
+peduncle top diameter,0.7447791695594788
+number of spikelets per panicle,0.6867324113845825
+green rice leafhopper,0.6505933403968811
+male sterility,0.6618841290473938
+Spikelet fertility,0.6917222738265991
+Number of first branches / main panicle,0.6274348497390747
+Days to heading-stress,0.5326887369155884
+Seedling dry weight,0.7319672107696533
+Seed size,0.7139624953269958
+mean seed fertility of F7 lines,0.6062256097793579
+Bacterial blight,0.6644085645675659
+"""root thickness,maximum root length,number of roots past 100cm""",0.6122297644615173
+Grain breadth,0.6539463400840759
+leaf rolling of  culturing (LRC),0.5474376678466797
+Number of large vascular bundles/Area of -3rd leaf,0.5938210487365723
+flag leaf length,0.6612012386322021
+No. of new roots NF-RP,0.5751143097877502
+Sucrose/plant,0.7913647294044495
+the ratio of Rubisco to total leaf N content at 5days after heading,0.4823516607284546
+crown root less,0.6197134256362915
+tolerance to low temperature stress,0.6183675527572632
+Relative root weight ,0.6771805286407471
+vacuolar H+-pyrophosphatase,0.5204594731330872
+amylopectin chain-length,0.6059078574180603
+maximum root length (non stress),0.649825930595398
+low-temperature-sensitive pollen sterility,0.6197970509529114
+Leaf blast incidence against the THL84,0.5236330628395081
+Grain yield (t/ha),0.6513237357139587
+root to shoot ratio (Water deficit),0.592816174030304
+Cd concentration in brown rice,0.585253119468689
+alkali spreading value,0.6477691531181335
+high amount of glutelin precursor,0.48242273926734924
+Deep root weight per tiller ,0.6637544631958008
+Relative shoot dry weight,0.6617464423179626
+No. of tiller,0.6351782083511353
+Seed longevity,0.6831244826316833
+1000 Grain weight ,0.7317076921463013
+yellow mottle virus (RYMV),0.5041593909263611
+Number of grains/plant,0.7386163473129272
+number of late metaxylem vessels,0.5365322232246399
+root-penetration index,0.6245021224021912
+-2 leaf height,0.8547577857971191
+germination rate(9days after incubation),0.5598750710487366
+Number of first branches per panicle,0.6277080178260803
+F2 sterility,0.6735511422157288
+Panicle exsertion,0.732567310333252
+ low temperature germinability,0.573635995388031
+flag leaf angle,0.6371835470199585
+Maximum new root length Average,0.6455446481704712
+root number,0.6150162220001221
+Pollen fertility,0.6831284165382385
+sterility,0.6669302582740784
+purple stigma,0.6465997695922852
+average panicle length per plant,0.7827675938606262
+the lethal osmotic potential Å@,0.5511041879653931
+Osmotic adjustment ,0.5843440890312195
+1000-grain  weight (TGW),0.6297086477279663
+Flowering delay,0.668928861618042
+"""Plant height (Low N level, Soil culture , Maturity  )""",0.7693277597427368
+drought respond index (DRI),0.5782448649406433
+Length-width ratio ,0.7149443626403809
+"""Plant height (High N level, Soil culture , Tillering stage )""",0.7124126553535461
+"""root to shoot ratio,maximum root length""",0.6552120447158813
+Root pulling force ,0.580286979675293
+Root activity,0.6575935482978821
+"""deep root weight,maximum root length,number of roots past 100cm""",0.6106932759284973
+Chlorophyll contents,0.6223887801170349
+Mesocotyl length ,0.607454240322113
+Spikelet density,0.672112762928009
+plant height (Well watered),0.8368827700614929
+cool paste viscosity,0.5720800161361694
+Fertility percentage,0.622096598148346
+density,0.6342716813087463
+Root thickness 20-25 cm,0.7169916033744812
+Maximum root length,0.6972205638885498
+Spikelet number per ppanicle,0.6685569882392883
+pollen sterility,0.6855319142341614
+dry weight,0.7297897338867188
+stickiness score,0.5686598420143127
+infection type (R/S),0.6105158925056458
+grain width,0.742358922958374
+Spikelet density (number of spikelets per 10cm of panicle),0.6715188026428223
+heading date,0.6038579344749451
+Vigor of germination (11 days),0.6249629259109497
+starch gelatinisation,0.5152021646499634
+grain yield per plant,0.7563008069992065
+Grains per panicle(1998),0.7050913572311401
+Pasting temperature (61-02),0.5720470547676086
+Conditional Relative root length (4-week/2-week),0.5711415410041809
+Gel consistency,0.577141284942627
+tillering angle,0.6394191384315491
+Percentages of grains with chalkiness,0.49194571375846863
+score of gall midge resistance,0.5990993976593018
+volume expansion,0.6449153423309326
+Dead leaf rate at 62 days,0.5613363981246948
+maximum root length (2 weeks-stress),0.6310621500015259
+Phospholipase D,0.5372782349586487
+Amylose content ,0.5737479329109192
+Root penetration index(Sum.),0.5621936917304993
+"""Plant height (High N level, Soil culture , Heading stage )""",0.7386062741279602
+Plant age in leaf number F-RP,0.7124997973442078
+average primary branch number per panicle per plant,0.6850695013999939
+Lowest elongated internode,0.6606286764144897
+slender kernel,0.6616223454475403
+Shoot Na+ concentration ,0.5989440083503723
+Plant height-stress,0.8746965527534485
+Gelatinization temperature,0.5376167297363281
+Drought score,0.671004056930542
+second leaf length,0.6522542834281921
+leaf drying score,0.6165491342544556
+Striga dry weight,0.679912269115448
+No. of tillers,0.6554483771324158
+fraction sterile panicles,0.6741369366645813
+Grain yeild,0.6898152828216553
+white core,0.5993608236312866
+Droughtresponse index,0.6905408501625061
+shoot regeneration from mature seed-derived calli,0.635567307472229
+Stem dry weight,0.7346683740615845
+flattened shoot meristem,0.6680303812026978
+Grain yield,0.668762743473053
+lesion area,0.5760614275932312
+Cold-induced wilting tolerance,0.6226881146430969
+Grain weight,0.7281426191329956
+Na+:K+1 ratio,0.6342388987541199
+Grains per panicle-stress,0.6667400002479553
+Number of grains per panicle,0.6692771911621094
+Aroma ,0.6914632320404053
+Sink capacity,0.6758520603179932
+No. of new roots NF-C,0.5761343836784363
+seminal root length(upland),0.6040539145469666
+Cold-induced necrosis tolerance,0.5982909202575684
+Rooting depth,0.6802724599838257
+seed sterility,0.6893035173416138
+"""1,000-grain weight""",0.720379650592804
+ABA accumulation,0.6123049259185791
+adventitious root number(flooding),0.617068886756897
+White belly ,0.6430173516273499
+Bentazon-sensitivities,0.5110176205635071
+Dead leaf rate at 55 days,0.5606697797775269
+root length,0.7035631537437439
+Percent seed set,0.5941987633705139
+Root dry weight,0.7130540609359741
+Dead leaf rate at 48 days,0.5500250458717346
+thermo-sensitive genic male sterile,0.5866557955741882
+frequency of pre-flowering floret abortion (%FA),0.5974442958831787
+1000 grain weight,0.7208132743835449
+disease severity index at URRC,0.5901750922203064
+relative water content,0.6038539409637451
+relative chlorophyll content of leaf blade,0.6045419573783875
+cooked rice elongation,0.6395531892776489
+water absorption,0.6326608061790466
+days to heading,0.5430313944816589
+Seed dormancy,0.7116798758506775
+grain length-width ratio,0.6908142566680908
+maximum root length (after 4-weeks stress),0.6222313642501831
+Yield per plant,0.783646285533905
+"""tiller, leaf and flag leaf angles""",0.6223270297050476
+Alkali-spreading score,0.6011223196983337
+degree of chlorophyll content of flag leaf at the heading date,0.5119665265083313
+No. of new roots F-C,0.5847200155258179
+Spikelet number per  plant,0.7282235026359558
+canopy temperature (CT),0.6125217080116272
+"""Plant height (High N level, Soil culture , Maturity  )""",0.7697730660438538
+1st internode length,0.6283251047134399
+Thousand grain weight,0.6822071075439453
+total number of leaves,0.6638256311416626
+awnless,0.6365557909011841
+tissue culture,0.6173542737960815
+grain thickness,0.6893274784088135
+Vigor of germination (7days)Å@,0.6194949150085449
+shattering,0.6054390668869019
+Seminal root length,0.6386035680770874
+root dry weight/root fresh weight,0.6767993569374084
+K+1 concentration,0.6428284645080566
+Shoot dry weight,0.7086688876152039
+hot paste viscosity,0.5789085030555725
+days to maturity (mean),0.5491793155670166
+Salt-soluble storage proteins,0.5970556139945984
+No. of large stem vascular bundles ,0.6156086325645447
+Percentage of exserted stigmas,0.6442684531211853
+leaf chlorophyll content 25 days after flowering,0.6003297567367554
+score of submergence tolerance,0.6184588670730591
+ovicidal response to whitebacked planthopper,0.4688255488872528
+mesocotyl length,0.5859885811805725
+Boron tolerance,0.632773220539093
+arsenic concentrations in shoots,0.6221810579299927
+Seed weight,0.7575682401657104
+chlorophyll degradation speed,0.635602593421936
+Root / Shoot Ratio of Dry Weight,0.6535690426826477
+Yield(1998),0.664474368095398
+Chalcone synthase,0.6002862453460693
+osmotic adjustment at 70 % RWC ,0.5403587222099304
+root dry weight(flooding),0.6832491755485535
+Root-to-shoot ratio Average,0.6375905275344849
+resistant or susceptible phenotype ,0.61784827709198
+Root-to-shoot ratio F-RP,0.6094339489936829
+Harvest index,0.6250017881393433
+leaf chlorophyll content at flowering (SPAD),0.6166542172431946
+low temperature germinablity,0.6625871658325195
+number of filled grain per panicle (NFG),0.5792641639709473
+chlorophyll a/b ratioat the 7th day after heading,0.5310195684432983
+Deep root ratio,0.6158333420753479
+root dry weight (low moisture stress 85 days),0.6115210652351379
+Penetrated root thickness ,0.6212975978851318
+overall evaluation,0.6185688972473145
+root fresh weight,0.6689475774765015
+Zinc content,0.6264068484306335
+nymph mortality,0.5883293151855469
+Dead leaf rate at 34 days,0.5495505332946777
+Protein,0.6450313925743103
+Maximum new root length NF-C,0.6282835602760315
+flag-leafwidth,0.6444021463394165
+Number of large vascular bundles/Area of -2nd leaf,0.5944852232933044
+Total number of spikelets  per panicle,0.6769356727600098
+Number of spikelets per panicle,0.6842429637908936
+blast resistance,0.660927414894104
+panicle or tiller no.per m2,0.660590410232544
+rice stripe virus resistance,0.5829498171806335
+Area of -2nd leaf (cm2),0.6991081833839417
+glossiness,0.5620260834693909
+Relative root length after 2 weeks stress,0.568562924861908
+Number of panicles,0.6823834776878357
+Water absorption,0.6414501070976257
+Grain number per plant,0.7545967698097229
+sheath blight response ratings (SBRs),0.5090915560722351
+basal root thickness,0.6890197396278381
+Days to heading,0.5409291982650757
+stress root length,0.6462895274162292
+Grain width ,0.7368651032447815
+germination rate,0.6705902814865112
+Grain yield per plant,0.7621190547943115
+Brown planthopper,0.6397226452827454
+tiller-bud dormancy,0.6827234625816345
+DRW Average,0.6101431250572205
+Test (1000) grain weight,0.6883528232574463
+Total root dry weight,0.6689605712890625
+Plant age in leaf number NF-C,0.7049429416656494
+Days to 50% flowering,0.6662943363189697
+setback,0.6363703012466431
+stickiness,0.5707643628120422
+Spikelets per panicle,0.7044069766998291
+Root number (Well watered),0.5649403929710388
+shoot fresh weight (Water deficit),0.6291021108627319
+floral organ number,0.622327446937561
+first leaf length,0.695641815662384
+allelopathy,0.6096467971801758
+bacterial blight resistance,0.6637675166130066
+germinability at low temperature (15Åé),0.5746374726295471
+scent revelation with KOH,0.5864531397819519
+number of secondary branches per panicle,0.6582310795783997
+"""Yield, t/ha""",0.6783578991889954
+field resistance to leaf blast,0.634244978427887
+Panicles per plant ,0.7931655645370483
+plant height (Low moisture stress),0.799724280834198
+resistance-scoring,0.5999990105628967
+Cold response index for vigor of germination,0.6132587790489197
+relative root length (RRL),0.5985222458839417
+panicle length,0.7504104971885681
+pollen fertility,0.6743167042732239
+white-berry kernels,0.6204316020011902
+coleoptile elongation rate,0.6200379729270935
+Number of elongated internodes,0.6889534592628479
+leaf bronzing index,0.6049098372459412
+Grains/panicle(1999),0.7108854055404663
+adventitious root number(upland),0.6129130125045776
+Plant height,0.9606351852416992
+Length of the flag leaf ,0.6665803790092468
+number of vascular bundle,0.5911272168159485
+1000 kernel weight,0.6821518540382385
+Grain number per planicle,0.6286463141441345
+flavour or fragrance of basmati and jasmine rice,0.5808829665184021
+"""FLS, mg Si per 100 mg dryweight in the flag leaf""",0.6211562156677246
+Spikelet number per panicle(35 d after heading),0.6417828798294067
+brown planthopper,0.6317861080169678
+cold tolerance at seedling stage (CTS),0.5934703350067139
+Relative germination rate(RGR),0.6083405613899231
+yield,0.6855371594429016
+leaf angle,0.7004120945930481
+chlorophyll a/b ratio,0.6678206920623779
+days to flowering (non stress),0.6010123491287231
+Grain width,0.7495337128639221

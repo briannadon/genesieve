@@ -1,0 +1,5 @@
+https://www.sciencedirect.com/science/article/pii/S2468265918300817
+
+Fasta was from Ph5-1 from the first row of QTARO table.
+
+Annotations from AUGUSTUS with pre-trained, built in rice training parameters.
