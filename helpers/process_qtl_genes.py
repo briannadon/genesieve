@@ -7,6 +7,9 @@ from scipy.stats import norm
 ##################################################
 ## Helper script to make gene:qtl:normscore tables
 ##################################################
+## The inputs should be of the form:
+## trait: "trait_desc,chrom,start,end"
+## and a gff of "chrom,start,end,gene"
 ##################################################
 
 def find_qtl_genes(row,gff=gff):
@@ -18,6 +21,13 @@ def find_qtl_genes(row,gff=gff):
                         (gff['end'] <= end) & 
                         (gff['chromosome']==chrom)]['gene'].tolist()
     return [(row['trait_name'],g) for g in gff_genes]
+
+#the trait_df must be in the format discussed in the header of this file
+def process_trait_df(trait_df):
+    df = pd.DataFrame(list(itertools.chain(*map(find_qtl_genes,
+                                                trait_df.iterrows()))),
+                     columns=['trait','gene'])
+    return df
 
 def apply_norm_transform(l,min_score=0.5,max_score=1):
     n = len(l)+1
@@ -36,3 +46,4 @@ def apply_norm_transform(l,min_score=0.5,max_score=1):
     a = list(np.interp(ea_np, (ea_np.min(), ea_np.max()), (min_score, max_score)))
     b = a[:reflect_pt][::-1]
     return a+b
+
