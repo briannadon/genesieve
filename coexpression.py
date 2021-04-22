@@ -5,6 +5,7 @@ from multiprocessing import Pool
 from itertools import product
 from sys import getsizeof
 
+#unused
 def read_quants(species):
     path = 'data/quants/'
     fullpath = path + species + "_quants.csv"
@@ -18,7 +19,7 @@ def find_all_coexps(gene,allgenes,quants):
         othergenes = allgenes
         othergenes.remove(gene)
     except ValueError:
-        print(gene)
+        print(gene + ' is not in the list of genes')
     g1 = np.array(quants.loc[gene])
     coexp_dict = {}
     for g in othergenes:

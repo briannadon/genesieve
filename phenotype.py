@@ -15,7 +15,7 @@ from sys import argv
 #The Phenotype table must have the columns "species" and "trait". Everything else is optional.
 
 class PhenoMatch(object):
-    def __init__(self,i,description,distance,species):
+    def __init__(self,i,description,distance,species="NA"):
         self.i = i
         self.description = description
         self.distance=distance
@@ -33,15 +33,15 @@ def load_model(model_path):
     return model
 
 def process_traits(traitlist):
-    for i, trait in traitlist:
+    for i, trait in enumerate(traitlist):
         if str(trait)=="nan":
-        trait = "N/A"
+            trait = "N/A"
         tokens = simple_preprocess(trait)
         yield tokens
         
-def make_vectors(traitlist,model,epochs=1):
+def make_vectors(traitlist,model,epochs=1,species="NA"):
     vectors=[]
-    for (trait,[species,i]) in traitlist:
+    for trait in traitlist:
         v = model.infer_vector(trait)
         vectors.append(([model.infer_vector(trait,epochs=epochs)],species))
     return vectors
@@ -57,9 +57,8 @@ def find_sim_phenos(query,targets,words,topn=3):
     return [words[i] for i in ids]
 
 def get_distances(model_path,trait_list,input_trait):
-    trait_df = pd.read_csv(trait_file)
     unprocessed_traits = trait_list
-    traits = list(process_traits(trait_df))
+    traits = list(process_traits(unprocessed_traits))
     model = load_model(model_path)
     phvecs = make_vectors(traits,model,epochs=100)
     query_vec = model.infer_vector(simple_preprocess(input_trait),epochs=100)
@@ -67,8 +66,8 @@ def get_distances(model_path,trait_list,input_trait):
     for i,vec in enumerate(phvecs):
         #vec[0] is the vector for the pheno,
         #vec[1] is the species
-        sim = spatial.distance.cosine(vec[0],query_vec)
-        p = PhenoMatch(i,unprocessed_traits[i],sim,vec[1])
+        sim = 1 - spatial.distance.cosine(vec[0],query_vec)
+        p = PhenoMatch(i,unprocessed_traits[i],sim)
         dists.append(p)
     return dists
 

@@ -25,11 +25,10 @@ def process_blast(blast_file,pid_cutoff=65.0):
               'send',
               'evalue',
               'bitscore']
-    blast = pd.read_csv(blast_file,sep='\t',names=columns)
+    blast = pd.read_table(blast_file,sep='\t',names=columns)
     blast = blast.loc[blast.pid > pid_cutoff]
     blast = blast[['query','subject','pid']]
     blast.pid = blast.pid/100
-    blast.columns = ['item1','item2','weight']
     blast['connection'] = 'homology'
     return blast
     
