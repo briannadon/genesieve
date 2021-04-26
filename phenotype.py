@@ -71,6 +71,20 @@ def get_distances(model_path,trait_list,input_trait):
         dists.append(p)
     return dists
 
+def get_pheno_results(in_pheno,pheno_model_file,trait_list,pheno_sim_min):
+    #sanitize pheno input:
+    pheno_text = pheno_input(in_pheno)
+    pheno_text = phenotype.sanitize_text(pheno_text)
+
+    pheno_dists = phenotype.get_distances(pheno_model_file,trait_list,pheno_text)
+    pheno_dist_d =[(pheno_text,p.description,p.distance,'text') for p in pheno_dists]
+    pheno_table = pd.DataFrame(pheno_dist_d,columns=['input pheno','db pheno','similarity','connection'])
+    pheno_table = pheno_table.assign(type1='input pheno',type2='db pheno')
+    
+    #only want phenos above the cutoff similarity
+    pheno_table = pheno_table.loc[pheno_table['similarity'] > pheno_sim_min]
+    return pheno_table
+
 
 if __name__=="__main__":
     input_trait = "grain yield"
