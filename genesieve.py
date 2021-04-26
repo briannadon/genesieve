@@ -21,7 +21,7 @@ if __name__=="__main__":
     
     augustus_protein_script = "helpers/get-fasta.sh"
     coexp_min = 0.65
-    pheno_sim_min = 0.5
+    pheno_sim_min = 0.7
         
     
     qtl_db = "/project/gbru/gbru_genesieve/pipeline_test/testdata/rice_qtl_genes.csv"
@@ -31,7 +31,7 @@ if __name__=="__main__":
     
     #run annotation first
     augout = timestamp+".augustus"
-    aquery = annotate.augustus_query(augout,in_fasta,species="rice")
+    aquery = annotate.augustus_query(in_fasta,"rice",augout)
     a = subprocess.Popen(aquery)
     
     #While augustus is running, load up the phenotype stuff
