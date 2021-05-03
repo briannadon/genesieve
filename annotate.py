@@ -1,12 +1,11 @@
 import subprocess
 
-def augustus_query(fasta,species,outfile,partial=True):
+def augustus_query(fasta,species,outfile,partial=False):
     if partial:
         model = "partial"
     else:
         model = "complete"
-    argstr = "augustus --outfile={} --species={} --genemodel={} {}".format(
-        outfile,species,partial,fasta)
+    argstr = f"augustus --outfile={outfile} --species={species} --genemodel={model} {fasta}"
     return argstr.split(" ")
 
 def run_augustus(query,output):
@@ -14,7 +13,8 @@ def run_augustus(query,output):
 
 
 def get_proteins(basename,get_fasta_script='helpers/get-fasta.sh'):
-    args = ['bash',get_fasta_script,'-p',basename + ".gff"]
+    args = ['bash',get_fasta_script,'-p',basename + ".faa",basename+".augustus"]
+    print("args: ",' '.join(args))
     protfile = basename + ".aa"
     subprocess.run(args)
     return protfile

@@ -7,28 +7,34 @@ import sanitize
 import scoring
 import phenotype
 import coexpression
-
-
-def pheno_input(phenofile='tests/testdata/rice_qtl_genes.csv'):
-    with open(phenofile) as f:
-        phenotype = f.read()
-    return phenotype
-
+import pandas as pd
+import os
+import pathlib
 
 if __name__=="__main__":
     script, in_fasta, in_pheno = argv
     timestamp = str(time.time())
+    timestamp = f"genesieve_{timestamp}"
     
-    augustus_protein_script = "helpers/get-fasta.sh"
+    cwd = os.getcwd()
+    
+    in_fasta=f"{cwd}/{in_fasta}"
+    in_pheno=f"{cwd}/{in_pheno}"
+
+    augustus_protein_script = f"{cwd}/genesieve/helpers/get-fasta.sh"
     coexp_min = 0.65
     pheno_sim_min = 0.7
         
     
-    qtl_db = "/project/gbru/gbru_genesieve/pipeline_test/testdata/rice_qtl_genes.csv"
-    coexp_db = "/project/gbru/gbru_genesieve/pipeline_test/testdata/ricecoexp_sample_1000_LOC_Os05g04990.1.csv"
+    qtl_db = f"{cwd}/testdata/rice_qtl_genes.csv"
+    coexp_db = f"{cwd}/testdata/ricecoexp_sample_1000_LOC_Os05g04990.1.csv"
     #blast_file = 'rice_height_test/scripts/Ph5-1_vs_rice.blast'
-    pheno_model = '/project/gbru/gbru_genesieve/pipeline_test/testdata/model/dbow_wiki_2.model'
+    pheno_model = f'{cwd}/testdata/model/dbow_wiki_2.model'
     
+    pathlib.Path(f"{cwd}/{timestamp}").mkdir(parents=True, exist_ok=True)
+
+    os.chdir(f'{cwd}/{timestamp}')
+
     #run annotation first
     augout = timestamp+".augustus"
     aquery = annotate.augustus_query(in_fasta,"rice",augout)
@@ -49,7 +55,7 @@ if __name__=="__main__":
     while not a.poll():
         time.sleep(5)
     
-    aa_file = annotate.get_proteins(timestamp,bash_script="get-fasta.sh")
+    aa_file = annotate.get_proteins(timestamp,get_fasta_script=augustus_protein_script)
  
     #Get the BLAST running in the background as "b"
     blast_output = timestamp + ".blast"

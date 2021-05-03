@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import sanitize
 from gensim.models.doc2vec import Doc2Vec,TaggedDocument
 from gensim.utils import simple_preprocess
 import numpy as np
@@ -26,7 +27,12 @@ class PhenoMatch(object):
                 'distance':self.distance,
                 'species':self.species}
         return(str(pdict))
-    
+
+def pheno_input(phenofile):
+    with open(phenofile) as f:
+        phenotype = f.read()
+    return phenotype
+
 def load_model(model_path):
     #Load the model (replace with actual path to model)
     model = Doc2Vec.load(model_path)
@@ -74,9 +80,9 @@ def get_distances(model_path,trait_list,input_trait):
 def get_pheno_results(in_pheno,pheno_model_file,trait_list,pheno_sim_min):
     #sanitize pheno input:
     pheno_text = pheno_input(in_pheno)
-    pheno_text = phenotype.sanitize_text(pheno_text)
+    pheno_text = sanitize.sanitize_text(pheno_text)
 
-    pheno_dists = phenotype.get_distances(pheno_model_file,trait_list,pheno_text)
+    pheno_dists = get_distances(pheno_model_file,trait_list,pheno_text)
     pheno_dist_d =[(pheno_text,p.description,p.distance,'text') for p in pheno_dists]
     pheno_table = pd.DataFrame(pheno_dist_d,columns=['input pheno','db pheno','similarity','connection'])
     pheno_table = pheno_table.assign(type1='input pheno',type2='db pheno')
