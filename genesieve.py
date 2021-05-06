@@ -1,15 +1,17 @@
 import subprocess
 import time
 from sys import argv
+import pandas as pd
+import os
+import pathlib
+import re
+
 import annotate
 import blast
 import sanitize
 import scoring
 import phenotype
 import coexpression
-import pandas as pd
-import os
-import pathlib
 
 if __name__=="__main__":
     script, in_fasta, in_pheno = argv
@@ -25,7 +27,8 @@ if __name__=="__main__":
     coexp_min = 0.65
     pheno_sim_min = 0.7
         
-    
+    gene_db = f'{cwd}/testdata/Oryza_sativa.faa'
+
     qtl_db = f"{cwd}/testdata/rice_qtl_genes.csv"
     coexp_db = f"{cwd}/testdata/ricecoexp_sample_1000_LOC_Os05g04990.1.csv"
     #blast_file = 'rice_height_test/scripts/Ph5-1_vs_rice.blast'
@@ -51,18 +54,16 @@ if __name__=="__main__":
                                               trait_list,pheno_sim_min)
     
     
-    #check if annotation is done
-    while not a.poll():
-        time.sleep(5)
-    
+    #wait till annotation is done
+    a.wait()
+
+
     aa_file = annotate.get_proteins(timestamp,get_fasta_script=augustus_protein_script)
  
     #Get the BLAST running in the background as "b"
     blast_output = timestamp + ".blast"
-    subprocess.run(blast.blast_query(aa_file,
-                                      'data/testdata/Orzya_sativa.faa',
-                                      blast_output
-                                     ))
+    bquery = blast.blast_query(aa_file,gene_db,blast_output)
+    b = subprocess.Popen(bquery)
     
     #load in the coexp data
     #We will NOT be filtering it right now
@@ -74,8 +75,7 @@ if __name__=="__main__":
     coexp_table['gene2'] = [re.sub('\.\d','',x) for x in list(coexp_table['gene2'])]
     
     #if the BLAST is still running, wait till it finishes
-    while not b.poll():
-        time.sleep(5)
+    b.wait()
 
     blast_table = blast.process_blast(blast_output)
     blast_table = blast_table.assign(type1='input gene',type2='db gene')
@@ -135,4 +135,4 @@ if __name__=="__main__":
     num = results_table._get_numeric_data()
     num[num < 0] = 0
     
-    
+    results_table.to_csv(f"{timestamp}_resultstable.csv",index=False)

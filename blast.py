@@ -3,8 +3,7 @@ from time import time
 import pandas as pd
 
 def blast_query(query,db,out,evalue='1E-10'):
-    argstr = "blastp -outfmt 6 -db {} -query {} -out {} -evalue {}".format(
-        db,query,out,evalue)
+    argstr = f"blastp -outfmt 6 -db {db} -query {query} -out {out} -evalue {evalue}"
     arg = argstr.split(" ")
     return arg
     print(arg)
