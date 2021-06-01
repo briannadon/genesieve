@@ -6,14 +6,6 @@ from itertools import product
 from sys import getsizeof
 
 #unused
-def read_quants(species):
-    path = 'data/quants/'
-    fullpath = path + species + "_quants.csv"
-    quants = pd.read_csv("soy_quants.csv",index_col=0)
-    
-def get_genes(quant_table):
-    return quant_table.index.tolist()
-
 def find_all_coexps(gene,allgenes,quants):
     try:
         othergenes = allgenes
@@ -28,9 +20,31 @@ def find_all_coexps(gene,allgenes,quants):
         coexp_dict[g] = coexp
     return coexp_dict
 
-def get_all_coexpressions(target_gene,genelist,quants,threads=2):
-    with Pool(processes=threads) as p:
-        args = ((tg,genelist,quants) for tg in target_genes)
-        gcoexpdict = p.starmap(find_all_coexps,args)
-    return gcoexpdict
-    
+def get_sql_coexp(conf_file,species,gene1,gene2):
+    record_result = []
+    db = mysql.connector.connect(option_files = conf_file, use_pure = True)
+    cursor = db.cursor()
+    table = f"{species}_coexp" # at/maize/rice/soy_coexp
+    query = f"SELECT coexp FROM {table} WHERE gene1 = {gene1} AND gene2 = {gene2}"
+    if gene1 == gene2:
+        return 1.0
+    cursor.execute(query, (gene1, gene2))
+    result = cursor.fetchall()
+    if len(result) > 0:
+        result = [float(x) for x in result]
+        result = sum(result)/len(result)
+        return result
+    #If gene1,gene2 didn't work, reverse it
+    else:
+        cursor.execute(query, (gene2,gene1))
+        result = cursor.fetchall()
+        if len(result) > 0:
+            result = [float(x) for x in result]
+            result = sum(result)/len(result)
+            return result
+        else:
+            print("\t\tboth queries failed to return results")
+    cursor.close()
+    db.close()
+
+def 
