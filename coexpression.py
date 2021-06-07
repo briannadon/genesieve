@@ -1,24 +1,7 @@
 import pandas as pd
 import numpy as np
-from scipy.stats import spearmanr
-from multiprocessing import Pool
-from itertools import product
 from sys import getsizeof
-
-#unused
-def find_all_coexps(gene,allgenes,quants):
-    try:
-        othergenes = allgenes
-        othergenes.remove(gene)
-    except ValueError:
-        print(gene + ' is not in the list of genes')
-    g1 = np.array(quants.loc[gene])
-    coexp_dict = {}
-    for g in othergenes:
-        g2 = np.array(quants.loc[g])
-        coexp = spearmanr(g1,g2)
-        coexp_dict[g] = coexp
-    return coexp_dict
+from itertools import permutations
 
 def get_sql_coexp(conf_file,species,gene1,gene2):
     record_result = []
@@ -46,5 +29,15 @@ def get_sql_coexp(conf_file,species,gene1,gene2):
             print("\t\tboth queries failed to return results")
     cursor.close()
     db.close()
+    print(f"the result of {gene1},{gene2} was coexp={result}")
 
-def 
+
+def get_all_coexps(gene_l_1, gene_l_2, conf_file,species):
+    df_list = []
+    all_combinations = [list(zip(each_permutation, gene_l_2)) 
+            for each_permutation in permutations(gene_l_1, len(gene_l_2))]
+    for g1,g2 in all_combinations:
+        coexp = get_sql_coexp(conf_file,species,g1,g2)
+        df_list.append([g1,g2,coexp,'db gene','db gene','coexpression'])
+    df = pd.DataFrame(df_list,columns=['gene1','gene2','coexpression','type1','type2','connection'])
+    return df

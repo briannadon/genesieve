@@ -22,11 +22,13 @@ if __name__=="__main__":
     
     in_fasta=f"{cwd}/{in_fasta}"
     in_pheno=f"{cwd}/{in_pheno}"
+    
 
     augustus_protein_script = f"{cwd}/genesieve/helpers/get-fasta.sh"
-    coexp_min = 0.65
+    coexp_min = 0.6
     pheno_sim_min = 0.7
         
+    db_conf = "/home/bnadon/mysql.test/db.conf" 
     gene_db = f'{cwd}/testdata/Oryza_sativa.faa'
 
     qtl_db = f"{cwd}/testdata/rice_qtl_genes.csv"
@@ -44,15 +46,19 @@ if __name__=="__main__":
     a = subprocess.Popen(aquery)
     
     #While augustus is running, load up the phenotype stuff
-    
+   
+    # Read in every single QTL, then get a list of all the traits
     qtl_table = pd.read_csv(qtl_db)
     trait_list = list(set(list(qtl_table.trait)))
 
-    #sanitize pheno input:
-    
+    # get the distance of your input pheno to every pheno in the database 
     pheno_table = phenotype.get_pheno_results(in_pheno,pheno_model,
                                               trait_list,pheno_sim_min)
-    
+
+
+    #Here, we should filter the phenotype table. It's already filtered,
+    # but I want to pare down results for now.
+    pheno_table_filtered = pheno_table.nlargest(int(.1 * len(pheno_table)),'similarity') 
     
     #wait till annotation is done
     a.wait()
@@ -68,21 +74,18 @@ if __name__=="__main__":
     #load in the coexp data
     #We will NOT be filtering it right now
     #TK: filter the coexp values
-    coexp_table = pd.read_csv(coexp_db)
-    
+    #coexp_table = pd.read_csv(coexp_db)
     ##TK: Delete this line when we have properly reformatted the data
-    coexp_table['gene1'] = [re.sub('\.\d','',x) for x in list(coexp_table['gene1'])]
-    coexp_table['gene2'] = [re.sub('\.\d','',x) for x in list(coexp_table['gene2'])]
+    #coexp_table['gene1'] = [re.sub('\.\d','',x) for x in list(coexp_table['gene1'])]
+    #coexp_table['gene2'] = [re.sub('\.\d','',x) for x in list(coexp_table['gene2'])]
     
     #if the BLAST is still running, wait till it finishes
     b.wait()
 
     blast_table = blast.process_blast(blast_output)
     blast_table = blast_table.assign(type1='input gene',type2='db gene')
-    
     ##TK: delete this line when we have properly formatted the data
     blast_table['subject'] = [re.sub('\.\d','',x) for x in list(blast_table['subject'])]
-    
     blast_hits = blast_table.subject.tolist()
     
     
@@ -90,43 +93,63 @@ if __name__=="__main__":
     #Create the Results Table
     #########################
     
-    #select the QTL that are associated with the BLAST hits
+    #select the QTL that are associated with the phenotypes
+    good_pheno_matches = pheno_table_filtered['db pheno'].tolist()
     selected_qtl = qtl_table.loc[
-        qtl_table['gene'].isin(blast_hits)]
-    selected_qtl = selected_qtl.assign(type1='db pheno',type2='db gene',connection='qtl')
+            qtl_table['trait'].isin(good_pheno_matches)]
+    selected_qtl = selected_qtl.assign(
+            type1='db pheno',type2='db gene',connection='qtl')
+
+    print(f"the length of selected_qtl is {len(selected_qtl)}.")
     
     #select the coexpressed genes with the BLAST hits
     ##TK: refactor when full database is available to filter for blast
     ##hits being in either column gene1 or gene2
-    selected_coexp = coexp_table.loc[
-        coexp_table['gene2'].isin(blast_hits)]
-    selected_coexp = selected_coexp.assign(type1='db gene',type2='db gene',connection='coexpression')
+
+    #Getting coexpression from the sql db (db.conf set above)
+    #tk: implement all species, change "rice" to 'species'
+    
+    qtl_connected_genes = selected_qtl['gene'].tolist()
+    selected_coexp = coexpression.get_all_coexps(blast_hits,qtl_connected_genes,db_conf,'rice') 
+    print(f"selected_coexp has {len(selected_coexp)} rows")
+
+    #selected_coexp = coexp_table.loc[
+    #    coexp_table['gene2'].isin(blast_hits)]
+    #selected_coexp = selected_coexp.assign(type1='db gene',type2='db gene',connection='coexpression')
 
     #the second depth of qtl: coexpressed genes with QTL connections
     #check if any of the selected coexpressed genes have phenotype connections
-    coexp_qtl_hits = qtl_table.loc[
-        (qtl_table['gene'].isin(selected_coexp['gene1'])) | 
-        (qtl_table['gene'].isin(selected_coexp['gene2']))
-        ]
-    coexp_qtl_hits = coexp_qtl_hits.assign(type1='db pheno',type2='db gene',connection='qtl')
+    if not selected_coexp.empty and not selected_qtl.empty:
+        coexp_qtl_hits = qtl_table.loc[
+            (selected_qtl['gene'].isin(selected_coexp['gene1'])) | 
+            (selected_qtl['gene'].isin(selected_coexp['gene2']))
+            ]
+        coexp_qtl_hits = coexp_qtl_hits.assign(type1='db pheno',type2='db gene',connection='qtl')
+
 
 
     #Cleaning up headers, aligning them to be renamed
-    pheno_table = pheno_table[['input pheno','db pheno','similarity','type1','type2','connection']]
-    selected_qtl = selected_qtl[['trait','gene','norm_score','type1','type2','connection']]
-    selected_coexp = selected_coexp[['gene1','gene2','coexp','type1','type2','connection']]
-    coexp_qtl_hits = coexp_qtl_hits[['trait','gene','norm_score','type1','type2','connection']]
-    blast_table = blast_table[['query','subject','pid','type1','type2','connection']]
-    
     header = ['item1','item2','weight','source1','source2','connection']
+    pheno_table = pheno_table_filtered[['input pheno','db pheno','similarity','type1','type2','connection']]
+    selected_qtl = selected_qtl[['trait','gene','norm_score','type1','type2','connection']]
+    blast_table = blast_table[['query','subject','pid','type1','type2','connection']]
+    try:
+        s_coexp_empty = False
+        selected_coexp = selected_coexp[['gene1','gene2','coexp','type1','type2','connection']]
+        coexp_qtl_hits = coexp_qtl_hits[['trait','gene','norm_score','type1','type2','connection']]
+    except TypeError:
+        s_coexp_empty = True
+    
     
     #rename the columns
-    pheno_table.columns=header
-    selected_qtl.columns=header
-    selected_coexp.columns=header
-    coexp_qtl_hits.columns=header
-    blast_table.columns=header
-    
+    pheno_table.columns=selected_qtl.columns=blast_table.columns=header
+    if not s_coexp_empty:
+        selected_coexp.columns=coexp_qtl_hits.columns=header
+        tables = [pheno_table,blast_table,selected_qtl,selected_coexp,coexp_qtl_hits]
+    else:
+        tables = [pheno_table,blast_table,selected_qtl]
+
+
     #The results table
     results_table = pd.concat([pheno_table,blast_table,selected_qtl,selected_coexp,coexp_qtl_hits],
                              ignore_index=True)
