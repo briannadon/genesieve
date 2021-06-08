@@ -135,9 +135,9 @@ if __name__=="__main__":
     blast_table = blast_table[['query','subject','pid','type1','type2','connection']]
     try:
         s_coexp_empty = False
-        selected_coexp = selected_coexp[['gene1','gene2','coexp','type1','type2','connection']]
+        selected_coexp = selected_coexp[['gene1','gene2','coexpression','type1','type2','connection']]
         coexp_qtl_hits = coexp_qtl_hits[['trait','gene','norm_score','type1','type2','connection']]
-    except TypeError:
+    except (TypeError,NameError):
         s_coexp_empty = True
     
     
