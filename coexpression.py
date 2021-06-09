@@ -36,6 +36,7 @@ def get_all_coexps(gene_l_1, gene_l_2, conf_file,species):
     df_list = []
     all_combinations = [list(zip(each_permutation, gene_l_2)) 
             for each_permutation in permutations(gene_l_1, len(gene_l_2))]
+    print(all_combinations)
     for g1,g2 in all_combinations:
         coexp = get_sql_coexp(conf_file,species,g1,g2)
         df_list.append([g1,g2,coexp,'db gene','db gene','coexpression'])

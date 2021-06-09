@@ -151,8 +151,12 @@ if __name__=="__main__":
 
 
     #The results table
-    results_table = pd.concat([pheno_table,blast_table,selected_qtl,selected_coexp,coexp_qtl_hits],
+    if not s_coexp_empty:
+        results_table = pd.concat([pheno_table,blast_table,selected_qtl,selected_coexp,coexp_qtl_hits],
                              ignore_index=True)
+    else:
+        results_table = pd.concat([pheno_table,blast_table,selected_qtl],
+                                             ignore_index=True)
     results_table = results_table.drop(results_table[(results_table['connection'] == 'text') & 
                                                      (results_table['weight'] < pheno_sim_min)].index)
     num = results_table._get_numeric_data()
