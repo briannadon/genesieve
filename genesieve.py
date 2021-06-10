@@ -110,7 +110,7 @@ if __name__=="__main__":
     #tk: implement all species, change "rice" to 'species'
     
     qtl_connected_genes = selected_qtl['gene'].tolist()
-    selected_coexp = coexpression.get_all_coexps(blast_hits,qtl_connected_genes,db_conf,'rice') 
+    selected_coexp = coexpression.get_all_coexps(blast_hits,qtl_connected_genes,db_conf,'rice',coexp_min=coexp_min) 
     print(f"selected_coexp has {len(selected_coexp)} rows")
 
     #selected_coexp = coexp_table.loc[
