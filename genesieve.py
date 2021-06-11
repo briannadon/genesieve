@@ -119,7 +119,12 @@ if __name__=="__main__":
 
     #the second depth of qtl: coexpressed genes with QTL connections
     #check if any of the selected coexpressed genes have phenotype connections
+
+    #Fix this - isin doesn't work this way.
     if not selected_coexp.empty and not selected_qtl.empty:
+        selected_qtl_genes = set(selected_qtl['gene'].tolist())
+        coexp_g1s = set(selected_coexp['gene1'].tolist())
+        coexp_g2s = set(selected_coexp['gene2'].tolist())
         coexp_qtl_hits = qtl_table.loc[
             (selected_qtl['gene'].isin(selected_coexp['gene1'])) | 
             (selected_qtl['gene'].isin(selected_coexp['gene2']))

@@ -14,18 +14,14 @@ def get_sql_coexp(cursor,species,gene1,gene2,coexp_min=0.6):
     cursor.execute(query, (gene1,gene2,coexp_min))
     result = cursor.fetchall()
     if len(result) > 0:
-        print(result)
-        result = [float(x) for x in result[0]]
-        result = sum(result)/len(result)
+        result = float(result[0][0])
         return result
     #If gene1,gene2 didn't work, reverse it
     else:
         cursor.execute(query, (gene2,gene1,coexp_min))
         result = cursor.fetchall()
         if len(result) > 0:
-            print(result)
-            result = [float(x) for x in result[0]]
-            result = sum(result)/len(result)
+            result = float(result[0][0])
             return result
         else:
             return None
