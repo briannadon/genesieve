@@ -125,11 +125,8 @@ if __name__=="__main__":
         selected_qtl_genes = set(selected_qtl['gene'].tolist())
         coexp_g1s = set(selected_coexp['gene1'].tolist())
         coexp_g2s = set(selected_coexp['gene2'].tolist())
-        coexp_qtl_hits = qtl_table.loc[
-            (selected_qtl['gene'].isin(selected_coexp['gene1'])) | 
-            (selected_qtl['gene'].isin(selected_coexp['gene2']))
-            ]
-        coexp_qtl_hits = coexp_qtl_hits.assign(type1='db pheno',type2='db gene',connection='qtl')
+        full_coexps = coexp_g1s | coexp_g2s
+        coexp_qtl_hits = selected_qtl.loc[selected_qtl.isin(full_coexps)['gene']]
 
 
 
