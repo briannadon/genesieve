@@ -25,8 +25,8 @@ if __name__=="__main__":
     
 
     augustus_protein_script = f"{cwd}/genesieve/helpers/get-fasta.sh"
-    coexp_min = 0.6
-    pheno_sim_min = 0.7
+    coexp_min = 0.8
+    pheno_sim_min = 0.6
         
     db_conf = "/home/bnadon/mysql.test/db.conf" 
     gene_db = f'{cwd}/testdata/Oryza_sativa.faa'
@@ -36,9 +36,9 @@ if __name__=="__main__":
     #blast_file = 'rice_height_test/scripts/Ph5-1_vs_rice.blast'
     pheno_model = f'{cwd}/testdata/model/dbow_wiki_2.model'
     
-    pathlib.Path(f"{cwd}/{timestamp}").mkdir(parents=True, exist_ok=True)
+    pathlib.Path(f"{cwd}/gs_out/{timestamp}").mkdir(parents=True, exist_ok=True)
 
-    os.chdir(f'{cwd}/{timestamp}')
+    os.chdir(f'{cwd}/gs_out/{timestamp}')
 
     #run annotation first
     augout = timestamp+".augustus"
@@ -110,7 +110,7 @@ if __name__=="__main__":
     #tk: implement all species, change "rice" to 'species'
     
     qtl_connected_genes = selected_qtl['gene'].tolist()
-    selected_coexp = coexpression.get_all_coexps(blast_hits,qtl_connected_genes,db_conf,'rice',coexp_min=coexp_min) 
+    selected_coexp = coexpression.get_all_coexps(blast_hits,qtl_connected_genes,db_conf,'rice',coexp_min) 
     print(f"selected_coexp has {len(selected_coexp)} rows")
 
     #selected_coexp = coexp_table.loc[
