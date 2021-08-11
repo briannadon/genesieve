@@ -18,15 +18,13 @@ if __name__=="__main__":
     timestamp = str(time.time())
     timestamp = f"genesieve_{timestamp}"
     
-    cwd = os.getcwd()
-    
-    in_fasta=f"{cwd}/{in_fasta}"
-    in_pheno=f"{cwd}/{in_pheno}"
-    
+    cwd = os.getcwd()    
 
     augustus_protein_script = f"{cwd}/genesieve/helpers/get-fasta.sh"
     coexp_min = 0.8
     pheno_sim_min = 0.6
+    #include possibility of retaining top X% instead of above a threshold
+    #include homology cutoff/scoring mechanism (%id * length? bit score? needs to be 0-1)
         
     db_conf = "/home/bnadon/mysql.test/db.conf" 
     gene_db = f'{cwd}/testdata/Oryza_sativa.faa'
@@ -38,7 +36,7 @@ if __name__=="__main__":
     
     pathlib.Path(f"{cwd}/gs_out/{timestamp}").mkdir(parents=True, exist_ok=True)
 
-    os.chdir(f'{cwd}/gs_out/{timestamp}')
+    os.chdir(f"{cwd}/gs_out/{timestamp}"")
 
     #run annotation first
     augout = timestamp+".augustus"
@@ -51,6 +49,9 @@ if __name__=="__main__":
     qtl_table = pd.read_csv(qtl_db)
     trait_list = list(set(list(qtl_table.trait)))
 
+
+    # first, fix our input pheno with sanitization
+    in_pheno = sanitize.sanitize_text(in_pheno)
     # get the distance of your input pheno to every pheno in the database 
     pheno_table = phenotype.get_pheno_results(in_pheno,pheno_model,
                                               trait_list,pheno_sim_min)
@@ -75,9 +76,6 @@ if __name__=="__main__":
     #We will NOT be filtering it right now
     #TK: filter the coexp values
     #coexp_table = pd.read_csv(coexp_db)
-    ##TK: Delete this line when we have properly reformatted the data
-    #coexp_table['gene1'] = [re.sub('\.\d','',x) for x in list(coexp_table['gene1'])]
-    #coexp_table['gene2'] = [re.sub('\.\d','',x) for x in list(coexp_table['gene2'])]
     
     #if the BLAST is still running, wait till it finishes
     b.wait()
@@ -139,11 +137,11 @@ if __name__=="__main__":
     blast_table = blast_table[['query','subject','pid','type1','type2','connection']]
     try:
         s_coexp_empty = False
-        selected_coexp = selected_coexp[['gene1','gene2','coexpression','type1','type2','connection']]
+        #selected_coexp = selected_coexp[['gene1','gene2','coexpression','type1','type2','connection']]
         coexp_qtl_hits = coexp_qtl_hits[['trait','gene','norm_score','type1','type2','connection']]
     except (TypeError,NameError):
-        s_coexp_empty = True
-    
+        print("the selected coexp table was empty (check me)")
+        #s_coexp_empty = True
     
     #rename the columns
     pheno_table.columns=selected_qtl.columns=blast_table.columns=header
@@ -167,3 +165,17 @@ if __name__=="__main__":
     num[num < 0] = 0
     
     results_table.to_csv(f"{timestamp}_resultstable.csv",index=False)
+
+    ### implement scoring graph ###
+    ### NB: This is where we can mess with weights. Check "scoring.py"
+    ###     and specifically the "candidate_scores" method therein
+    ###     for more about weights.
+    scoregraph = scoring.ScoreGraph()
+    scoregraph.add_all_nodes_and_edges(results_table)
+    #find the list of genes from the annotation
+    input_genes = blast_table['query'].unique().tolist()
+    #add the candidate scores to the graph, return the dict to inspect them
+    candidate_scores = scoregraph.candidate_scores(input_genes,in_pheno)
+    with open(timestamp+".scores", 'w') as w:
+        for g,s in candidate_scores.items():
+            w.write(f"{g}\t{s}\n")
