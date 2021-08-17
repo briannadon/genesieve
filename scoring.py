@@ -55,6 +55,7 @@ class ScoreGraph(nx.DiGraph):
             add_row_to_edges(n1,n2,s1,s2,weight)
         
     #this one should only be called when all adges are added
+    
     def candidate_scores(self,query_genes,query_pheno):
         cand_dict = {}
         for query_gene in query_genes:
@@ -72,6 +73,7 @@ class ScoreGraph(nx.DiGraph):
                     weight = edge['weight']
                     total_weight *= weight
                 scores.append(total_weight)
+            #Address issue of frequent genes
             gscore = sum(scores)
             cand_dict[query_gene] = gscore
         for gene, score in cand_dict.items():
