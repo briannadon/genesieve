@@ -80,7 +80,7 @@ class ScoreGraph(nx.DiGraph):
             self.add_edge(gene,query_pheno,
             connection='input qtl',
             weight=score,
-            color=self.color_dict[conn]
+            color=self.color_dict[conn],
             lweight=weight*5)
         return cand_dict
 

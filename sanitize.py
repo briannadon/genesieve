@@ -1,6 +1,6 @@
 import re
 from sys import argv
-import smart_open
+#import smart_open
 
 def remove_text_inside_brackets(text, brackets="()[]{}"):
     count = [0] * (len(brackets) // 2) # count open/close brackets
