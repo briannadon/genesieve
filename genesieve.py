@@ -1,10 +1,10 @@
 import subprocess
 import time
-from sys import argv
 import pandas as pd
 import os
 import pathlib
 import re
+import argparse
 
 import annotate
 import blast
@@ -13,8 +13,22 @@ import scoring
 import phenotype
 import coexpression
 
+parser = argparse.ArgumentParser(description="Run the main genesieve pipeline.")
+
+parser.add_argument("in_pheno",help="A plaintext, single line description" 
+                        "of the phenotype. Can be multiple sentences.")
+do_annotation = parser.add_mutually_exclusive_group()
+do_annotation.add_argument("--in_fasta",type=str,help="A FASTA file that covers the mapped QTL region.")                        
+do_annotation.add_argument("--in_proteins",type=str, help="give GeneSieve a pre-annotated list of proteins in the mapped region."
+" Skips processing the fasta file, and skips automatic annotation with AUGUSTUS")
+args = parser.parse_args()
+
 if __name__=="__main__":
-    script, in_fasta, in_pheno = argv
+    
+    in_fasta = args.in_fasta
+    in_pheno = args.in_pheno
+    
+
     timestamp = str(time.time())
     timestamp = f"genesieve_{timestamp}"
     
@@ -36,12 +50,13 @@ if __name__=="__main__":
     
     pathlib.Path(f"{cwd}/gs_out/{timestamp}").mkdir(parents=True, exist_ok=True)
 
-    os.chdir(f"{cwd}/gs_out/{timestamp}"")
+    os.chdir(f"{cwd}/gs_out/{timestamp}")
 
-    #run annotation first
-    augout = timestamp+".augustus"
-    aquery = annotate.augustus_query(in_fasta,"rice",augout)
-    a = subprocess.Popen(aquery)
+    if args.in_fasta:
+        #run annotation first
+        augout = timestamp+".augustus"
+        aquery = annotate.augustus_query(in_fasta,"rice",augout)
+        a = subprocess.Popen(aquery)
     
     #While augustus is running, load up the phenotype stuff
    
@@ -61,11 +76,12 @@ if __name__=="__main__":
     # but I want to pare down results for now.
     pheno_table_filtered = pheno_table.nlargest(int(.1 * len(pheno_table)),'similarity') 
     
-    #wait till annotation is done
-    a.wait()
-
-
-    aa_file = annotate.get_proteins(timestamp,get_fasta_script=augustus_protein_script)
+    if args.in_fasta:
+        #wait till annotation is done if we're doing that
+        a.wait()
+        aa_file = annotate.get_proteins(timestamp,get_fasta_script=augustus_protein_script)
+    elif args.in_proteins:
+        aa_file = args.in_proteins
  
     #Get the BLAST running in the background as "b"
     blast_output = timestamp + ".blast"
