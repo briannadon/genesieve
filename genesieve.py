@@ -40,7 +40,7 @@ if __name__=="__main__":
     #include possibility of retaining top X% instead of above a threshold
     #include homology cutoff/scoring mechanism (%id * length? bit score? needs to be 0-1)
         
-    db_conf = "/home/bnadon/mysql.test/db.conf" 
+    db_conf = f"{cwd}/../mysql.test/db.conf" 
     gene_db = f'{cwd}/testdata/Oryza_sativa.faa'
 
     qtl_db = f"{cwd}/testdata/rice_qtl_genes.csv"
