@@ -79,7 +79,8 @@ def get_distances(model_path,trait_list,input_trait):
 
 def get_pheno_results(in_pheno,pheno_model_file,trait_list,pheno_sim_min):
     #sanitize pheno input:
-    pheno_text = pheno_input(in_pheno)
+    #pheno_text = pheno_input(in_pheno)
+    pheno_text = in_pheno
     pheno_text = sanitize.sanitize_text(pheno_text)
 
     pheno_dists = get_distances(pheno_model_file,trait_list,pheno_text)
