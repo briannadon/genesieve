@@ -162,15 +162,15 @@ if __name__=="__main__":
     #rename the columns
     pheno_table.columns=selected_qtl.columns=blast_table.columns=header
     if not s_coexp_empty:
-        selected_coexp.columns=coexp_qtl_hits.columns=header
-        tables = [pheno_table,blast_table,selected_qtl,selected_coexp,coexp_qtl_hits]
+        selected_coexp.columns=header
+        tables = [pheno_table,blast_table,selected_qtl,selected_coexp]
     else:
         tables = [pheno_table,blast_table,selected_qtl]
 
 
     #The results table
     if not s_coexp_empty:
-        results_table = pd.concat([pheno_table,blast_table,selected_qtl,selected_coexp,coexp_qtl_hits],
+        results_table = pd.concat([pheno_table,blast_table,selected_qtl,selected_coexp],
                              ignore_index=True)
     else:
         results_table = pd.concat([pheno_table,blast_table,selected_qtl],
