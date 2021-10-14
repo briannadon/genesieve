@@ -150,11 +150,11 @@ if __name__=="__main__":
     header = ['item1','item2','weight','source1','source2','connection']
     pheno_table = pheno_table_filtered[['input pheno','db pheno','similarity','type1','type2','connection']]
     selected_qtl = selected_qtl[['trait','gene','norm_score','type1','type2','connection']]
-    blast_table = blast_table[['query','subject','pid','type1','type2','connection']]
+    blast_table = blast_table[['query','subject','hom_score','type1','type2','connection']]
     try:
         s_coexp_empty = False
-        #selected_coexp = selected_coexp[['gene1','gene2','coexpression','type1','type2','connection']]
-        coexp_qtl_hits = coexp_qtl_hits[['trait','gene','norm_score','type1','type2','connection']]
+        selected_coexp = selected_coexp[['gene1','gene2','coexpression','type1','type2','connection']]
+        #coexp_qtl_hits = coexp_qtl_hits[['trait','gene','norm_score','type1','type2','connection']]
     except (TypeError,NameError):
         print("the selected coexp table was empty (check me)")
         #s_coexp_empty = True

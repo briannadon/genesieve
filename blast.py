@@ -2,8 +2,10 @@ import subprocess
 from time import time
 import pandas as pd
 
+
 def blast_query(query,db,out,evalue='1E-10'):
     argstr = f"blastp -outfmt 6 -db {db} -query {query} -out {out} -evalue {evalue}"
+    argstr = f"blastp -outfmt 'qseqid sseqid pident length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore' "
     arg = argstr.split(" ")
     return arg
     print(arg)
@@ -11,11 +13,12 @@ def blast_query(query,db,out,evalue='1E-10'):
 def run_blast(blast_query):
     subprocess.Popen(blast_query)
 
-def process_blast(blast_file,pid_cutoff=65.0):
+def process_blast(blast_file,hom_cutoff=65.0):
     columns = ['query',
               'subject',
               'pid',
               'length',
+              'qcovhsp',
               'mismatch',
               'gapopen',
               'qstart',
@@ -24,10 +27,23 @@ def process_blast(blast_file,pid_cutoff=65.0):
               'send',
               'evalue',
               'bitscore']
-    blast = pd.read_table(blast_file,sep='\t',names=columns)
-    blast = blast.loc[blast.pid > pid_cutoff]
-    blast = blast[['query','subject','pid']]
-    blast.pid = blast.pid/100
+    with open(blast_file) as b:
+        blast_dict = {}
+        for line in b:
+            line = line.strip().split('\t')
+            line_dict = dict(zip(columns,line))
+            if (line_dict['query'],line_dict['subject']) not in blast_dict:
+                b_score = float(line_dict['pid']) / 100 * float(line_dict['qcovhsp'])
+                blast_dict[(line_dict['query'],line_dict['subject'])] = b_score
+            else:
+                b_score = blast_dict[(line_dict['query'],line_dict['subject'])]
+                new_score = float(line_dict['pid']) / 100 * float(line_dict['qcovhsp'])
+                blast_dict[(line_dict['query'],line_dict['subject'])] = b_score + new_score
+    df_list = []
+    for k,v in blast_dict.items():
+        df_list.append([k[0],k[1],v])
+    blast = pd.DataFrame(df_list,columns = ['query','subject','hom_score'])
+    blast = blast.loc[blast['hom_score'] > hom_cutoff]        
     blast['connection'] = 'homology'
     return blast
     

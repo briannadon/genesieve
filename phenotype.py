@@ -96,8 +96,3 @@ def get_pheno_results(in_pheno,pheno_model_file,trait_list,pheno_sim_min):
 if __name__=="__main__":
     input_trait = "grain yield"
     dists=get_distances("Data/Models/dbow_wiki_2.model","Data/Phenos/All_phenotypes.csv",input_trait)
-
-
-
-
-
