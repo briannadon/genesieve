@@ -1,6 +1,7 @@
 import subprocess
 from time import time
 import pandas as pd
+from sys import argv
 
 
 def blast_query(query,db,out,evalue='1E-10'):
@@ -13,7 +14,7 @@ def blast_query(query,db,out,evalue='1E-10'):
 def run_blast(blast_query):
     subprocess.Popen(blast_query)
 
-def process_blast(blast_file,hom_cutoff=65.0):
+def process_blast(blast_file,hom_cutoff=.65):
     columns = ['query',
               'subject',
               'pid',
@@ -42,8 +43,14 @@ def process_blast(blast_file,hom_cutoff=65.0):
     df_list = []
     for k,v in blast_dict.items():
         df_list.append([k[0],k[1],v])
-    blast = pd.DataFrame(df_list,columns = ['query','subject','hom_score'])
+    
+    blast = pd.DataFrame.from_records(df_list,columns = ['query','subject','hom_score'])
     blast = blast.loc[blast['hom_score'] > hom_cutoff]        
     blast['connection'] = 'homology'
+    
     return blast
+
+if __name__ == "__main__":
+    script, bfile = argv
+    process_blast(bfile)
     
