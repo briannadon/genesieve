@@ -6,9 +6,10 @@ from sys import argv
 
 def blast_query(query,db,out,evalue='1E-10'):
     #argstr = f"blastp -outfmt 6 -db {db} -query {query} -out {out} -evalue {evalue}"
-    argstr = (f"blastp -outfmt 'qseqid sseqid pident length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore' "
-                f"-db {db} -query {query} -out {out} -evalue {evalue}")
-    arg = argstr.split(" ")
+    #argstr = (f"blastp -outfmt 'qseqid sseqid pident length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore' "
+    #            f"-db {db} -query {query} -out {out} -evalue {evalue}")
+    #arg = argstr.split(" ")
+    arg = ['blastp','-outfmt', 'qseqid sseqid pident length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore', '-db', f"{db}", '-query', f"{query}", '-out', f"{out}", '-evalue', f"{evalue}"] 
     return arg
     print(arg)
     
