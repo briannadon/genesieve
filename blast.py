@@ -2,15 +2,17 @@ import subprocess
 from time import time
 import pandas as pd
 from sys import argv
+import shlex
 
 
 def blast_query(query,db,out,evalue='1E-10'):
     #argstr = f"blastp -outfmt 6 -db {db} -query {query} -out {out} -evalue {evalue}"
-    argstr = (f"blastp -outfmt 'qseqid sseqid pident length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore' "
+    argstr = (f'blastp -outfmt "qseqid sseqid pident ' + 
+    'length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore" ' + 
                 f"-db {db} -query {query} -out {out} -evalue {evalue}")
-    arg = argstr.split(" ")
+    arg = shlex.split(argstr)
     return arg
-    print(arg)
+    
     
 def run_blast(blast_query):
     subprocess.Popen(blast_query)
@@ -52,6 +54,8 @@ def process_blast(blast_file,hom_cutoff=.65):
     return blast
 
 if __name__ == "__main__":
-    script, bfile = argv
-    process_blast(bfile)
+    script, query, db, blastfile = argv
+    q = blast_query(query, db, blastfile)    
+    run_blast(q)
+    process_blast(blastfile)
     
