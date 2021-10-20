@@ -7,7 +7,7 @@ import shlex
 
 def blast_query(query,db,out,evalue='1E-10'):
     #argstr = f"blastp -outfmt 6 -db {db} -query {query} -out {out} -evalue {evalue}"
-    argstr = (f'blastp -outfmt "qseqid sseqid pident ' + 
+    argstr = (f'blastp -outfmt "6 qseqid sseqid pident ' + 
     'length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore" ' + 
                 f"-db {db} -query {query} -out {out} -evalue {evalue}")
     arg = shlex.split(argstr)
