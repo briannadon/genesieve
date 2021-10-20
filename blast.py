@@ -10,7 +10,7 @@ def blast_query(query,db,out,evalue='1E-10'):
     #arg = argstr.split(" ")
     #I've run this directly and works
     #arg = ['blastp','-outfmt', r'"6 qseqid sseqid pident length qcovhsp mismatch gapopen qstart qend sstart send evalue bitscore"', '-db', f"{db}", '-query', f"{query}", '-out', f"{out}", '-evalue', f"{evalue}"] 
-    arg = argstr
+    arg = [argstr]
     print(arg)
     return arg
     
