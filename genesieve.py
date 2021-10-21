@@ -189,7 +189,7 @@ if __name__=="__main__":
     scoregraph = scoring.ScoreGraph()
     scoregraph.add_all_nodes_and_edges(results_table)
     #find the list of genes from the annotation
-    input_genes = blast_table['query'].unique().tolist()
+    input_genes = blast_table[['query']].unique().tolist()
     #add the candidate scores to the graph, return the dict to inspect them
     candidate_scores = scoregraph.candidate_scores(input_genes,in_pheno)
     with open(timestamp+".scores", 'w') as w:
