@@ -17,7 +17,7 @@ def blast_query(query,db,out,evalue='1E-10'):
 def run_blast(blast_query):
     subprocess.Popen(blast_query, shell=True)
 
-def process_blast(blast_file,hom_cutoff=.65):
+def process_blast(blast_file,hom_cutoff=0.0):
     columns = ['query',
               'subject',
               'pid',
@@ -47,7 +47,7 @@ def process_blast(blast_file,hom_cutoff=.65):
     for k,v in blast_dict.items():
         df_list.append([k[0],k[1],v])
     
-    blast = pd.DataFrame.from_records(df_list,columns = ['query','subject','hom_score'])
+    blast = pd.DataFrame(df_list,columns = ['query','subject','hom_score'])
     blast = blast.loc[blast['hom_score'] > hom_cutoff]        
     blast['connection'] = 'homology'
     
