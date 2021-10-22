@@ -17,7 +17,7 @@ def blast_query(query,db,out,evalue='1E-10'):
 def run_blast(blast_query):
     subprocess.Popen(blast_query, shell=True)
 
-def process_blast(blast_file,hom_cutoff=0.0):
+def process_blast(blast_file,hom_cutoff=0.65):
     columns = ['query',
               'subject',
               'pid',
