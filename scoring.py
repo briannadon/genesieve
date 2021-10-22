@@ -79,8 +79,7 @@ class ScoreGraph(nx.DiGraph):
         for gene, score in cand_dict.items():
             self.add_edge(gene,query_pheno,
             connection='input qtl',
-            weight=score,
-            #color=self.color_dict[conn],
+            weight=score, #color=self.color_dict[conn],
             lweight=weight*5)
         return cand_dict
 
