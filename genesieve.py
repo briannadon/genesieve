@@ -148,8 +148,8 @@ if __name__=="__main__":
 
     #Cleaning up headers, aligning them to be renamed
     header = ['item1','item2','weight','source1','source2','connection']
-    pheno_table = pheno_table_filtered[['input pheno','db pheno','similarity','type1','type2','connection']]
-    selected_qtl = selected_qtl[['trait','gene','norm_score','type1','type2','connection']]
+    pheno_table = pheno_table_filtered[['db pheno','input pheno','similarity','type2','type1','connection']]
+    selected_qtl = selected_qtl[['gene','trait','norm_score','type2','type1','connection']]
     blast_table = blast_table[['query','subject','hom_score','type1','type2','connection']]
     try:
         s_coexp_empty = False
