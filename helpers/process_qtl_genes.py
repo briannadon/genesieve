@@ -13,6 +13,9 @@ from scipy.stats import norm
 ##################################################
 
 def find_qtl_genes(row,gff=gff):
+    # takes in a row of the trait_df file, and uses the gff file
+    # to find the genes that belong in that qtl. 
+    # returns those as a table row.
     row = row[1]
     start = row['start']
     end = row['end']
@@ -30,6 +33,10 @@ def process_trait_df(trait_df):
     return df
 
 def apply_norm_transform(l,min_score=0.5,max_score=1):
+    ## This method will take in a LIST of genes/items,
+    ## and return a list of norm scores of length len(list)
+    ## to be applied manually to the final table.
+    ## You will probably have to write another method to do that.
     n = len(l)+1
     ranks=range(1,n)
     cuts = [float(c)/float(n) for c in ranks]
